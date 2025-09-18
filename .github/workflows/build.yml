@@ -1,0 +1,61 @@
+name: Build Jiter Wheel on Windows ARM64
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-11-arm
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 1: Install Rust for Windows ARM64
+      - name: Download Rust MSI for ARM64
+        run: |
+          Invoke-WebRequest -Uri "https://static.rust-lang.org/dist/rust-1.89.0-aarch64-pc-windows-msvc.msi" -OutFile "$env:TEMP\rust-aarch64.msi"
+          Start-Process -Wait -FilePath "$env:TEMP\rust-aarch64.msi" -ArgumentList "/quiet"
+      
+      - name: Download rustup-init.exe
+        run: |
+          Invoke-WebRequest -Uri "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe" -OutFile "$env:TEMP\rustup-init.exe"
+          Start-Process -Wait -FilePath "$env:TEMP\rustup-init.exe" -ArgumentList "-y", "--default-host", "aarch64-pc-windows-msvc"
+
+      - name: Add Cargo to PATH
+        shell: powershell
+        run: |
+          $env:PATH += ";$env:USERPROFILE\.cargo\bin"
+          [Environment]::SetEnvironmentVariable("PATH", $env:PATH, [EnvironmentVariableTarget]::Machine)
+
+      # Step 2: Verify Rust toolchain
+      - name: Verify Rust target
+        run: rustup target list | findstr aarch64-pc-windows-msvc
+
+      # Step 3: Install Python packaging tools and maturin
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Upgrade pip and install maturin
+        run: |
+          py -m pip install --upgrade pip setuptools wheel
+          py -m pip install maturin
+
+      # Step 4: Clone Jiter Repository (if not already cloned)
+      - name: Clone Jiter repository
+        run: |
+          git clone https://github.com/pydantic/jiter.git
+          cd jiter\crates\jiter-python
+
+      # Step 5: Build Jiter wheel
+      - name: Build wheel with maturin
+        working-directory: jiter\crates\jiter-python
+        run: maturin build --release --target aarch64-pc-windows-msvc -i python
+
+      # Step 6: Upload built wheel as artifact
+      - name: Upload Jiter Wheel
+        uses: actions/upload-artifact@v3
+        with:
+          name: jiter-wheel
+          path: jiter\target\wheels\*.whl
