@@ -10,8 +10,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Show Python location
+      - name: Show Python path with cmd
+        shell: cmd
         run: where python
+
+      - name: Show Python path with sys.executable
+        run: python -c "import sys; print('Python executable:', sys.executable)"
 
       - name: Show Python version
         run: python --version
+
+      - name: Show Python architecture
+        run: python -c "import platform, struct; print('Platform:', platform.platform()); print('Machine:', platform.machine()); print('Arch:', struct.calcsize('P') * 8, 'bit')"
