@@ -1,0 +1,17 @@
+name: Check Python on Windows ARM
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-python:
+    runs-on: windows-11-arm
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show Python location
+        run: where python
+
+      - name: Show Python version
+        run: python --version
