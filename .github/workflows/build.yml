@@ -8,7 +8,7 @@ jobs:
     runs-on: windows-11-arm
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Step 1: Install Rust for Windows ARM64
       - name: Download Rust MSI for ARM64
