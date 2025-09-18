@@ -24,4 +24,4 @@ jobs:
         run: python -c "import platform, struct; print('Platform:', platform.platform()); print('Machine:', platform.machine()); print('Arch:', struct.calcsize('P') * 8, 'bit')"
 
       - name: List all installed Pythons in hostedtoolcache
-        run: Get-ChildItem "C:\hostedtoolcache\windows\Python\" -Recurse -Depth 2 | Select-Object FullName
+        run: Get-ChildItem "C:\hostedtoolcache\windows\Python\" -Recurse -Depth 4 | Select-Object FullName
