@@ -14,6 +14,9 @@ jobs:
         shell: cmd
         run: where python
 
+      - name: List all Python installations via py launcher
+        run: py --list-paths
+
       - name: Show Python path with sys.executable
         run: python -c "import sys; print('Python executable:', sys.executable)"
 
