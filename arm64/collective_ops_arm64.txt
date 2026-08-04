@@ -1,0 +1,54 @@
+entry {
+  name: "CollectiveOpBenchmark.num_elements_10_num_devices_2"
+  iters: 73000
+  wall_time: 7.12275505065918e-05
+}
+
+entry {
+  name: "CollectiveOpBenchmark.num_elements_1000_num_devices_2"
+  iters: 97800
+  wall_time: 4.815936088562012e-05
+}
+
+entry {
+  name: "CollectiveOpBenchmark.num_elements_1000000_num_devices_2"
+  iters: 2800
+  wall_time: 0.0017855608463287354
+}
+
+entry {
+  name: "CollectiveOpBenchmark.num_elements_10_num_devices_4"
+  iters: 51200
+  wall_time: 9.7121000289917e-05
+}
+
+entry {
+  name: "CollectiveOpBenchmark.num_elements_1000_num_devices_4"
+  iters: 45900
+  wall_time: 0.00010821104049682617
+}
+
+entry {
+  name: "CollectiveOpBenchmark.num_elements_1000000_num_devices_4"
+  iters: 1500
+  wall_time: 0.0035301733016967775
+}
+
+entry {
+  name: "CollectiveOpBenchmark.num_elements_10_num_devices_8"
+  iters: 28200
+  wall_time: 0.00017658472061157226
+}
+
+entry {
+  name: "CollectiveOpBenchmark.num_elements_1000_num_devices_8"
+  iters: 15600
+  wall_time: 0.0003192436695098877
+}
+
+entry {
+  name: "CollectiveOpBenchmark.num_elements_1000000_num_devices_8"
+  iters: 700
+  wall_time: 0.007317607402801514
+}
+
