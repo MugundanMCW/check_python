@@ -1,0 +1,712 @@
+transpose benchmark:
+cpu <class 'numpy.complex128'> inputshape:[2,20,20,20,16] perm:[0,4,1,2,3] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,20,20,20,16]_perm_[0,4,1,2,3]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,16,20,20,20] perm:[0,2,3,4,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,16,20,20,20]_perm_[0,2,3,4,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,20,20,20,16] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,20,20,20,16]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,16,20,20,20] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,16,20,20,20]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,100,100,16] perm:[0,3,1,2] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,100,100,16]_perm_[0,3,1,2]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,16,100,100] perm:[0,2,3,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,16,100,100]_perm_[0,2,3,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,100,100,16] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,100,100,16]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,16,100,100] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,16,100,100]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,5000,16] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,5000,16]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,16,5000] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,16,5000]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,5000,16] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,5000,16]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,16,5000] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,16,5000]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,20,20,20,16] perm:[0,4,1,2,3] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,20,20,20,16]_perm_[0,4,1,2,3]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,16,20,20,20] perm:[0,2,3,4,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,16,20,20,20]_perm_[0,2,3,4,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,20,20,20,16] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,20,20,20,16]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,16,20,20,20] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,16,20,20,20]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,100,100,16] perm:[0,3,1,2] 40 0.000063sec, 81.7155GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,100,100,16]_perm_[0,3,1,2]"
+  iters: 40
+  wall_time: 6.2656402587890628e-05
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,16,100,100] perm:[0,2,3,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,16,100,100]_perm_[0,2,3,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,100,100,16] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,100,100,16]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,16,100,100] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,16,100,100]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,5000,16] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,5000,16]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,16,5000] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,16,5000]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,5000,16] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,5000,16]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,16,5000] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,16,5000]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,40,40,40,32] perm:[0,4,1,2,3] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,40,40,40,32]_perm_[0,4,1,2,3]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,40,40,40,64] perm:[0,2,3,4,1] 40 0.000050sec, 2615.7051GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,40,40,40,64]_perm_[0,2,3,4,1]"
+  iters: 40
+  wall_time: 5.01096248626709e-05
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,40,40,40,32] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,40,40,40,32]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,40,40,40,64] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,40,40,40,64]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,300,300,32] perm:[0,3,1,2] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,300,300,32]_perm_[0,3,1,2]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,300,300,64] perm:[0,2,3,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,300,300,64]_perm_[0,2,3,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,300,300,32] perm:[3,1,2,0] 40 0.000050sec, 1838.2930GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,300,300,32]_perm_[3,1,2,0]"
+  iters: 40
+  wall_time: 5.0133466720581056e-05
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,300,300,64] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,300,300,64]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,100000,32] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,100000,32]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,100000,64] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,100000,64]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,100000,32] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,100000,32]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,100000,64] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,100000,64]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,20,20,20,16] perm:[0,4,1,2,3] 40 0.000050sec, 40.8607GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,20,20,20,16]_perm_[0,4,1,2,3]"
+  iters: 40
+  wall_time: 5.0121545791625975e-05
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,16,20,20,20] perm:[0,2,3,4,1] 40 0.000063sec, 32.6800GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,16,20,20,20]_perm_[0,2,3,4,1]"
+  iters: 40
+  wall_time: 6.2668323516845709e-05
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,20,20,20,16] perm:[4,1,2,3,0] 40 0.000050sec, 40.8412GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,20,20,20,16]_perm_[4,1,2,3,0]"
+  iters: 40
+  wall_time: 5.014538764953613e-05
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,16,20,20,20] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,16,20,20,20]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,100,100,16] perm:[0,3,1,2] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,100,100,16]_perm_[0,3,1,2]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,16,100,100] perm:[0,2,3,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,16,100,100]_perm_[0,2,3,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,100,100,16] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,100,100,16]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,16,100,100] perm:[3,1,2,0] 40 0.000050sec, 51.0334GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,16,100,100]_perm_[3,1,2,0]"
+  iters: 40
+  wall_time: 5.0163269042968751e-05
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,5000,16] perm:[0,2,1] 40 0.000050sec, 25.5379GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,5000,16]_perm_[0,2,1]"
+  iters: 40
+  wall_time: 5.0121545791625975e-05
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,16,5000] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,16,5000]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,5000,16] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,5000,16]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,16,5000] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,16,5000]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,40,40,40,32] perm:[0,4,1,2,3] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,40,40,40,32]_perm_[0,4,1,2,3]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,40,40,40,64] perm:[0,2,3,4,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,40,40,40,64]_perm_[0,2,3,4,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,40,40,40,32] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,40,40,40,32]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,40,40,40,64] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,40,40,40,64]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,300,300,32] perm:[0,3,1,2] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,300,300,32]_perm_[0,3,1,2]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,300,300,64] perm:[0,2,3,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,300,300,64]_perm_[0,2,3,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,300,300,32] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,300,300,32]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,300,300,64] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,300,300,64]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,100000,32] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,100000,32]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,100000,64] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,100000,64]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,100000,32] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,100000,32]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,100000,64] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,100000,64]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,20,20,20,16] perm:[0,4,1,2,3] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,20,20,20,16]_perm_[0,4,1,2,3]"
+  iters: 40
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,16,20,20,20] perm:[0,2,3,4,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,16,20,20,20]_perm_[0,2,3,4,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,20,20,20,16] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,20,20,20,16]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,16,20,20,20] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,16,20,20,20]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,100,100,16] perm:[0,3,1,2] 40 0.000050sec, 25.5288GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,100,100,16]_perm_[0,3,1,2]"
+  iters: 40
+  wall_time: 5.0139427185058596e-05
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,16,100,100] perm:[0,2,3,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,16,100,100]_perm_[0,2,3,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,100,100,16] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,100,100,16]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,16,100,100] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,16,100,100]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,5000,16] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,5000,16]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,16,5000] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,16,5000]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,5000,16] perm:[2,1,0] 40 0.000050sec, 12.7690GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,5000,16]_perm_[2,1,0]"
+  iters: 40
+  wall_time: 5.0121545791625975e-05
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,16,5000] perm:[2,1,0] 40 0.000013sec, 50.6721GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,16,5000]_perm_[2,1,0]"
+  iters: 40
+  wall_time: 1.2630224227905274e-05
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,20,20,20,16] perm:[0,4,1,2,3] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,20,20,20,16]_perm_[0,4,1,2,3]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,16,20,20,20] perm:[0,2,3,4,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,16,20,20,20]_perm_[0,2,3,4,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,20,20,20,16] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,20,20,20,16]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,16,20,20,20] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,16,20,20,20]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,100,100,16] perm:[0,3,1,2] 40 0.000050sec, 12.7720GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,100,100,16]_perm_[0,3,1,2]"
+  iters: 40
+  wall_time: 5.01096248626709e-05
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,16,100,100] perm:[0,2,3,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,16,100,100]_perm_[0,2,3,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,100,100,16] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,100,100,16]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,16,100,100] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,16,100,100]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,5000,16] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,5000,16]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,16,5000] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,16,5000]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,5000,16] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,5000,16]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,16,5000] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,16,5000]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,40,40,40,32] perm:[0,4,1,2,3] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,40,40,40,32]_perm_[0,4,1,2,3]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,40,40,40,64] perm:[0,2,3,4,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,40,40,40,64]_perm_[0,2,3,4,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,40,40,40,32] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,40,40,40,32]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,40,40,40,64] perm:[4,1,2,3,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,40,40,40,64]_perm_[4,1,2,3,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,300,300,32] perm:[0,3,1,2] 40 0.000050sec, 229.8686GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,300,300,32]_perm_[0,3,1,2]"
+  iters: 40
+  wall_time: 5.0115585327148435e-05
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,300,300,64] perm:[0,2,3,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,300,300,64]_perm_[0,2,3,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,300,300,32] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,300,300,32]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,300,300,64] perm:[3,1,2,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,300,300,64]_perm_[3,1,2,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,100000,32] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,100000,32]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,100000,64] perm:[0,2,1] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,100000,64]_perm_[0,2,1]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,100000,32] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,100000,32]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,100000,64] perm:[2,1,0] 40 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,100000,64]_perm_[2,1,0]"
+  iters: 40
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,10000,3] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,10000,3]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,3,10000] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,3,10000]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,10000,8] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,10000,8]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.float64'> inputshape:[2,8,10000] perm:[0,2,1] 320 0.000006sec, 408.6067GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float64\'>_input_shape_[2,8,10000]_perm_[0,2,1]"
+  iters: 320
+  wall_time: 6.2651932239532469e-06
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,10000,3] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,10000,3]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,3,10000] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,3,10000]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,10000,8] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,10000,8]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.float32'> inputshape:[2,8,10000] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float32\'>_input_shape_[2,8,10000]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,10000,3] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,10000,3]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,3,10000] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,3,10000]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,10000,8] perm:[0,2,1] 320 0.000006sec, 51.0758GB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,10000,8]_perm_[0,2,1]"
+  iters: 320
+  wall_time: 6.2651932239532469e-06
+}
+
+cpu <class 'numpy.int8'> inputshape:[2,8,10000] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.int8\'>_input_shape_[2,8,10000]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,5000,3] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,5000,3]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,3,5000] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,3,5000]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,5000,8] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,5000,8]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.complex128'> inputshape:[2,8,5000] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.complex128\'>_input_shape_[2,8,5000]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,5000,3] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,5000,3]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,3,5000] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,3,5000]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,5000,8] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,5000,8]_perm_[0,2,1]"
+  iters: 320
+}
+
+cpu <class 'numpy.float16'> inputshape:[2,8,5000] perm:[0,2,1] 320 0.000000sec, infGB/s.
+entry {
+  name: "TransposeBenchmark.transpose_cpu_<class\'numpy.float16\'>_input_shape_[2,8,5000]_perm_[0,2,1]"
+  iters: 320
+}
+
