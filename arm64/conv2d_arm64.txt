@@ -1,0 +1,918 @@
+
+cpu <dtype: 'float32'> NCHW inputshape:[4,20,500,500] filtershape:[3,3,20,4] strides:[1,1,2,2] padding:SAME 80 iters: 0.01037033 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[4,20,500,500]_filter_shape_[3,3,20,4]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.010370326042175294
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[16,20,500,500] filtershape:[3,3,20,16] strides:[1,1,2,2] padding:VALID 80 iters: 0.04256890 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[16,20,500,500]_filter_shape_[3,3,20,16]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.04256889820098877
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[16,20,500,500] filtershape:[3,3,20,16] strides:[1,1,2,2] padding:SAME 80 iters: 0.04352924 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[16,20,500,500]_filter_shape_[3,3,20,16]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.043529239296913144
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[32,20,500,500] filtershape:[3,3,20,32] strides:[1,1,2,2] padding:VALID 80 iters: 0.10713468 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[32,20,500,500]_filter_shape_[3,3,20,32]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.10713467597961426
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[32,20,500,500] filtershape:[3,3,20,32] strides:[1,1,2,2] padding:SAME 80 iters: 0.11003534 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[32,20,500,500]_filter_shape_[3,3,20,32]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.11003533899784088
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[4,24,500,500] filtershape:[3,3,24,4] strides:[1,1,2,2] padding:VALID 80 iters: 0.01190032 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[4,24,500,500]_filter_shape_[3,3,24,4]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.011900317668914796
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[4,24,500,500] filtershape:[3,3,24,4] strides:[1,1,2,2] padding:SAME 80 iters: 0.01441242 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[4,24,500,500]_filter_shape_[3,3,24,4]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.014412415027618409
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[16,24,500,500] filtershape:[3,3,24,16] strides:[1,1,2,2] padding:VALID 80 iters: 0.06762476 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[16,24,500,500]_filter_shape_[3,3,24,16]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.06762475669384002
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[16,24,500,500] filtershape:[3,3,24,16] strides:[1,1,2,2] padding:SAME 80 iters: 0.05465903 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[16,24,500,500]_filter_shape_[3,3,24,16]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.054659032821655275
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[32,24,500,500] filtershape:[3,3,24,32] strides:[1,1,2,2] padding:VALID 80 iters: 0.12498952 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[32,24,500,500]_filter_shape_[3,3,24,32]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.12498952150344848
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[32,24,500,500] filtershape:[3,3,24,32] strides:[1,1,2,2] padding:SAME 80 iters: 0.12909041 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[32,24,500,500]_filter_shape_[3,3,24,32]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.12909041345119476
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[4,28,500,500] filtershape:[3,3,28,4] strides:[1,1,2,2] padding:VALID 80 iters: 0.01859777 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[4,28,500,500]_filter_shape_[3,3,28,4]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.01859776973724365
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[4,28,500,500] filtershape:[3,3,28,4] strides:[1,1,2,2] padding:SAME 80 iters: 0.01897447 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[4,28,500,500]_filter_shape_[3,3,28,4]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.01897447407245636
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[16,28,500,500] filtershape:[3,3,28,16] strides:[1,1,2,2] padding:VALID 80 iters: 0.06327477 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[16,28,500,500]_filter_shape_[3,3,28,16]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.06327476501464843
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[16,28,500,500] filtershape:[3,3,28,16] strides:[1,1,2,2] padding:SAME 80 iters: 0.06059010 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[16,28,500,500]_filter_shape_[3,3,28,16]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.06059010028839111
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[32,28,500,500] filtershape:[3,3,28,32] strides:[1,1,2,2] padding:VALID 80 iters: 0.13756591 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[32,28,500,500]_filter_shape_[3,3,28,32]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.13756591081619263
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[32,28,500,500] filtershape:[3,3,28,32] strides:[1,1,2,2] padding:SAME 80 iters: 0.14508904 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[32,28,500,500]_filter_shape_[3,3,28,32]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.14508904218673707
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[4,32,500,500] filtershape:[3,3,32,4] strides:[1,1,2,2] padding:VALID 80 iters: 0.01952332 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[4,32,500,500]_filter_shape_[3,3,32,4]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.019523319602012635
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[4,32,500,500] filtershape:[3,3,32,4] strides:[1,1,2,2] padding:SAME 80 iters: 0.02136791 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[4,32,500,500]_filter_shape_[3,3,32,4]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.021367907524108887
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[16,32,500,500] filtershape:[3,3,32,16] strides:[1,1,2,2] padding:VALID 80 iters: 0.08715852 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[16,32,500,500]_filter_shape_[3,3,32,16]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.08715851604938507
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[16,32,500,500] filtershape:[3,3,32,16] strides:[1,1,2,2] padding:SAME 80 iters: 0.07078718 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[16,32,500,500]_filter_shape_[3,3,32,16]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.0707871824502945
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[32,32,500,500] filtershape:[3,3,32,32] strides:[1,1,2,2] padding:VALID 80 iters: 0.15672342 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[32,32,500,500]_filter_shape_[3,3,32,32]_strides_[1,1,2,2]_padding_VALID"
+  iters: 80
+  wall_time: 0.1567234218120575
+}
+
+cpu <dtype: 'float32'> NCHW inputshape:[32,32,500,500] filtershape:[3,3,32,32] strides:[1,1,2,2] padding:SAME 80 iters: 0.17927101 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float32\'>_NCHW_input_shape_[32,32,500,500]_filter_shape_[3,3,32,32]_strides_[1,1,2,2]_padding_SAME"
+  iters: 80
+  wall_time: 0.17927100658416747
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,1] filtershape:[3,3,1,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00211778 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,1]_filter_shape_[3,3,1,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.002117776870727539
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,1] filtershape:[3,3,1,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00217479 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,1]_filter_shape_[3,3,1,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.0021747946739196777
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,1] filtershape:[3,3,1,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.01696392 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,1]_filter_shape_[3,3,1,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.01696391999721527
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,1] filtershape:[3,3,1,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.01507133 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,1]_filter_shape_[3,3,1,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.015071332454681396
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,1] filtershape:[3,3,1,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.04789007 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,1]_filter_shape_[3,3,1,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.0478900671005249
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,1] filtershape:[3,3,1,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.04795292 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,1]_filter_shape_[3,3,1,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.04795292317867279
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,2] filtershape:[3,3,2,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00227286 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,2]_filter_shape_[3,3,2,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.002272859215736389
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,2] filtershape:[3,3,2,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00221891 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,2]_filter_shape_[3,3,2,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.0022189080715179442
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,2] filtershape:[3,3,2,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.01310683 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,2]_filter_shape_[3,3,2,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.013106834888458253
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,2] filtershape:[3,3,2,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.01466374 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,2]_filter_shape_[3,3,2,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.014663738012313843
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,2] filtershape:[3,3,2,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.03735588 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,2]_filter_shape_[3,3,2,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.03735588192939758
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,2] filtershape:[3,3,2,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.03680181 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,2]_filter_shape_[3,3,2,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.03680181205272674
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,3] filtershape:[3,3,3,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00299836 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,3]_filter_shape_[3,3,3,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.002998363971710205
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,3] filtershape:[3,3,3,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00304309 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,3]_filter_shape_[3,3,3,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.003043091297149658
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,3] filtershape:[3,3,3,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.01613587 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,3]_filter_shape_[3,3,3,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.016135868430137635
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,3] filtershape:[3,3,3,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.01639937 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,3]_filter_shape_[3,3,3,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.01639937162399292
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,3] filtershape:[3,3,3,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.04373967 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,3]_filter_shape_[3,3,3,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.043739667534828185
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,3] filtershape:[3,3,3,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.04422421 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,3]_filter_shape_[3,3,3,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.04422421157360077
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,4] filtershape:[3,3,4,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00201372 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,4]_filter_shape_[3,3,4,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.0020137161016464235
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,4] filtershape:[3,3,4,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00199475 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,4]_filter_shape_[3,3,4,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.001994752883911133
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,4] filtershape:[3,3,4,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.01308801 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,4]_filter_shape_[3,3,4,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.013088005781173705
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,4] filtershape:[3,3,4,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.01319542 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,4]_filter_shape_[3,3,4,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.013195422291755677
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,4] filtershape:[3,3,4,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.03848482 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,4]_filter_shape_[3,3,4,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.03848481774330139
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,4] filtershape:[3,3,4,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.03879524 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,4]_filter_shape_[3,3,4,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.038795238733291625
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,5] filtershape:[3,3,5,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00431036 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,5]_filter_shape_[3,3,5,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.0043103635311126706
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,5] filtershape:[3,3,5,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00425341 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,5]_filter_shape_[3,3,5,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.004253405332565308
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,5] filtershape:[3,3,5,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.02212232 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,5]_filter_shape_[3,3,5,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.022122323513031006
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,5] filtershape:[3,3,5,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.02230569 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,5]_filter_shape_[3,3,5,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.022305688261985777
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,5] filtershape:[3,3,5,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.05749249 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,5]_filter_shape_[3,3,5,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.057492485642433165
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,5] filtershape:[3,3,5,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.05808818 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,5]_filter_shape_[3,3,5,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.05808818340301514
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,6] filtershape:[3,3,6,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00467047 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,6]_filter_shape_[3,3,6,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.004670470952987671
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,6] filtershape:[3,3,6,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00468735 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,6]_filter_shape_[3,3,6,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.004687345027923584
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,6] filtershape:[3,3,6,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.02411682 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,6]_filter_shape_[3,3,6,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.024116817116737365
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,6] filtershape:[3,3,6,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.02434957 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,6]_filter_shape_[3,3,6,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.02434956729412079
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,6] filtershape:[3,3,6,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.06325793 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,6]_filter_shape_[3,3,6,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.06325793266296387
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,6] filtershape:[3,3,6,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.06508664 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,6]_filter_shape_[3,3,6,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.06508664190769195
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,7] filtershape:[3,3,7,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00597013 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,7]_filter_shape_[3,3,7,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.005970126390457154
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,7] filtershape:[3,3,7,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00605197 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,7]_filter_shape_[3,3,7,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.006051972508430481
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,7] filtershape:[3,3,7,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.02985863 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,7]_filter_shape_[3,3,7,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.029858630895614625
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,7] filtershape:[3,3,7,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.03006961 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,7]_filter_shape_[3,3,7,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.030069610476493834
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,7] filtershape:[3,3,7,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.07458160 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,7]_filter_shape_[3,3,7,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.07458159625530243
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,7] filtershape:[3,3,7,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.07534560 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,7]_filter_shape_[3,3,7,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.07534559965133666
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,8] filtershape:[3,3,8,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00326083 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,8]_filter_shape_[3,3,8,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.00326082706451416
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,8] filtershape:[3,3,8,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00329481 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,8]_filter_shape_[3,3,8,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.003294810652732849
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,8] filtershape:[3,3,8,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.02013028 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,8]_filter_shape_[3,3,8,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.020130279660224914
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,8] filtershape:[3,3,8,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.02040568 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,8]_filter_shape_[3,3,8,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.020405679941177368
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,8] filtershape:[3,3,8,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.05822135 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,8]_filter_shape_[3,3,8,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.058221346139907836
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,8] filtershape:[3,3,8,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.06107503 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,8]_filter_shape_[3,3,8,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.06107502579689026
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,9] filtershape:[3,3,9,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00774076 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,9]_filter_shape_[3,3,9,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.0077407598495483395
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,9] filtershape:[3,3,9,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00783084 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,9]_filter_shape_[3,3,9,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.007830843329429626
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,9] filtershape:[3,3,9,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.03536905 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,9]_filter_shape_[3,3,9,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.03536905348300934
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,9] filtershape:[3,3,9,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.03501375 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,9]_filter_shape_[3,3,9,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.035013750195503235
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,9] filtershape:[3,3,9,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.08535882 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,9]_filter_shape_[3,3,9,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.08535881638526917
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,9] filtershape:[3,3,9,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.08878104 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,9]_filter_shape_[3,3,9,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.08878103792667388
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,10] filtershape:[3,3,10,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00773643 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,10]_filter_shape_[3,3,10,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.007736426591873169
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,10] filtershape:[3,3,10,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00773574 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,10]_filter_shape_[3,3,10,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.007735735177993775
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,10] filtershape:[3,3,10,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.03801203 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,10]_filter_shape_[3,3,10,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.03801203072071076
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,10] filtershape:[3,3,10,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.03850767 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,10]_filter_shape_[3,3,10,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.038507667183876035
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,10] filtershape:[3,3,10,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.09453371 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,10]_filter_shape_[3,3,10,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.09453370571136474
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,10] filtershape:[3,3,10,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.09283874 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,10]_filter_shape_[3,3,10,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.09283874034881592
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,12] filtershape:[3,3,12,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00443045 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,12]_filter_shape_[3,3,12,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.004430449008941651
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,12] filtershape:[3,3,12,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00532327 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,12]_filter_shape_[3,3,12,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.005323272943496704
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,12] filtershape:[3,3,12,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.02608067 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,12]_filter_shape_[3,3,12,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.026080667972564697
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,12] filtershape:[3,3,12,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.02617768 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,12]_filter_shape_[3,3,12,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.02617768049240112
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,12] filtershape:[3,3,12,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.07398534 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,12]_filter_shape_[3,3,12,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.07398533821105957
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,12] filtershape:[3,3,12,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.07443788 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,12]_filter_shape_[3,3,12,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.07443787753582001
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,14] filtershape:[3,3,14,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.01033536 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,14]_filter_shape_[3,3,14,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.01033536195755005
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,14] filtershape:[3,3,14,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.01034641 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,14]_filter_shape_[3,3,14,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.010346412658691406
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,14] filtershape:[3,3,14,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.05003014 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,14]_filter_shape_[3,3,14,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.05003013610839844
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,14] filtershape:[3,3,14,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.05002297 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,14]_filter_shape_[3,3,14,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.05002297163009643
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,14] filtershape:[3,3,14,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.12355379 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,14]_filter_shape_[3,3,14,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.12355378568172455
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,14] filtershape:[3,3,14,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.12409269 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,14]_filter_shape_[3,3,14,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.1240926891565323
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,16] filtershape:[3,3,16,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00546865 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,16]_filter_shape_[3,3,16,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.005468648672103882
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,16] filtershape:[3,3,16,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00546443 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,16]_filter_shape_[3,3,16,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.005464428663253784
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,16] filtershape:[3,3,16,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.03106710 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,16]_filter_shape_[3,3,16,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.031067100167274476
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,16] filtershape:[3,3,16,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.03130980 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,16]_filter_shape_[3,3,16,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.03130979537963867
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,16] filtershape:[3,3,16,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.09140208 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,16]_filter_shape_[3,3,16,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.09140207767486572
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,16] filtershape:[3,3,16,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.09399551 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,16]_filter_shape_[3,3,16,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.09399550855159759
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,18] filtershape:[3,3,18,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.01287738 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,18]_filter_shape_[3,3,18,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.012877377867698669
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,18] filtershape:[3,3,18,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.01296288 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,18]_filter_shape_[3,3,18,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.012962877750396729
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,18] filtershape:[3,3,18,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.06155384 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,18]_filter_shape_[3,3,18,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.06155384480953217
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,18] filtershape:[3,3,18,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.06187949 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,18]_filter_shape_[3,3,18,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.06187949180603027
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,18] filtershape:[3,3,18,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.15354611 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,18]_filter_shape_[3,3,18,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.15354610681533815
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,18] filtershape:[3,3,18,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.15682909 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,18]_filter_shape_[3,3,18,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.1568290948867798
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,20] filtershape:[3,3,20,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00669897 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,20]_filter_shape_[3,3,20,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.006698974967002868
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,20] filtershape:[3,3,20,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00682473 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,20]_filter_shape_[3,3,20,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.0068247348070144655
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,20] filtershape:[3,3,20,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.03875055 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,20]_filter_shape_[3,3,20,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.03875055313110352
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,20] filtershape:[3,3,20,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.03901438 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,20]_filter_shape_[3,3,20,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.039014381170272824
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,20] filtershape:[3,3,20,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.11068341 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,20]_filter_shape_[3,3,20,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.11068340837955475
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,20] filtershape:[3,3,20,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.11558059 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,20]_filter_shape_[3,3,20,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.11558058857917786
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,24] filtershape:[3,3,24,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00782119 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,24]_filter_shape_[3,3,24,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.007821193337440491
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,24] filtershape:[3,3,24,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00809204 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,24]_filter_shape_[3,3,24,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.008092042803764344
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,24] filtershape:[3,3,24,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.04364130 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,24]_filter_shape_[3,3,24,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.04364129602909088
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,24] filtershape:[3,3,24,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.04388376 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,24]_filter_shape_[3,3,24,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.04388376474380493
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,24] filtershape:[3,3,24,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.12996335 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,24]_filter_shape_[3,3,24,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.12996334731578826
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,24] filtershape:[3,3,24,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.12710538 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,24]_filter_shape_[3,3,24,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.12710537910461425
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,28] filtershape:[3,3,28,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.00897772 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,28]_filter_shape_[3,3,28,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.008977720141410827
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,28] filtershape:[3,3,28,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.00908812 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,28]_filter_shape_[3,3,28,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.009088119864463806
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,28] filtershape:[3,3,28,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.04958628 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,28]_filter_shape_[3,3,28,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.04958627820014953
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,28] filtershape:[3,3,28,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.04992602 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,28]_filter_shape_[3,3,28,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.049926018714904784
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,28] filtershape:[3,3,28,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.14457506 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,28]_filter_shape_[3,3,28,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.14457505643367768
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,28] filtershape:[3,3,28,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.14091801 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,28]_filter_shape_[3,3,28,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.14091801047325134
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,32] filtershape:[3,3,32,4] strides:[1,2,2,1] padding:VALID 80 iters: 0.01007138 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,32]_filter_shape_[3,3,32,4]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.010071378946304322
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[4,500,500,32] filtershape:[3,3,32,4] strides:[1,2,2,1] padding:SAME 80 iters: 0.01071437 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[4,500,500,32]_filter_shape_[3,3,32,4]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.010714372992515564
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,32] filtershape:[3,3,32,16] strides:[1,2,2,1] padding:VALID 80 iters: 0.05956162 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,32]_filter_shape_[3,3,32,16]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.059561622142791745
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[16,500,500,32] filtershape:[3,3,32,16] strides:[1,2,2,1] padding:SAME 80 iters: 0.05566126 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[16,500,500,32]_filter_shape_[3,3,32,16]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.0556612640619278
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,32] filtershape:[3,3,32,32] strides:[1,2,2,1] padding:VALID 80 iters: 0.16225640 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,32]_filter_shape_[3,3,32,32]_strides_[1,2,2,1]_padding_VALID"
+  iters: 80
+  wall_time: 0.1622563987970352
+}
+
+cpu <dtype: 'float16'> NHWC inputshape:[32,500,500,32] filtershape:[3,3,32,32] strides:[1,2,2,1] padding:SAME 80 iters: 0.16980549 sec
+entry {
+  name: "Conv2DBenchmark.conv2d_cpu_<dtype:\'float16\'>_NHWC_input_shape_[32,500,500,32]_filter_shape_[3,3,32,32]_strides_[1,2,2,1]_padding_SAME"
+  iters: 80
+  wall_time: 0.16980549097061157
+}
+
