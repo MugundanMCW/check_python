@@ -1,0 +1,250 @@
+Forward convolution (lower layers).
+cpu shape:4/3 #layers:10 mode:op scale:True train:False - 0.009908 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_op_layers_10_scale_True_train_False"
+  iters: 5
+  wall_time: 0.009908056259155274
+}
+
+cpu shape:4/3 #layers:10 mode:py scale:True train:False - 0.016774 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_py_layers_10_scale_True_train_False"
+  iters: 5
+  wall_time: 0.016774368286132813
+}
+
+cpu shape:4/3 #layers:10 mode:slow scale:True train:False - 0.015761 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_slow_layers_10_scale_True_train_False"
+  iters: 5
+  wall_time: 0.01576089859008789
+}
+
+=== op vs py: 69.3% ===
+=== py vs slow: -6.0% ===
+cpu shape:4/3 #layers:10 mode:op scale:True train:False - 0.009417 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_op_layers_10_scale_True_train_False"
+  iters: 50
+  wall_time: 0.009417448043823242
+}
+
+cpu shape:4/3 #layers:10 mode:py scale:True train:False - 0.015310 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_py_layers_10_scale_True_train_False"
+  iters: 50
+  wall_time: 0.015309514999389649
+}
+
+cpu shape:4/3 #layers:10 mode:slow scale:True train:False - 0.014364 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_slow_layers_10_scale_True_train_False"
+  iters: 50
+  wall_time: 0.014364399909973145
+}
+
+=== op vs py: 62.6% ===
+=== py vs slow: -6.2% ===
+Forward/backward convolution (lower layers).
+cpu shape:4/3 #layers:10 mode:op scale:True train:True - 0.106653 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_op_layers_10_scale_True_train_True"
+  iters: 5
+  wall_time: 0.10665297508239746
+}
+
+cpu shape:4/3 #layers:10 mode:py scale:True train:True - 0.105376 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_py_layers_10_scale_True_train_True"
+  iters: 5
+  wall_time: 0.10537629127502442
+}
+
+cpu shape:4/3 #layers:10 mode:slow scale:True train:True - 0.148566 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_slow_layers_10_scale_True_train_True"
+  iters: 5
+  wall_time: 0.14856595993041993
+}
+
+=== op vs py: -1.2% ===
+=== py vs slow: 41.0% ===
+cpu shape:4/3 #layers:10 mode:op scale:True train:True - 0.104646 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_op_layers_10_scale_True_train_True"
+  iters: 50
+  wall_time: 0.10464602947235108
+}
+
+cpu shape:4/3 #layers:10 mode:py scale:True train:True - 0.104410 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_py_layers_10_scale_True_train_True"
+  iters: 50
+  wall_time: 0.10441011905670167
+}
+
+cpu shape:4/3 #layers:10 mode:slow scale:True train:True - 0.147264 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[8,128,128,32]_axes_[0,1,2]_mode_slow_layers_10_scale_True_train_True"
+  iters: 50
+  wall_time: 0.14726367473602295
+}
+
+=== op vs py: -0.2% ===
+=== py vs slow: 41.0% ===
+Forward convolution (higher layers).
+cpu shape:4/3 #layers:10 mode:op scale:True train:False - 0.014521 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_op_layers_10_scale_True_train_False"
+  iters: 5
+  wall_time: 0.014521360397338867
+}
+
+cpu shape:4/3 #layers:10 mode:py scale:True train:False - 0.015201 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_py_layers_10_scale_True_train_False"
+  iters: 5
+  wall_time: 0.015201377868652343
+}
+
+cpu shape:4/3 #layers:10 mode:slow scale:True train:False - 0.015647 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_slow_layers_10_scale_True_train_False"
+  iters: 5
+  wall_time: 0.015647172927856445
+}
+
+=== op vs py: 4.7% ===
+=== py vs slow: 2.9% ===
+cpu shape:4/3 #layers:10 mode:op scale:True train:False - 0.013605 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_op_layers_10_scale_True_train_False"
+  iters: 50
+  wall_time: 0.013605003356933593
+}
+
+cpu shape:4/3 #layers:10 mode:py scale:True train:False - 0.012468 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_py_layers_10_scale_True_train_False"
+  iters: 50
+  wall_time: 0.012467756271362304
+}
+
+cpu shape:4/3 #layers:10 mode:slow scale:True train:False - 0.014248 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_slow_layers_10_scale_True_train_False"
+  iters: 50
+  wall_time: 0.014247560501098632
+}
+
+=== op vs py: -8.4% ===
+=== py vs slow: 14.3% ===
+Forward/backward convolution (higher layers).
+cpu shape:4/3 #layers:10 mode:op scale:True train:True - 0.077000 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_op_layers_10_scale_True_train_True"
+  iters: 5
+  wall_time: 0.07699975967407227
+}
+
+cpu shape:4/3 #layers:10 mode:py scale:True train:True - 0.070418 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_py_layers_10_scale_True_train_True"
+  iters: 5
+  wall_time: 0.07041831016540527
+}
+
+cpu shape:4/3 #layers:10 mode:slow scale:True train:True - 0.096466 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_slow_layers_10_scale_True_train_True"
+  iters: 5
+  wall_time: 0.096466064453125
+}
+
+=== op vs py: -8.5% ===
+=== py vs slow: 37.0% ===
+cpu shape:4/3 #layers:10 mode:op scale:True train:True - 0.068476 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_op_layers_10_scale_True_train_True"
+  iters: 50
+  wall_time: 0.06847582340240478
+}
+
+cpu shape:4/3 #layers:10 mode:py scale:True train:True - 0.064360 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_py_layers_10_scale_True_train_True"
+  iters: 50
+  wall_time: 0.06436030864715576
+}
+
+cpu shape:4/3 #layers:10 mode:slow scale:True train:True - 0.094663 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[256,17,17,32]_axes_[0,1,2]_mode_slow_layers_10_scale_True_train_True"
+  iters: 50
+  wall_time: 0.09466299057006836
+}
+
+=== op vs py: -6.0% ===
+=== py vs slow: 47.1% ===
+Forward fully-connected.
+cpu shape:2/1 #layers:10 mode:py scale:True train:False - 0.000428 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[1024,32]_axes_[0]_mode_py_layers_10_scale_True_train_False"
+  iters: 5
+  wall_time: 0.0004276752471923828
+}
+
+cpu shape:2/1 #layers:10 mode:slow scale:True train:False - 0.001115 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[1024,32]_axes_[0]_mode_slow_layers_10_scale_True_train_False"
+  iters: 5
+  wall_time: 0.0011153221130371094
+}
+
+=== py vs slow: 160.8% ===
+cpu shape:2/1 #layers:10 mode:py scale:True train:False - 0.000318 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[1024,32]_axes_[0]_mode_py_layers_10_scale_True_train_False"
+  iters: 50
+  wall_time: 0.0003180503845214844
+}
+
+cpu shape:2/1 #layers:10 mode:slow scale:True train:False - 0.000310 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[1024,32]_axes_[0]_mode_slow_layers_10_scale_True_train_False"
+  iters: 50
+  wall_time: 0.00031035423278808594
+}
+
+=== py vs slow: -2.4% ===
+Forward/backward fully-connected.
+cpu shape:2/1 #layers:10 mode:py scale:True train:True - 0.002036 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[1024,32]_axes_[0]_mode_py_layers_10_scale_True_train_True"
+  iters: 50
+  wall_time: 0.0020357227325439454
+}
+
+cpu shape:2/1 #layers:10 mode:slow scale:True train:True - 0.002177 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[1024,32]_axes_[0]_mode_slow_layers_10_scale_True_train_True"
+  iters: 50
+  wall_time: 0.0021766042709350586
+}
+
+=== py vs slow: 6.9% ===
+cpu shape:2/1 #layers:10 mode:py scale:True train:True - 0.003525 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[1024,32]_axes_[0]_mode_py_layers_10_scale_True_train_True"
+  iters: 5
+  wall_time: 0.0035245418548583984
+}
+
+cpu shape:2/1 #layers:10 mode:slow scale:True train:True - 0.004641 secs
+entry {
+  name: "BatchNormBenchmark.batch_norm_cpu_input_shape_[1024,32]_axes_[0]_mode_slow_layers_10_scale_True_train_True"
+  iters: 5
+  wall_time: 0.004640960693359375
+}
+
+=== py vs slow: 31.7% ===
