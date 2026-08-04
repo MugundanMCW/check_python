@@ -1,0 +1,24 @@
+entry {
+  name: "CondWithManyIntermediatesBenchmark.benchmark_cond_v1_defun"
+  iters: 500
+  wall_time: 0.3865220546722412
+}
+
+entry {
+  name: "CondWithManyIntermediatesBenchmark.benchmark_cond_v1_graph"
+  iters: 500
+  wall_time: 0.34097743034362793
+}
+
+entry {
+  name: "CondWithManyIntermediatesBenchmark.benchmark_cond_v2_defun"
+  iters: 500
+  wall_time: 0.3634192943572998
+}
+
+entry {
+  name: "CondWithManyIntermediatesBenchmark.benchmark_cond_v2_graph"
+  iters: 500
+  wall_time: 0.32766127586364746
+}
+
