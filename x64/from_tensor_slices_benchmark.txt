@@ -1,0 +1,153 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785901307.434104   14848 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\qchan\miniforge3\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785901308.738996   14848 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1785901309.299257   14848 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Benchmark [FromTensorSlicesBenchmark.reshape_slice_repeat_input_10000.eager] iters: 5, wall_time: 5.40209e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.2', 'parameters': '10000', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 09:11:49.593255 14848 benchmark.py:79] Benchmark [FromTensorSlicesBenchmark.reshape_slice_repeat_input_10000.eager] iters: 5, wall_time: 5.40209e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.2', 'parameters': '10000', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [FromTensorSlicesBenchmark.slice_batch_cache_repeat_input_10000_batch_100.eager] iters: 5, wall_time: 5.43332e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.4', 'parameters': '10000.100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 09:11:49.673262 14848 benchmark.py:79] Benchmark [FromTensorSlicesBenchmark.slice_batch_cache_repeat_input_10000_batch_100.eager] iters: 5, wall_time: 5.43332e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.4', 'parameters': '10000.100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [FromTensorSlicesBenchmark.slice_repeat_batch_input_10000_batch_100.eager] iters: 5, wall_time: 5.18934e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.1', 'parameters': '10000.100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 09:11:54.841564 14848 benchmark.py:79] Benchmark [FromTensorSlicesBenchmark.slice_repeat_batch_input_10000_batch_100.eager] iters: 5, wall_time: 5.18934e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.1', 'parameters': '10000.100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+WARNING:tensorflow:From C:\Users\qchan\miniforge3\Lib\site-packages\tensorflow\python\autograph\impl\api.py:460: get_single_element (from tensorflow.python.data.experimental.ops.get_single_element) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.get_single_element()`.
+W0805 09:11:54.881825 14848 deprecation.py:50] From C:\Users\qchan\miniforge3\Lib\site-packages\tensorflow\python\autograph\impl\api.py:460: get_single_element (from tensorflow.python.data.experimental.ops.get_single_element) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.get_single_element()`.
+entry {
+  name: "FromTensorSlicesBenchmark.reshape_slice_repeat_input_10000.eager"
+  iters: 5
+  wall_time: 5.4020881652832032e-07
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10000"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "from_tensor_slices.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "FromTensorSlicesBenchmark.slice_batch_cache_repeat_input_10000_batch_100.eager"
+  iters: 5
+  wall_time: 5.4333209991455082e-07
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10000.100"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "from_tensor_slices.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "FromTensorSlicesBenchmark.slice_repeat_batch_input_10000_batch_100.eager"
+  iters: 5
+  wall_time: 5.189342498779297e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10000.100"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "from_tensor_slices.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+Traceback (most recent call last):
+  File "C:\Users\qchan\OneDrive\Desktop\Mugudan\tensorflow\tensorflow\python\data\benchmarks\from_tensor_slices_benchmark.py", line 161, in <module>
+    benchmark_base.test.main()
+  File "C:\Users\qchan\miniforge3\Lib\site-packages\tensorflow\python\platform\test.py", line 53, in main
+    return _googletest.main(argv)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qchan\miniforge3\Lib\site-packages\tensorflow\python\platform\googletest.py", line 62, in main
+    benchmark.benchmarks_main(true_main=main_wrapper, argv=argv)
+  File "C:\Users\qchan\miniforge3\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 487, in benchmarks_main
+    app.run(lambda _: _run_benchmarks(regex), argv=argv)
+  File "C:\Users\qchan\miniforge3\Lib\site-packages\absl\app.py", line 410, in run
+    _run_main(main, args)
+  File "C:\Users\qchan\miniforge3\Lib\site-packages\absl\app.py", line 355, in _run_main
+    sys.exit(main(argv))
+             ^^^^^^^^^^
+  File "C:\Users\qchan\miniforge3\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 487, in <lambda>
+    app.run(lambda _: _run_benchmarks(regex), argv=argv)
+                      ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\qchan\miniforge3\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 461, in _run_benchmarks
+    instance_benchmark_fn()
+  File "C:\Users\qchan\OneDrive\Desktop\Mugudan\tensorflow\tensorflow\python\data\benchmarks\from_tensor_slices_benchmark.py", line 127, in benchmark_slice_repeat_sparse
+    make_dataset(),
+    ^^^^^^^^^^^^^^
+  File "C:\Users\qchan\miniforge3\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 167, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\qchan\AppData\Local\Temp\__autograph_generated_filecw67_3_3.py", line 18, in tf__make_dataset
+    retval_ = ag__.converted_call(ag__.ld(SingleThreadedFlatMapDataset), (ag__.ld(dataset), ag__.ld(dataset_ops).Dataset.from_tensor_slices), None, fscope)
+    ^^^^^
+  File "C:\Users\qchan\OneDrive\Desktop\Mugudan\tensorflow\tensorflow\python\data\benchmarks\from_tensor_slices_benchmark.py", line 33, in __init__
+    self._map_func = structured_function.StructuredFunctionWrapper(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: in user code:
+
+    File "C:\Users\qchan\OneDrive\Desktop\Mugudan\tensorflow\tensorflow\python\data\benchmarks\from_tensor_slices_benchmark.py", line 124, in make_dataset  *
+        dataset, dataset_ops.Dataset.from_tensor_slices)
+    File "C:\Users\qchan\OneDrive\Desktop\Mugudan\tensorflow\tensorflow\python\data\benchmarks\from_tensor_slices_benchmark.py", line 33, in __init__  **
+        self._map_func = structured_function.StructuredFunctionWrapper(
+
+    ValueError: `_executor is not supported by tf.function as an attribute.
+
+
+==================================================
+Benchmark exited with error code 1.

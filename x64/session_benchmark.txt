@@ -1,0 +1,153 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785899532.192111   15608 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\qchan\miniforge3\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785899533.502402   15608 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1785899534.067767   15608 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+I0000 00:00:1785899534.069296   15608 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_feed_direct_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:42:19.927526 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_feed_direct_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_feed_direct_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:42:21.318166 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_feed_direct_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_fetch_direct_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:42:25.902138 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_fetch_direct_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_fetch_direct_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:42:53.141330 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_fetch_direct_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_fetchprebuilt_direct_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:42:56.159421 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_fetchprebuilt_direct_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_fetchprebuilt_direct_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:47:18.760976 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_fetchprebuilt_direct_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_runop_direct] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:47:27.271932 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_runop_direct] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_runopprebuilt_direct] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:47:29.674840 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_runopprebuilt_direct] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0000 00:00:1785899849.694304   15608 grpc_server_lib.cc:467] Started server with target: grpc://localhost:60078
+I0000 00:00:1785899849.695946    9776 master.cc:243] Scanning workers for devices: 1 total workers
+I0000 00:00:1785899849.698757    9776 coordination_service.cc:221] Initializing CoordinationService
+W0000 00:00:1785899849.834786    9776 local_rendezvous.cc:412] Local rendezvous is aborting with status: ABORTED: Cleanup 43755291483985757 [type.googleapis.com/tensorflow.DerivedStatus='']
+W0000 00:00:1785899849.851470    9776 local_rendezvous.cc:412] Local rendezvous is aborting with status: ABORTED: Cleanup 120950258170909493 [type.googleapis.com/tensorflow.DerivedStatus='']
+W0000 00:00:1785899850.724012    9776 local_rendezvous.cc:412] Local rendezvous is aborting with status: ABORTED: Cleanup 50670845382302629 [type.googleapis.com/tensorflow.DerivedStatus='']
+W0000 00:00:1785899852.320270    9776 local_rendezvous.cc:412] Local rendezvous is aborting with status: ABORTED: Cleanup 29262782749928202 [type.googleapis.com/tensorflow.DerivedStatus='']
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_feed_grpc_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:47:33.644547 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_feed_grpc_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0000 00:00:1785899853.667861    9776 master.cc:243] Scanning workers for devices: 1 total workers
+W0000 00:00:1785899854.892712    9776 local_rendezvous.cc:412] Local rendezvous is aborting with status: ABORTED: Cleanup 26430946061668055 [type.googleapis.com/tensorflow.DerivedStatus='']
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_feed_grpc_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:47:36.668070 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_feed_grpc_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0000 00:00:1785899856.678529    9776 master.cc:243] Scanning workers for devices: 1 total workers
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_fetch_grpc_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:47:40.006591 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_fetch_grpc_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0000 00:00:1785899860.019443    9776 master.cc:243] Scanning workers for devices: 1 total workers
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_fetch_grpc_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:48:05.098930 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_fetch_grpc_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0000 00:00:1785899885.115441    9776 master.cc:243] Scanning workers for devices: 1 total workers
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_fetchprebuilt_grpc_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:48:07.784395 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_fetchprebuilt_grpc_4B] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0000 00:00:1785899887.789480    9776 master.cc:243] Scanning workers for devices: 1 total workers
+W0000 00:00:1785899890.802300    9776 local_rendezvous.cc:412] Local rendezvous is aborting with status: ABORTED: Cleanup 124311162204955105 [type.googleapis.com/tensorflow.DerivedStatus='']
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_fetchprebuilt_grpc_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:49:08.008283 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_fetchprebuilt_grpc_4MB] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0000 00:00:1785899948.015233    9776 master.cc:243] Scanning workers for devices: 1 total workers
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_runop_grpc] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:49:11.641104 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_runop_grpc] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0000 00:00:1785899951.648927    9776 master.cc:243] Scanning workers for devices: 1 total workers
+INFO:tensorflow:Benchmark [SessionBenchmark.benchmark_session_runopprebuilt_grpc] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+I0805 08:49:15.842189 15608 benchmark.py:79] Benchmark [SessionBenchmark.benchmark_session_runopprebuilt_grpc] iters: 1, wall_time: 0, cpu_time: -1,throughput: -1, extras: None, metrics: None
+benchmark_session_feed_direct_4B 1 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_feed_direct_4B"
+  iters: 1
+}
+
+benchmark_session_feed_direct_4MB 1048576 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_feed_direct_4MB"
+  iters: 1
+}
+
+benchmark_session_fetch_direct_4B 1 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_fetch_direct_4B"
+  iters: 1
+}
+
+benchmark_session_fetch_direct_4MB 1048576 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_fetch_direct_4MB"
+  iters: 1
+}
+
+benchmark_session_fetchprebuilt_direct_4B 1 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_fetchprebuilt_direct_4B"
+  iters: 1
+}
+
+benchmark_session_fetchprebuilt_direct_4MB 1048576 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_fetchprebuilt_direct_4MB"
+  iters: 1
+}
+
+benchmark_session_runop_direct 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_runop_direct"
+  iters: 1
+}
+
+benchmark_session_runopprebuilt_direct 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_runopprebuilt_direct"
+  iters: 1
+}
+
+benchmark_session_feed_grpc_4B 1 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_feed_grpc_4B"
+  iters: 1
+}
+
+benchmark_session_feed_grpc_4MB 1048576 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_feed_grpc_4MB"
+  iters: 1
+}
+
+benchmark_session_fetch_grpc_4B 1 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_fetch_grpc_4B"
+  iters: 1
+}
+
+benchmark_session_fetch_grpc_4MB 1048576 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_fetch_grpc_4MB"
+  iters: 1
+}
+
+benchmark_session_fetchprebuilt_grpc_4B 1 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_fetchprebuilt_grpc_4B"
+  iters: 1
+}
+
+benchmark_session_fetchprebuilt_grpc_4MB 1048576 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_fetchprebuilt_grpc_4MB"
+  iters: 1
+}
+
+benchmark_session_runop_grpc 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_runop_grpc"
+  iters: 1
+}
+
+benchmark_session_runopprebuilt_grpc 0.000000
+entry {
+  name: "SessionBenchmark.benchmark_session_runopprebuilt_grpc"
+  iters: 1
+}
+

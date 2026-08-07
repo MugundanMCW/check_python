@@ -1,0 +1,844 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785920939.267913   30412 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\qchan\miniforge3\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785920940.863605   30412 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1785920941.807739   30412 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From C:\Users\qchan\OneDrive\Desktop\Mugudan\tensorflow\tensorflow\python\data\experimental\benchmarks\snapshot_dataset_benchmark.py:49: legacy_snapshot (from tensorflow.python.data.experimental.ops.snapshot) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.snapshot(...)` instead.
+W0805 14:39:01.854584 30412 deprecation.py:50] From C:\Users\qchan\OneDrive\Desktop\Mugudan\tensorflow\tensorflow\python\data\experimental\benchmarks\snapshot_dataset_benchmark.py:49: legacy_snapshot (from tensorflow.python.data.experimental.ops.snapshot) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.snapshot(...)` instead.
+I0000 00:00:1785920941.861755   30412 snapshot_utils.cc:1067] Graph hash is 969e18a801547921, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/969e18a801547921-graph.pbtxt
+I0000 00:00:1785920941.866144   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: 969e18a801547921
+I0000 00:00:1785920941.879895   30412 snapshot_utils.cc:1067] Graph hash is fd332825859edbc4, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/fd332825859edbc4-graph.pbtxt
+I0000 00:00:1785920941.880862   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: fd332825859edbc4
+I0000 00:00:1785920941.901269   19792 snapshot_dataset_op.cc:2135] Error while writing snapshot data to disk: CANCELLED: SnapshotDataset::SnapshotWriterIterator cancelled
+I0000 00:00:1785920942.461982   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 545.209
+I0000 00:00:1785920943.100604   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 498.774
+I0000 00:00:1785920943.732544   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 486.799
+I0000 00:00:1785920944.366420   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 480.567
+I0000 00:00:1785920945.008276   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 475.634
+I0000 00:00:1785920945.638363   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 473.949
+I0000 00:00:1785920946.275719   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 471.987
+I0000 00:00:1785920947.594102   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 412.752
+I0000 00:00:1785920948.224580   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 417.998
+I0000 00:00:1785920951.734836   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 296.338
+I0000 00:00:1785920952.181274   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 723.207
+I0000 00:00:1785920952.602757   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 733.878
+I0000 00:00:1785920953.029796   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 734.241
+I0000 00:00:1785920953.445592   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 739.529
+I0000 00:00:1785920953.863649   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 741.902
+I0000 00:00:1785920954.282350   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 743.251
+I0000 00:00:1785920954.678606   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 750.445
+I0000 00:00:1785920955.074653   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 756.085
+I0000 00:00:1785920955.480068   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 758.418
+I0000 00:00:1785920955.885242   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 760.398
+I0000 00:00:1785920956.304471   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 756.366
+I0000 00:00:1785920956.712859   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 762.908
+I0000 00:00:1785920957.128667   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 760.648
+I0000 00:00:1785920957.544691   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 759.26
+I0000 00:00:1785920957.960374   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 758.621
+I0000 00:00:1785920958.372478   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 759.303
+I0000 00:00:1785920958.770065   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 764.133
+I0000 00:00:1785920959.165286   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 768.393
+I0000 00:00:1785920959.569178   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 769.807
+I0000 00:00:1785920959.968359   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 771.881
+I0000 00:00:1785920960.391862   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 748.933
+I0000 00:00:1785920960.806827   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 752.468
+I0000 00:00:1785920961.225839   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 751.007
+I0000 00:00:1785920961.639406   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 752.948
+I0000 00:00:1785920962.058409   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 752.142
+I0000 00:00:1785920962.476241   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 752.143
+I0000 00:00:1785920962.873333   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 757.855
+I0000 00:00:1785920963.272915   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 761.761
+I0000 00:00:1785920963.674605   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 764.302
+I0000 00:00:1785920964.077023   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 766.132
+I0000 00:00:1785920964.498500   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 753.853
+I0000 00:00:1785920964.916038   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 752.832
+I0000 00:00:1785920965.331920   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 753.734
+I0000 00:00:1785920965.748584   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 753.789
+I0000 00:00:1785920966.237933   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 729.094
+I0000 00:00:1785920966.694931   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 722.849
+I0000 00:00:1785920967.129570   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 724.377
+I0000 00:00:1785920967.564027   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 725.382
+I0000 00:00:1785920968.007021   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 724.575
+I0000 00:00:1785920968.449027   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 724.085
+I0000 00:00:1785920968.912032   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 690.925
+I0000 00:00:1785920969.368296   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 692.737
+I0000 00:00:1785920969.822414   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 694.398
+I0000 00:00:1785920970.276674   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 695.193
+I0000 00:00:1785920970.731192   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 695.5
+I0000 00:00:1785920971.184524   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 695.956
+I0000 00:00:1785920971.619095   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 700.978
+I0000 00:00:1785920972.058561   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 703.883
+I0000 00:00:1785920972.496941   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 706.272
+I0000 00:00:1785920972.916611   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 710.711
+I0000 00:00:1785920973.341656   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 744.903
+I0000 00:00:1785920973.758217   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 749.09
+I0000 00:00:1785920974.178359   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 748.217
+I0000 00:00:1785920974.593980   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 749.945
+I0000 00:00:1785920975.014366   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 749.067
+I0000 00:00:1785920975.426313   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 750.132
+I0000 00:00:1785920975.819090   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 756.004
+I0000 00:00:1785920976.226884   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 756.742
+I0000 00:00:1785920976.636600   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 756.853
+I0000 00:00:1785920977.046027   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 757.148
+I0000 00:00:1785920977.469363   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 740.482
+I0000 00:00:1785920977.886390   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 741.487
+I0000 00:00:1785920978.302232   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 743.022
+I0000 00:00:1785920978.716597   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 744.296
+I0000 00:00:1785920979.132639   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 744.442
+I0000 00:00:1785920979.544825   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 745.818
+I0000 00:00:1785920979.939584   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 751.622
+I0000 00:00:1785920980.336782   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.516
+I0000 00:00:1785920980.736683   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 757.987
+I0000 00:00:1785920981.136771   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 759.943
+I0000 00:00:1785920981.559462   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 751.199
+I0000 00:00:1785920982.000908   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 730.623
+I0000 00:00:1785920982.417491   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 738.45
+I0000 00:00:1785920982.837001   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 741.067
+I0000 00:00:1785920983.254243   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 743.484
+I0000 00:00:1785920983.672076   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 745.02
+I0000 00:00:1785920984.073069   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 750.841
+I0000 00:00:1785920984.469307   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 756.352
+I0000 00:00:1785920984.869965   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 759.695
+I0000 00:00:1785920985.271819   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 762.23
+I0000 00:00:1785920985.690510   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 749.724
+I0000 00:00:1785920986.104059   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 749.525
+I0000 00:00:1785920986.514446   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 751.373
+I0000 00:00:1785920986.927783   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 751.396
+I0000 00:00:1785920987.341527   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 750.927
+I0000 00:00:1785920987.758651   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 749.799
+I0000 00:00:1785920988.151625   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.695
+I0000 00:00:1785920988.547994   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 759.272
+I0000 00:00:1785920988.944542   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 761.956
+I0000 00:00:1785920989.344949   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 763.414
+INFO:tensorflow:Benchmark [SnapshotDatasetBenchmark.passthrough_simple.eager] iters: 5, wall_time: 4.10738e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.4', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0805 14:39:49.347235 30412 benchmark.py:79] Benchmark [SnapshotDatasetBenchmark.passthrough_simple.eager] iters: 5, wall_time: 4.10738e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.4', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0000 00:00:1785920989.824172   30412 snapshot_utils.cc:1067] Graph hash is 4af983fc4cc4db11, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/4af983fc4cc4db11-graph.pbtxt
+I0000 00:00:1785920989.826089   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: 4af983fc4cc4db11
+I0000 00:00:1785920989.836933   30412 snapshot_utils.cc:1067] Graph hash is c4500c3439462c5e, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/c4500c3439462c5e-graph.pbtxt
+I0000 00:00:1785920989.838601   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: c4500c3439462c5e
+I0000 00:00:1785920991.242865   18116 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 207.452
+I0000 00:00:1785920992.648442   18116 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 206.71
+I0000 00:00:1785920994.051531   18116 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 206.577
+I0000 00:00:1785920995.457300   18116 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 206.464
+I0000 00:00:1785920996.862331   18116 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 206.37
+I0000 00:00:1785920998.269651   18116 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 206.259
+I0000 00:00:1785920999.679779   18116 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 206.133
+I0000 00:00:1785921001.141358   18116 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 205.101
+I0000 00:00:1785921002.624603   18116 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 203.943
+I0000 00:00:1785921004.130415   18116 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 202.713
+I0000 00:00:1785921005.428809   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 225.78
+I0000 00:00:1785921006.700169   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 226.988
+I0000 00:00:1785921007.963235   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 227.89
+I0000 00:00:1785921009.227530   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 228.303
+I0000 00:00:1785921010.499603   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 228.263
+I0000 00:00:1785921011.762738   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 228.496
+I0000 00:00:1785921012.998526   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 229.38
+I0000 00:00:1785921014.206278   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 230.699
+I0000 00:00:1785921015.415329   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 231.699
+I0000 00:00:1785921016.660258   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 231.833
+I0000 00:00:1785921017.078620   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 772.091
+I0000 00:00:1785921017.479922   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 778.176
+I0000 00:00:1785921017.882759   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 779.493
+I0000 00:00:1785921018.285694   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 780.08
+I0000 00:00:1785921018.676582   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 784.901
+I0000 00:00:1785921019.069314   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 787.58
+I0000 00:00:1785921019.462460   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 789.573
+I0000 00:00:1785921019.854351   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 791.282
+I0000 00:00:1785921020.247774   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 792.209
+I0000 00:00:1785921020.704389   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 781.602
+I0000 00:00:1785921021.159765   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 697.18
+I0000 00:00:1785921021.598270   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 705.946
+I0000 00:00:1785921022.012166   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 720.649
+I0000 00:00:1785921022.420278   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 730.931
+I0000 00:00:1785921022.823778   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 738.622
+I0000 00:00:1785921023.240255   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 739.923
+I0000 00:00:1785921023.653221   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 741.815
+I0000 00:00:1785921024.047508   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 747.532
+I0000 00:00:1785921024.456161   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 749.017
+I0000 00:00:1785921024.853883   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 752.307
+I0000 00:00:1785921025.272733   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 758.51
+I0000 00:00:1785921025.666652   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 778.266
+I0000 00:00:1785921026.048960   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 793.571
+I0000 00:00:1785921026.440635   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 796.238
+I0000 00:00:1785921026.836233   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 796.079
+I0000 00:00:1785921027.232589   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 795.686
+I0000 00:00:1785921027.635202   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 793.419
+I0000 00:00:1785921028.068892   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 783.909
+I0000 00:00:1785921028.511735   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 774.808
+I0000 00:00:1785921028.939009   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 770.839
+I0000 00:00:1785921029.388885   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 704.023
+I0000 00:00:1785921029.820829   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 714.105
+I0000 00:00:1785921030.251831   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 717.705
+I0000 00:00:1785921030.671820   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 724.537
+I0000 00:00:1785921031.086087   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 730.591
+I0000 00:00:1785921031.502381   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 734.19
+I0000 00:00:1785921031.916790   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 737.09
+I0000 00:00:1785921032.331001   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 739.386
+I0000 00:00:1785921032.789472   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 732.655
+I0000 00:00:1785921033.205880   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 734.613
+I0000 00:00:1785921033.631364   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 753.787
+I0000 00:00:1785921034.052716   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 753.5
+I0000 00:00:1785921034.474064   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 753.104
+I0000 00:00:1785921034.890948   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.014
+I0000 00:00:1785921035.309581   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.297
+I0000 00:00:1785921035.727371   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.71
+I0000 00:00:1785921036.129704   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 759.346
+I0000 00:00:1785921036.534271   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 761.616
+I0000 00:00:1785921036.939674   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 763.501
+I0000 00:00:1785921037.358718   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 762.187
+I0000 00:00:1785921037.786961   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 744.043
+I0000 00:00:1785921038.194486   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 759.882
+I0000 00:00:1785921038.614825   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 756.668
+I0000 00:00:1785921039.034611   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 754.774
+I0000 00:00:1785921039.449080   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.264
+I0000 00:00:1785921039.873756   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 752.381
+I0000 00:00:1785921040.297569   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 750.534
+I0000 00:00:1785921040.717853   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 750.49
+I0000 00:00:1785921041.143263   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 749.832
+I0000 00:00:1785921041.569285   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 749.189
+I0000 00:00:1785921041.999951   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 744.389
+I0000 00:00:1785921042.427934   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 741.979
+I0000 00:00:1785921042.854788   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 741.828
+I0000 00:00:1785921043.280181   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 742.424
+I0000 00:00:1785921043.705236   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 742.977
+I0000 00:00:1785921044.129806   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 743.375
+I0000 00:00:1785921044.554984   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 743.548
+I0000 00:00:1785921044.975733   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 744.665
+I0000 00:00:1785921045.397305   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 745.492
+I0000 00:00:1785921045.812438   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 747.149
+I0000 00:00:1785921046.234426   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.845
+I0000 00:00:1785921046.654720   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 753.287
+I0000 00:00:1785921047.047355   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 768.973
+I0000 00:00:1785921047.474089   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 760.981
+I0000 00:00:1785921047.878503   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 764.909
+I0000 00:00:1785921048.303798   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 760.564
+I0000 00:00:1785921048.735192   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.86
+I0000 00:00:1785921049.143384   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 758.156
+I0000 00:00:1785921049.586925   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 752.222
+I0000 00:00:1785921049.991864   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 754.539
+I0000 00:00:1785921050.415478   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 748.673
+I0000 00:00:1785921050.833973   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 749.318
+I0000 00:00:1785921051.248206   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 753.277
+I0000 00:00:1785921051.658648   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 757.11
+I0000 00:00:1785921052.081964   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 754.318
+I0000 00:00:1785921052.505234   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 752.47
+I0000 00:00:1785921052.912885   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.492
+I0000 00:00:1785921053.327446   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 756.08
+I0000 00:00:1785921053.746209   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.773
+I0000 00:00:1785921054.162831   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 755.586
+INFO:tensorflow:Benchmark [SnapshotDatasetBenchmark.read_gzip.eager] iters: 5, wall_time: 4.15036e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.6', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0805 14:40:54.164597 30412 benchmark.py:79] Benchmark [SnapshotDatasetBenchmark.read_gzip.eager] iters: 5, wall_time: 4.15036e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.6', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0000 00:00:1785921054.185787   30412 snapshot_utils.cc:1067] Graph hash is 969e18a801547921, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/969e18a801547921-graph.pbtxt
+I0000 00:00:1785921054.188178   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: 969e18a801547921
+I0000 00:00:1785921054.199255   30412 snapshot_utils.cc:1067] Graph hash is fd332825859edbc4, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/fd332825859edbc4-graph.pbtxt
+I0000 00:00:1785921054.201458   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: fd332825859edbc4
+I0000 00:00:1785921055.280407   26324 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 271.813
+I0000 00:00:1785921056.502224   26324 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 253.732
+I0000 00:00:1785921057.645412   26324 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 253.921
+I0000 00:00:1785921058.704413   26324 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 258.751
+I0000 00:00:1785921059.767529   26324 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 261.546
+I0000 00:00:1785921060.891873   26324 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 261.012
+I0000 00:00:1785921061.948142   26324 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 262.944
+I0000 00:00:1785921063.006059   26324 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 264.367
+I0000 00:00:1785921064.057547   26324 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 265.657
+I0000 00:00:1785921066.040218   26324 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 245.386
+I0000 00:00:1785921066.681493   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.316
+I0000 00:00:1785921067.309904   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 466.877
+I0000 00:00:1785921067.942465   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 465.778
+I0000 00:00:1785921068.577522   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 464.772
+I0000 00:00:1785921069.211016   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 464.387
+I0000 00:00:1785921069.857898   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 462.494
+I0000 00:00:1785921070.494862   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 462.186
+I0000 00:00:1785921071.613521   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 421.044
+I0000 00:00:1785921072.218192   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 427.312
+I0000 00:00:1785921083.754196   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 163.054
+I0000 00:00:1785921084.194566   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 743.561
+I0000 00:00:1785921084.633535   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 734.428
+I0000 00:00:1785921085.176594   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 668.313
+I0000 00:00:1785921085.585475   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 690.596
+I0000 00:00:1785921085.995337   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 704.518
+I0000 00:00:1785921086.403285   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 714.541
+I0000 00:00:1785921086.823799   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 718.597
+I0000 00:00:1785921087.239498   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 722.87
+I0000 00:00:1785921087.656005   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 726.078
+I0000 00:00:1785921088.083996   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 726.5
+I0000 00:00:1785921088.489002   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 778.48
+I0000 00:00:1785921088.890453   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 774.173
+I0000 00:00:1785921089.288403   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 774.675
+I0000 00:00:1785921089.686464   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 774.978
+I0000 00:00:1785921090.114670   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 764.021
+I0000 00:00:1785921090.535503   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 758.965
+I0000 00:00:1785921090.950124   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 756.845
+I0000 00:00:1785921091.349036   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 758.964
+I0000 00:00:1785921091.798796   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 750.427
+I0000 00:00:1785921092.256777   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 742.238
+I0000 00:00:1785921092.661998   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 788.408
+I0000 00:00:1785921093.057038   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 793.664
+I0000 00:00:1785921093.460783   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 789.33
+I0000 00:00:1785921093.867778   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 785.681
+I0000 00:00:1785921094.280493   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 781.215
+I0000 00:00:1785921094.685137   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 780.771
+I0000 00:00:1785921095.087446   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 781.204
+I0000 00:00:1785921095.491013   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 781.156
+I0000 00:00:1785921095.893958   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 781.459
+I0000 00:00:1785921096.297547   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 781.461
+I0000 00:00:1785921096.700532   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 773.601
+I0000 00:00:1785921097.098881   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 774.407
+I0000 00:00:1785921097.495764   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 775.178
+I0000 00:00:1785921097.900351   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 772.34
+I0000 00:00:1785921098.297622   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 773.369
+I0000 00:00:1785921098.696983   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 773.375
+I0000 00:00:1785921099.095658   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 773.499
+I0000 00:00:1785921099.528161   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 765.592
+I0000 00:00:1785921099.966973   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 758.321
+I0000 00:00:1785921100.382773   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 756.849
+I0000 00:00:1785921100.826105   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 726.154
+I0000 00:00:1785921101.261463   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 729.082
+I0000 00:00:1785921101.702193   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 726.948
+I0000 00:00:1785921102.142423   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 725.715
+I0000 00:00:1785921102.581371   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 725.492
+I0000 00:00:1785921103.018832   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 725.779
+I0000 00:00:1785921103.416278   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 734.8
+I0000 00:00:1785921103.819319   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 740.267
+I0000 00:00:1785921104.221219   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 744.943
+I0000 00:00:1785921104.622294   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 748.82
+I0000 00:00:1785921105.020882   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 801.53
+I0000 00:00:1785921105.419156   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 796.735
+I0000 00:00:1785921105.816667   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 795.609
+I0000 00:00:1785921106.214221   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 794.977
+I0000 00:00:1785921106.615843   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 792.942
+I0000 00:00:1785921107.015282   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 792.356
+I0000 00:00:1785921107.415141   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 791.867
+I0000 00:00:1785921107.815334   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 791.42
+I0000 00:00:1785921108.224549   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 788.92
+I0000 00:00:1785921108.633795   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 786.909
+I0000 00:00:1785921109.045380   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 772.104
+I0000 00:00:1785921109.442603   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 782.674
+I0000 00:00:1785921109.850744   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 778.678
+I0000 00:00:1785921110.298268   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 760.074
+I0000 00:00:1785921110.741371   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 751.115
+I0000 00:00:1785921111.182612   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 746.058
+I0000 00:00:1785921111.625477   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 741.974
+I0000 00:00:1785921112.067854   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 739.019
+I0000 00:00:1785921112.509142   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 737.033
+I0000 00:00:1785921112.953591   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 734.836
+I0000 00:00:1785921113.400463   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 719.251
+I0000 00:00:1785921113.840644   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 721.218
+I0000 00:00:1785921114.282329   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 720.924
+I0000 00:00:1785921114.724885   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 720.253
+I0000 00:00:1785921115.168198   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 719.65
+I0000 00:00:1785921115.614313   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 718.465
+I0000 00:00:1785921116.057182   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 718.435
+I0000 00:00:1785921116.515587   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 714.876
+I0000 00:00:1785921116.966194   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 713.763
+I0000 00:00:1785921117.416056   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 712.955
+I0000 00:00:1785921117.869052   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 707.61
+I0000 00:00:1785921118.309127   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 715.011
+I0000 00:00:1785921118.750195   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 717.097
+I0000 00:00:1785921119.185906   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 720.201
+I0000 00:00:1785921119.626610   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 720.253
+I0000 00:00:1785921120.065005   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 720.923
+I0000 00:00:1785921120.509062   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 720.189
+I0000 00:00:1785921120.953692   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 719.462
+I0000 00:00:1785921121.397552   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 719.139
+I0000 00:00:1785921121.849664   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 717.382
+INFO:tensorflow:Benchmark [SnapshotDatasetBenchmark.read_simple.eager] iters: 5, wall_time: 4.32107e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.5', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0805 14:42:01.850791 30412 benchmark.py:79] Benchmark [SnapshotDatasetBenchmark.read_simple.eager] iters: 5, wall_time: 4.32107e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.5', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0000 00:00:1785921122.498698   30412 snapshot_utils.cc:1067] Graph hash is ba3bd3b57697e623, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/ba3bd3b57697e623-graph.pbtxt
+I0000 00:00:1785921122.523040   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: ba3bd3b57697e623
+I0000 00:00:1785921122.535373   30412 snapshot_utils.cc:1067] Graph hash is 95765f490640f4ff, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/95765f490640f4ff-graph.pbtxt
+I0000 00:00:1785921122.538679   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: 95765f490640f4ff
+I0000 00:00:1785921123.440185   32132 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 326.465
+I0000 00:00:1785921124.446134   32132 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 306.58
+I0000 00:00:1785921125.451208   32132 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 300.574
+I0000 00:00:1785921126.401736   32132 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 301.951
+I0000 00:00:1785921127.331063   32132 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 304.144
+I0000 00:00:1785921128.258449   32132 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 305.733
+I0000 00:00:1785921129.177978   32132 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 307.256
+I0000 00:00:1785921130.096591   32132 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 308.435
+I0000 00:00:1785921131.012775   32132 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 309.444
+I0000 00:00:1785921132.028218   32132 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 306.969
+I0000 00:00:1785921132.629964   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 500.364
+I0000 00:00:1785921133.223092   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 498.152
+I0000 00:00:1785921133.859113   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 485.606
+I0000 00:00:1785921134.470661   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 484.329
+I0000 00:00:1785921135.074380   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 484.77
+I0000 00:00:1785921135.672459   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 485.892
+I0000 00:00:1785921136.266794   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 487.101
+I0000 00:00:1785921136.864916   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 487.592
+I0000 00:00:1785921137.460011   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 488.255
+I0000 00:00:1785921138.174340   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 479.056
+I0000 00:00:1785921138.427615   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1416.36
+I0000 00:00:1785921138.670111   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1421.57
+I0000 00:00:1785921138.909556   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1429.1
+I0000 00:00:1785921139.150919   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1430.52
+I0000 00:00:1785921139.408448   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1404.85
+I0000 00:00:1785921139.618285   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1438.9
+I0000 00:00:1785921139.828056   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1464.09
+I0000 00:00:1785921140.040556   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1481.57
+I0000 00:00:1785921140.250621   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1497.32
+I0000 00:00:1785921140.474988   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1498.5
+I0000 00:00:1785921140.710404   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1473.76
+I0000 00:00:1785921140.919744   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1551.97
+I0000 00:00:1785921141.129879   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1579.27
+I0000 00:00:1785921141.338289   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1596.85
+I0000 00:00:1785921141.572168   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1562.88
+I0000 00:00:1785921141.780427   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1576.68
+I0000 00:00:1785921141.990421   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1585.21
+I0000 00:00:1785921142.200968   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1591.19
+I0000 00:00:1785921142.409184   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1597.79
+I0000 00:00:1785921142.630711   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1591.07
+I0000 00:00:1785921142.868831   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1447.9
+I0000 00:00:1785921143.077407   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1543.15
+I0000 00:00:1785921143.288280   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1571.35
+I0000 00:00:1785921143.494768   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1593.09
+I0000 00:00:1785921143.729417   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1558.62
+I0000 00:00:1785921143.938592   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1571.91
+I0000 00:00:1785921144.146835   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1582.37
+I0000 00:00:1785921144.356706   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1589.8
+I0000 00:00:1785921144.565081   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1596.29
+I0000 00:00:1785921144.790991   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1585.78
+I0000 00:00:1785921145.026992   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1468.2
+I0000 00:00:1785921145.232747   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1564.58
+I0000 00:00:1785921145.438524   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1599.52
+I0000 00:00:1785921145.643343   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1619.31
+I0000 00:00:1785921145.871754   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1589.1
+I0000 00:00:1785921146.073484   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1600.94
+I0000 00:00:1785921146.342634   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1534.39
+I0000 00:00:1785921146.608574   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1491.53
+I0000 00:00:1785921146.876184   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1459.73
+I0000 00:00:1785921147.158824   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1423.86
+I0000 00:00:1785921147.455168   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1118.2
+I0000 00:00:1785921147.719076   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1183.7
+I0000 00:00:1785921147.987023   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1200.65
+I0000 00:00:1785921148.257648   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1205.8
+I0000 00:00:1785921148.530547   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1206.27
+I0000 00:00:1785921148.736158   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1265.25
+I0000 00:00:1785921148.942453   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1310.5
+I0000 00:00:1785921149.149305   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1346.68
+I0000 00:00:1785921149.354732   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1376.53
+I0000 00:00:1785921149.577316   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1390.52
+I0000 00:00:1785921149.823077   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1367.41
+I0000 00:00:1785921150.093013   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1293.03
+I0000 00:00:1785921150.361542   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1273.22
+I0000 00:00:1785921150.629645   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1263.37
+I0000 00:00:1785921150.922979   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1230.3
+I0000 00:00:1785921151.192264   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1230.14
+I0000 00:00:1785921151.462490   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1229.33
+I0000 00:00:1785921151.725944   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1233.02
+I0000 00:00:1785921151.995316   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1232.55
+I0000 00:00:1785921152.279147   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1224.33
+I0000 00:00:1785921152.519244   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1433.38
+I0000 00:00:1785921152.727726   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1534.89
+I0000 00:00:1785921152.939381   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1563.71
+I0000 00:00:1785921153.149186   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1581.57
+I0000 00:00:1785921153.378978   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1557.61
+I0000 00:00:1785921153.585361   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1574.9
+I0000 00:00:1785921153.789292   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1589.8
+I0000 00:00:1785921153.996719   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1598.85
+I0000 00:00:1785921154.204337   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1605.19
+I0000 00:00:1785921154.425530   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1597.56
+I0000 00:00:1785921155.124527   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1425.24
+I0000 00:00:1785921155.395356   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1313.51
+I0000 00:00:1785921155.662476   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1287.81
+I0000 00:00:1785921155.928563   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1276.45
+I0000 00:00:1785921156.218630   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1242.75
+I0000 00:00:1785921156.487864   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1240.36
+I0000 00:00:1785921156.753613   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1241.28
+I0000 00:00:1785921157.021201   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1240.34
+I0000 00:00:1785921157.287667   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1240.13
+I0000 00:00:1785921157.569246   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1232.46
+I0000 00:00:1785921157.863920   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1133.26
+I0000 00:00:1785921158.132977   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1179.36
+I0000 00:00:1785921158.401704   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1195.71
+I0000 00:00:1785921158.671736   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1202.51
+I0000 00:00:1785921158.946733   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1201.37
+I0000 00:00:1785921159.158602   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1255.27
+I0000 00:00:1785921159.369218   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1297.45
+I0000 00:00:1785921159.580669   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1330.82
+I0000 00:00:1785921159.794095   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1356.45
+I0000 00:00:1785921160.060144   30412 snapshot_dataset_op.cc:1372] Current read throughput (MBPS): 1344.27
+INFO:tensorflow:Benchmark [SnapshotDatasetBenchmark.read_snappy.eager] iters: 5, wall_time: 2.29731e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.7', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0805 14:42:40.050385 30412 benchmark.py:79] Benchmark [SnapshotDatasetBenchmark.read_snappy.eager] iters: 5, wall_time: 2.29731e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.7', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0000 00:00:1785921160.114797   30412 snapshot_utils.cc:1067] Graph hash is 73c7b728d3559ded, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/73c7b728d3559ded-graph.pbtxt
+I0000 00:00:1785921160.116910   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: 73c7b728d3559ded
+I0000 00:00:1785921161.379610   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 231.788
+I0000 00:00:1785921162.642268   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 230.764
+I0000 00:00:1785921163.893400   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 231.164
+I0000 00:00:1785921165.138829   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 231.592
+I0000 00:00:1785921166.387780   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 231.716
+I0000 00:00:1785921167.629217   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 232.024
+I0000 00:00:1785921168.854517   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 232.686
+I0000 00:00:1785921170.063138   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 233.585
+I0000 00:00:1785921171.270136   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 234.321
+I0000 00:00:1785921172.511721   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 234.247
+I0000 00:00:1785921173.740055   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 234.421
+I0000 00:00:1785921174.958462   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 234.72
+I0000 00:00:1785921176.186990   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 234.819
+I0000 00:00:1785921177.400821   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 235.1
+I0000 00:00:1785921178.619015   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 235.289
+I0000 00:00:1785921179.821080   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 235.651
+I0000 00:00:1785921181.032893   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 235.865
+I0000 00:00:1785921182.239857   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 236.104
+I0000 00:00:1785921183.434596   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 236.447
+I0000 00:00:1785921184.651957   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 236.538
+I0000 00:00:1785921185.867686   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 236.635
+I0000 00:00:1785921187.075628   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 236.792
+I0000 00:00:1785921188.293114   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 236.856
+I0000 00:00:1785921189.523137   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 236.815
+I0000 00:00:1785921190.732546   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 236.935
+I0000 00:00:1785921191.926926   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 237.157
+I0000 00:00:1785921193.105979   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 237.469
+I0000 00:00:1785921194.300607   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 237.654
+I0000 00:00:1785921195.517951   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 237.675
+I0000 00:00:1785921196.714033   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 237.833
+I0000 00:00:1785921197.901287   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.036
+I0000 00:00:1785921199.113773   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.073
+I0000 00:00:1785921200.326579   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.106
+I0000 00:00:1785921201.526805   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.212
+I0000 00:00:1785921202.737100   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.257
+I0000 00:00:1785921203.697731   32164 snapshot_dataset_op.cc:2176] Writing compression achieved: 950.639
+I0000 00:00:1785921203.953393   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.266
+I0000 00:00:1785921205.152047   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.369
+I0000 00:00:1785921206.357034   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.432
+I0000 00:00:1785921207.555597   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.524
+I0000 00:00:1785921208.754488   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.609
+I0000 00:00:1785921209.954968   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.681
+I0000 00:00:1785921211.140854   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.818
+I0000 00:00:1785921212.337628   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.9
+I0000 00:00:1785921213.537619   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.962
+I0000 00:00:1785921214.778036   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.845
+I0000 00:00:1785921216.018840   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.731
+I0000 00:00:1785921217.217091   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.805
+I0000 00:00:1785921218.414968   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.876
+I0000 00:00:1785921219.631595   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.866
+I0000 00:00:1785921220.885941   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 238.707
+INFO:tensorflow:Benchmark [SnapshotDatasetBenchmark.write_gzip.eager] iters: 1, wall_time: 0.000121542, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.1', 'parameters': '500000', 'implementation': 'eager', 'num_elements': 500000}, metrics: None
+I0805 14:43:40.884984 30412 benchmark.py:79] Benchmark [SnapshotDatasetBenchmark.write_gzip.eager] iters: 1, wall_time: 0.000121542, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.1', 'parameters': '500000', 'implementation': 'eager', 'num_elements': 500000}, metrics: None
+I0000 00:00:1785921220.907774   30412 snapshot_utils.cc:1067] Graph hash is 4b0d350dea4d4210, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/4b0d350dea4d4210-graph.pbtxt
+I0000 00:00:1785921220.910056   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: 4b0d350dea4d4210
+I0000 00:00:1785921221.535165   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 477.932
+I0000 00:00:1785921222.198948   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 459.065
+I0000 00:00:1785921222.861881   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 453.39
+I0000 00:00:1785921223.475047   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 459.417
+I0000 00:00:1785921224.093962   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 462.222
+I0000 00:00:1785921224.703995   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 465.23
+I0000 00:00:1785921225.332752   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 465.403
+I0000 00:00:1785921225.957177   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 465.969
+I0000 00:00:1785921226.578196   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 466.714
+I0000 00:00:1785921227.202065   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.099
+I0000 00:00:1785921227.825903   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.392
+I0000 00:00:1785921228.451994   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.482
+I0000 00:00:1785921229.072720   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.876
+I0000 00:00:1785921229.704242   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.658
+I0000 00:00:1785921230.335091   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.463
+I0000 00:00:1785921230.959758   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.596
+I0000 00:00:1785921231.583843   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.742
+I0000 00:00:1785921232.207756   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.889
+I0000 00:00:1785921232.830808   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 468.047
+I0000 00:00:1785921233.444926   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 468.53
+I0000 00:00:1785921234.101991   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.403
+I0000 00:00:1785921243.113256   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 288.078
+I0000 00:00:1785921243.748009   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 292.875
+I0000 00:00:1785921244.384803   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 297.383
+I0000 00:00:1785921245.032601   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 301.519
+I0000 00:00:1785921245.673310   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 305.524
+I0000 00:00:1785921246.308817   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 309.395
+I0000 00:00:1785921246.959589   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 312.902
+I0000 00:00:1785921263.376589   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 197.534
+I0000 00:00:1785921264.182760   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 200.57
+I0000 00:00:1785921264.826322   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 204.259
+I0000 00:00:1785921265.730821   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 206.617
+I0000 00:00:1785921266.358645   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 210.169
+I0000 00:00:1785921268.032445   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 208.829
+I0000 00:00:1785921276.065112   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 183.408
+I0000 00:00:1785921289.886758   18160 snapshot_dataset_op.cc:2176] Writing compression achieved: 0.998937
+I0000 00:00:1785921290.008103   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 150.306
+I0000 00:00:1785921290.619677   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 153.15
+I0000 00:00:1785921291.241432   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 155.923
+I0000 00:00:1785921291.860960   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 158.653
+I0000 00:00:1785921292.467185   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 161.366
+I0000 00:00:1785921293.102200   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 163.969
+I0000 00:00:1785921302.277833   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 148.903
+I0000 00:00:1785921304.549026   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 148.303
+I0000 00:00:1785921305.584624   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 149.909
+I0000 00:00:1785921309.202073   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 147.01
+I0000 00:00:1785921312.220788   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 145.295
+I0000 00:00:1785921313.633413   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 146.199
+I0000 00:00:1785921316.009391   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 145.574
+I0000 00:00:1785921325.078258   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 135.596
+I0000 00:00:1785921337.754960   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 123.268
+INFO:tensorflow:Benchmark [SnapshotDatasetBenchmark.write_simple.eager] iters: 1, wall_time: 0.000233685, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.3', 'parameters': '500000', 'implementation': 'eager', 'num_elements': 500000}, metrics: None
+I0805 14:45:37.752933 30412 benchmark.py:79] Benchmark [SnapshotDatasetBenchmark.write_simple.eager] iters: 1, wall_time: 0.000233685, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.3', 'parameters': '500000', 'implementation': 'eager', 'num_elements': 500000}, metrics: None
+I0000 00:00:1785921339.653576   30412 snapshot_utils.cc:1067] Graph hash is d1d900aeacdf84ce, writing to C:\Users\qchan\AppData\Local\Temp\snapshot_dataset_benchmark_sstfulj\snapshot/d1d900aeacdf84ce-graph.pbtxt
+I0000 00:00:1785921339.671525   30412 snapshot_dataset_op.cc:942] Graph def serialized to hash: d1d900aeacdf84ce
+I0000 00:00:1785921340.267645   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 505.419
+I0000 00:00:1785921340.863535   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 499.26
+I0000 00:00:1785921341.481921   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 490.751
+I0000 00:00:1785921342.082856   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 490.224
+I0000 00:00:1785921342.689717   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 488.964
+I0000 00:00:1785921343.272715   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 491.435
+I0000 00:00:1785921343.852192   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 493.577
+I0000 00:00:1785921344.432002   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 495.184
+I0000 00:00:1785921345.026029   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 495.094
+I0000 00:00:1785921345.626287   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.53
+I0000 00:00:1785921346.216591   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.857
+I0000 00:00:1785921346.811492   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.777
+I0000 00:00:1785921347.407969   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.592
+I0000 00:00:1785921348.011671   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 493.998
+I0000 00:00:1785921348.604406   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.103
+I0000 00:00:1785921349.195180   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.287
+I0000 00:00:1785921349.795393   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 493.995
+I0000 00:00:1785921350.389061   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.031
+I0000 00:00:1785921350.986595   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 493.885
+I0000 00:00:1785921351.591524   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 493.467
+I0000 00:00:1785921352.174546   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 493.967
+I0000 00:00:1785921352.767041   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.058
+I0000 00:00:1785921353.357851   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.208
+I0000 00:00:1785921353.954589   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.139
+I0000 00:00:1785921354.547933   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.192
+I0000 00:00:1785921355.144628   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.135
+I0000 00:00:1785921355.735268   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.267
+I0000 00:00:1785921356.336491   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 494.065
+I0000 00:00:1785921357.004483   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 491.982
+I0000 00:00:1785921357.731450   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 488.444
+I0000 00:00:1785921358.517623   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 483.633
+I0000 00:00:1785921359.269456   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 480.052
+I0000 00:00:1785921359.886894   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 479.931
+I0000 00:00:1785921360.505308   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 479.787
+I0000 00:00:1785921361.111301   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 479.93
+I0000 00:00:1785921361.844174   24928 snapshot_dataset_op.cc:2176] Writing compression achieved: 20.6755
+I0000 00:00:1785921361.966359   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 474.565
+I0000 00:00:1785921362.601840   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 474.23
+I0000 00:00:1785921363.359511   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 471.465
+I0000 00:00:1785921364.069144   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 469.787
+I0000 00:00:1785921364.768683   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 468.39
+I0000 00:00:1785921365.492580   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 466.635
+I0000 00:00:1785921366.160611   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 465.953
+I0000 00:00:1785921366.762749   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 466.446
+I0000 00:00:1785921367.363042   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 466.953
+I0000 00:00:1785921367.966562   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.376
+I0000 00:00:1785921368.564339   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.879
+I0000 00:00:1785921369.229881   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 467.284
+I0000 00:00:1785921369.919077   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 466.34
+I0000 00:00:1785921370.584305   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 465.793
+I0000 00:00:1785921371.576263   30412 snapshot_dataset_op.cc:1796] Current write throughput (MBPS): 460.482
+INFO:tensorflow:Benchmark [SnapshotDatasetBenchmark.write_snappy.eager] iters: 1, wall_time: 6.37899e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.2', 'parameters': '500000', 'implementation': 'eager', 'num_elements': 500000}, metrics: None
+I0805 14:46:11.577559 30412 benchmark.py:79] Benchmark [SnapshotDatasetBenchmark.write_snappy.eager] iters: 1, wall_time: 6.37899e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'snapshot.benchmark.2', 'parameters': '500000', 'implementation': 'eager', 'num_elements': 500000}, metrics: None
+entry {
+  name: "SnapshotDatasetBenchmark.passthrough_simple.eager"
+  iters: 5
+  wall_time: 4.1073837280273439e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100000"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "snapshot.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "SnapshotDatasetBenchmark.read_gzip.eager"
+  iters: 5
+  wall_time: 4.1503579616546632e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100000"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "snapshot.benchmark.6"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "SnapshotDatasetBenchmark.read_simple.eager"
+  iters: 5
+  wall_time: 4.3210663795471194e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100000"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "snapshot.benchmark.5"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "SnapshotDatasetBenchmark.read_snappy.eager"
+  iters: 5
+  wall_time: 2.2973105907440185e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100000"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "snapshot.benchmark.7"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "SnapshotDatasetBenchmark.write_gzip.eager"
+  iters: 1
+  wall_time: 0.0001215417857170105
+  extras {
+    key: "parameters"
+    value {
+      string_value: "500000"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 500000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "snapshot.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "SnapshotDatasetBenchmark.write_simple.eager"
+  iters: 1
+  wall_time: 0.00023368498611450197
+  extras {
+    key: "parameters"
+    value {
+      string_value: "500000"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 500000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "snapshot.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "SnapshotDatasetBenchmark.write_snappy.eager"
+  iters: 1
+  wall_time: 6.3789949417114258e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "500000"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 500000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "snapshot.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+

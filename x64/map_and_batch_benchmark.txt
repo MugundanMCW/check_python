@@ -1,0 +1,564 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785912239.148734   31320 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\qchan\miniforge3\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785912240.553269   31320 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1785912241.125617   31320 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:From C:\Users\qchan\OneDrive\Desktop\Mugudan\tensorflow\tensorflow\python\data\experimental\benchmarks\map_and_batch_benchmark.py:48: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+W0805 12:14:01.150862 31320 deprecation.py:50] From C:\Users\qchan\OneDrive\Desktop\Mugudan\tensorflow\tensorflow\python\data\experimental\benchmarks\map_and_batch_benchmark.py:48: map_and_batch (from tensorflow.python.data.experimental.ops.batching) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.map(map_func, num_parallel_calls)` followed by `tf.data.Dataset.batch(batch_size, drop_remainder)`. Static tf.data optimizations will take care of using the fused implementation.
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_1_batch_size_1.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1.()', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+I0805 12:14:02.057624 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_1_batch_size_1.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1.()', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_1_batch_size_32.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '32.()', 'implementation': 'eager', 'num_elements': 32}, metrics: None
+I0805 12:14:03.178929 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_1_batch_size_32.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '32.()', 'implementation': 'eager', 'num_elements': 32}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_1_batch_size_64.eager] iters: 100, wall_time: 0.000113292, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '64.()', 'implementation': 'eager', 'num_elements': 64}, metrics: None
+I0805 12:14:05.342389 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_1_batch_size_64.eager] iters: 100, wall_time: 0.000113292, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '64.()', 'implementation': 'eager', 'num_elements': 64}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_1_batch_size_128.eager] iters: 100, wall_time: 0.000228837, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '128.()', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+I0805 12:14:11.840461 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_1_batch_size_128.eager] iters: 100, wall_time: 0.000228837, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '128.()', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_1_batch_size_1024.eager] iters: 100, wall_time: 0.00225229, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1024.()', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+I0805 12:21:45.994023 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_1_batch_size_1024.eager] iters: 100, wall_time: 0.00225229, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1024.()', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_10_batch_size_1.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1.(10,)', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+I0805 12:21:46.746409 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_10_batch_size_1.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1.(10,)', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_10_batch_size_32.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '32.(10,)', 'implementation': 'eager', 'num_elements': 32}, metrics: None
+I0805 12:21:47.910264 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_10_batch_size_32.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '32.(10,)', 'implementation': 'eager', 'num_elements': 32}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_10_batch_size_64.eager] iters: 100, wall_time: 0.000160422, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '64.(10,)', 'implementation': 'eager', 'num_elements': 64}, metrics: None
+I0805 12:21:50.476877 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_10_batch_size_64.eager] iters: 100, wall_time: 0.000160422, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '64.(10,)', 'implementation': 'eager', 'num_elements': 64}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_10_batch_size_128.eager] iters: 100, wall_time: 0.000296991, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '128.(10,)', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+I0805 12:21:58.681443 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_10_batch_size_128.eager] iters: 100, wall_time: 0.000296991, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '128.(10,)', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_10_batch_size_1024.eager] iters: 100, wall_time: 0.00114327, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1024.(10,)', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+I0805 12:27:25.465348 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_10_batch_size_1024.eager] iters: 100, wall_time: 0.00114327, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1024.(10,)', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_100_batch_size_1.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1.(10, 10)', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+I0805 12:27:26.595462 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_100_batch_size_1.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1.(10, 10)', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_100_batch_size_32.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '32.(10, 10)', 'implementation': 'eager', 'num_elements': 32}, metrics: None
+I0805 12:27:27.916532 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_100_batch_size_32.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '32.(10, 10)', 'implementation': 'eager', 'num_elements': 32}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_100_batch_size_64.eager] iters: 100, wall_time: 7.8287e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '64.(10, 10)', 'implementation': 'eager', 'num_elements': 64}, metrics: None
+I0805 12:27:29.921974 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_100_batch_size_64.eager] iters: 100, wall_time: 7.8287e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '64.(10, 10)', 'implementation': 'eager', 'num_elements': 64}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_100_batch_size_128.eager] iters: 100, wall_time: 0.000140774, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '128.(10, 10)', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+I0805 12:27:34.989089 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_100_batch_size_128.eager] iters: 100, wall_time: 0.000140774, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '128.(10, 10)', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_100_batch_size_1024.eager] iters: 100, wall_time: 0.00115535, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1024.(10, 10)', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+I0805 12:31:34.583722 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_100_batch_size_1024.eager] iters: 100, wall_time: 0.00115535, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1024.(10, 10)', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_1000_batch_size_1.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1.(10, 10, 10)', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+I0805 12:31:35.708009 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_1000_batch_size_1.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1.(10, 10, 10)', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_1000_batch_size_32.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '32.(10, 10, 10)', 'implementation': 'eager', 'num_elements': 32}, metrics: None
+I0805 12:31:36.988612 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_1000_batch_size_32.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '32.(10, 10, 10)', 'implementation': 'eager', 'num_elements': 32}, metrics: None
+entry {
+  name: "MapAndBatchBenchmark.num_elements_1_batch_size_1.eager"
+  iters: 100
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.()"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_1_batch_size_32.eager"
+  iters: 100
+  extras {
+    key: "parameters"
+    value {
+      string_value: "32.()"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 32
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_1_batch_size_64.eager"
+  iters: 100
+  wall_time: 0.0001132916659116745
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.()"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 64
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_1_batch_size_128.eager"
+  iters: 100
+  wall_time: 0.00022883713245391846
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.()"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 128
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_1_batch_size_1024.eager"
+  iters: 100
+  wall_time: 0.0022522947983816266
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1024.()"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1024
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_10_batch_size_1.eager"
+  iters: 100
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.(10,)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_10_batch_size_32.eager"
+  iters: 100
+  extras {
+    key: "parameters"
+    value {
+      string_value: "32.(10,)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 32
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_10_batch_size_64.eager"
+  iters: 100
+  wall_time: 0.00016042217612266541
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.(10,)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 64
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_10_batch_size_128.eager"
+  iters: 100
+  wall_time: 0.00029699131846427917
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.(10,)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 128
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_10_batch_size_1024.eager"
+  iters: 100
+  wall_time: 0.0011432685423642397
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1024.(10,)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1024
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_100_batch_size_1.eager"
+  iters: 100
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.(10, 10)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_100_batch_size_32.eager"
+  iters: 100
+  extras {
+    key: "parameters"
+    value {
+      string_value: "32.(10, 10)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 32
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_100_batch_size_64.eager"
+  iters: 100
+  wall_time: 7.8286975622177124e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.(10, 10)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 64
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_100_batch_size_128.eager"
+  iters: 100
+  wall_time: 0.00014077406376600266
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.(10, 10)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 128
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_100_batch_size_1024.eager"
+  iters: 100
+  wall_time: 0.0011553510557860136
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1024.(10, 10)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1024
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_1000_batch_size_1.eager"
+  iters: 100
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.(10, 10, 10)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapAndBatchBenchmark.num_elements_1000_batch_size_32.eager"
+  iters: 100
+  extras {
+    key: "parameters"
+    value {
+      string_value: "32.(10, 10, 10)"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 32
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_and_batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_1000_batch_size_64.eager] iters: 100, wall_time: 9.20631e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '64.(10, 10, 10)', 'implementation': 'eager', 'num_elements': 64}, metrics: None
+I0805 12:31:39.253057 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_1000_batch_size_64.eager] iters: 100, wall_time: 9.20631e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '64.(10, 10, 10)', 'implementation': 'eager', 'num_elements': 64}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_1000_batch_size_128.eager] iters: 100, wall_time: 0.000172969, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '128.(10, 10, 10)', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+I0805 12:31:44.999722 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_1000_batch_size_128.eager] iters: 100, wall_time: 0.000172969, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '128.(10, 10, 10)', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_1000_batch_size_1024.eager] iters: 100, wall_time: 0.0017468, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1024.(10, 10, 10)', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+I0805 12:37:50.023817 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_1000_batch_size_1024.eager] iters: 100, wall_time: 0.0017468, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1024.(10, 10, 10)', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_150528_batch_size_1.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1.(224, 224, 3)', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+I0805 12:37:51.119212 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_150528_batch_size_1.eager] iters: 100, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '1.(224, 224, 3)', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_150528_batch_size_32.eager] iters: 100, wall_time: 0.000783309, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '32.(224, 224, 3)', 'implementation': 'eager', 'num_elements': 32}, metrics: None
+I0805 12:37:57.522776 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_150528_batch_size_32.eager] iters: 100, wall_time: 0.000783309, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '32.(224, 224, 3)', 'implementation': 'eager', 'num_elements': 32}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_150528_batch_size_64.eager] iters: 100, wall_time: 0.00141083, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '64.(224, 224, 3)', 'implementation': 'eager', 'num_elements': 64}, metrics: None
+I0805 12:38:17.335141 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_150528_batch_size_64.eager] iters: 100, wall_time: 0.00141083, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '64.(224, 224, 3)', 'implementation': 'eager', 'num_elements': 64}, metrics: None
+INFO:tensorflow:Benchmark [MapAndBatchBenchmark.num_elements_150528_batch_size_128.eager] iters: 100, wall_time: 0.00274207, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '128.(224, 224, 3)', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+I0805 12:39:31.061148 31320 benchmark.py:79] Benchmark [MapAndBatchBenchmark.num_elements_150528_batch_size_128.eager] iters: 100, wall_time: 0.00274207, cpu_time: -1,throughput: -1, extras: {'model_name': 'map_and_batch.benchmark.1', 'parameters': '128.(224, 224, 3)', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+^C

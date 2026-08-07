@@ -1,0 +1,1771 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785920411.866631   26488 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\qchan\miniforge3\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785920413.318585   26488 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1785920413.925247   26488 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+W0000 00:00:1785920413.985065   20380 root_dataset.cc:364] Optimization loop failed: CANCELLED: Operation was cancelled
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '0.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:14.273168 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '0.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+W0000 00:00:1785920414.296347   23620 root_dataset.cc:364] Optimization loop failed: CANCELLED: Operation was cancelled
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '0.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:14.311951 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '0.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '1.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:14.507543 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '1.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '1.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:14.650085 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '1.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '2.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:14.892924 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '2.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '2.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:15.123763 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '2.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_5.eager] iters: 10, wall_time: 0.00011553, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '5.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:15.658084 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_5.eager] iters: 10, wall_time: 0.00011553, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '5.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_5.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '5.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:16.005666 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_5.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '5.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_10.eager] iters: 10, wall_time: 0.000163685, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '10.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:17.048224 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_10.eager] iters: 10, wall_time: 0.000163685, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '10.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_10.eager] iters: 10, wall_time: 2.53046e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '10.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:17.601839 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_10.eager] iters: 10, wall_time: 2.53046e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '10.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_20.eager] iters: 10, wall_time: 0.000303501, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '20.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:19.620184 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_20.eager] iters: 10, wall_time: 0.000303501, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '20.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_20.eager] iters: 10, wall_time: 3.69608e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '20.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:20.654249 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_20.eager] iters: 10, wall_time: 3.69608e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '20.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_50.eager] iters: 10, wall_time: 0.000782036, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '50.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:25.682114 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_noopt_chain_length_50.eager] iters: 10, wall_time: 0.000782036, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '50.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_50.eager] iters: 10, wall_time: 0.000167505, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '50.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:28.047115 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_fusion_opt_chain_length_50.eager] iters: 10, wall_time: 0.000167505, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.3', 'parameters': '50.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '0.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:28.080391 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '0.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '0.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:28.113692 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '0.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '1.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:28.250163 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '1.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+entry {
+  name: "OptimizationBenchmark.filter_fusion_noopt_chain_length_0.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_opt_chain_length_0.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_noopt_chain_length_1.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_opt_chain_length_1.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_noopt_chain_length_2.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_opt_chain_length_2.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_noopt_chain_length_5.eager"
+  iters: 10
+  wall_time: 0.00011553049087524414
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_opt_chain_length_5.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_noopt_chain_length_10.eager"
+  iters: 10
+  wall_time: 0.00016368508338928222
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_opt_chain_length_10.eager"
+  iters: 10
+  wall_time: 2.5304555892944337e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_noopt_chain_length_20.eager"
+  iters: 10
+  wall_time: 0.0003035008907318115
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_opt_chain_length_20.eager"
+  iters: 10
+  wall_time: 3.6960840225219728e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_noopt_chain_length_50.eager"
+  iters: 10
+  wall_time: 0.0007820355892181396
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_fusion_opt_chain_length_50.eager"
+  iters: 10
+  wall_time: 0.00016750454902648927
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_noopt_chain_length_0.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_opt_chain_length_0.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_noopt_chain_length_1.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '1.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:28.391330 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '1.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '2.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:28.628173 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '2.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '2.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:28.845520 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '2.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_5.eager] iters: 10, wall_time: 8.7496e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '5.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:29.384666 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_5.eager] iters: 10, wall_time: 8.7496e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '5.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_5.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '5.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:29.858200 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_5.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '5.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_10.eager] iters: 10, wall_time: 0.000119679, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '10.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:30.884115 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_10.eager] iters: 10, wall_time: 0.000119679, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '10.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_10.eager] iters: 10, wall_time: 5.41389e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '10.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:31.835294 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_10.eager] iters: 10, wall_time: 5.41389e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '10.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_20.eager] iters: 10, wall_time: 0.000313427, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '20.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:33.869995 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_20.eager] iters: 10, wall_time: 0.000313427, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '20.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_20.eager] iters: 10, wall_time: 8.27003e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '20.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:35.586064 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_20.eager] iters: 10, wall_time: 8.27003e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '20.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_50.eager] iters: 10, wall_time: 0.000785795, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '50.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:40.641222 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_noopt_chain_length_50.eager] iters: 10, wall_time: 0.000785795, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '50.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_50.eager] iters: 10, wall_time: 0.00026996, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '50.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:45.352085 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.filter_parallelization_opt_chain_length_50.eager] iters: 10, wall_time: 0.00026996, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.4', 'parameters': '50.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '0.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:45.387920 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '0.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '0.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:45.423379 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '0.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_1.eager] iters: 10, wall_time: 2.01166e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '1.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:45.764403 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_1.eager] iters: 10, wall_time: 2.01166e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '1.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '1.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:45.985937 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '1.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_2.eager] iters: 10, wall_time: 6.12676e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '2.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:46.421470 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_2.eager] iters: 10, wall_time: 6.12676e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '2.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_2.eager] iters: 10, wall_time: 2.3073e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '2.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:46.824941 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_2.eager] iters: 10, wall_time: 2.3073e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '2.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_opt_chain_length_1.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_noopt_chain_length_2.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_opt_chain_length_2.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_noopt_chain_length_5.eager"
+  iters: 10
+  wall_time: 8.7496042251586917e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_opt_chain_length_5.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_noopt_chain_length_10.eager"
+  iters: 10
+  wall_time: 0.00011967897415161133
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_opt_chain_length_10.eager"
+  iters: 10
+  wall_time: 5.41388988494873e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_noopt_chain_length_20.eager"
+  iters: 10
+  wall_time: 0.00031342744827270505
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_opt_chain_length_20.eager"
+  iters: 10
+  wall_time: 8.2700252532958985e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_noopt_chain_length_50.eager"
+  iters: 10
+  wall_time: 0.00078579545021057124
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.filter_parallelization_opt_chain_length_50.eager"
+  iters: 10
+  wall_time: 0.00026996016502380373
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_0.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_0.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_1.eager"
+  iters: 10
+  wall_time: 2.0116567611694336e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_1.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_2.eager"
+  iters: 10
+  wall_time: 6.1267614364624029e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_2.eager"
+  iters: 10
+  wall_time: 2.3072957992553712e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_5.eager] iters: 10, wall_time: 0.000157912, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '5.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:47.840522 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_5.eager] iters: 10, wall_time: 0.000157912, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '5.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_5.eager] iters: 10, wall_time: 9.71901e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '5.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:48.761593 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_5.eager] iters: 10, wall_time: 9.71901e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '5.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_10.eager] iters: 10, wall_time: 0.000318739, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '10.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:50.759512 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_10.eager] iters: 10, wall_time: 0.000318739, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '10.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_10.eager] iters: 10, wall_time: 0.000191952, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '10.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:52.584969 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_10.eager] iters: 10, wall_time: 0.000191952, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '10.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_20.eager] iters: 10, wall_time: 0.000640575, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '20.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:30:56.595772 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_20.eager] iters: 10, wall_time: 0.000640575, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '20.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_20.eager] iters: 10, wall_time: 0.00033487, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '20.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:00.157870 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_20.eager] iters: 10, wall_time: 0.00033487, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '20.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_50.eager] iters: 10, wall_time: 0.0015984, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '50.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:10.060779 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_50.eager] iters: 10, wall_time: 0.0015984, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '50.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_50.eager] iters: 10, wall_time: 0.000956241, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '50.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:19.082323 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_50.eager] iters: 10, wall_time: 0.000956241, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.2', 'parameters': '50.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '0.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:19.113871 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '0.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '0.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:19.183630 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_0.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '0.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '1.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:19.256342 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '1.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '1.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:19.350378 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_1.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '1.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '2.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:19.449718 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '2.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '2.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:19.535963 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_2.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '2.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_5.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '5.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:19.730072 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_5.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '5.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_5.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '5.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:19.836193 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_5.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '5.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_10.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '10.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:20.209881 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_10.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '10.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_5.eager"
+  iters: 10
+  wall_time: 0.0001579117774963379
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_5.eager"
+  iters: 10
+  wall_time: 9.7190141677856441e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_10.eager"
+  iters: 10
+  wall_time: 0.00031873941421508791
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_10.eager"
+  iters: 10
+  wall_time: 0.00019195199012756348
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_20.eager"
+  iters: 10
+  wall_time: 0.00064057469367980954
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_20.eager"
+  iters: 10
+  wall_time: 0.00033486962318420412
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_noopt_chain_length_50.eager"
+  iters: 10
+  wall_time: 0.0015984022617340089
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_and_filter_fusion_opt_chain_length_50.eager"
+  iters: 10
+  wall_time: 0.00095624089241027829
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_noopt_chain_length_0.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_opt_chain_length_0.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_noopt_chain_length_1.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_opt_chain_length_1.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_noopt_chain_length_2.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_opt_chain_length_2.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_noopt_chain_length_5.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_opt_chain_length_5.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_noopt_chain_length_10.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_10.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '10.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:20.315524 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_10.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '10.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_20.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '20.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:21.025605 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_20.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '20.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_20.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '20.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:21.176878 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_20.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '20.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_50.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '50.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:22.942404 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_noopt_chain_length_50.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '50.False', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+INFO:tensorflow:Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_50.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '50.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+I0805 14:31:23.209233 26488 benchmark.py:79] Benchmark [OptimizationBenchmark.map_fusion_opt_chain_length_50.eager] iters: 10, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'optimize.benchmark.1', 'parameters': '50.True', 'implementation': 'eager', 'num_elements': 100}, metrics: None
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_opt_chain_length_10.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_noopt_chain_length_20.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_opt_chain_length_20.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_noopt_chain_length_50.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50.False"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "OptimizationBenchmark.map_fusion_opt_chain_length_50.eager"
+  iters: 10
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50.True"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "optimize.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+

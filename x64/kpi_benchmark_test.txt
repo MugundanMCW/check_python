@@ -1,0 +1,88 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785921047.132625   14916 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\qchan\miniforge3\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785921048.841865   14916 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1785921049.597953   14916 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_constant_2x2] iters: 30000, wall_time: 7.11315, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 140584.755, 'us_per_example': 7.113}, metrics: None
+I0805 14:40:50.140697 14916 benchmark.py:79] Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_constant_2x2] iters: 30000, wall_time: 7.11315, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 140584.755, 'us_per_example': 7.113}, metrics: None
+INFO:tensorflow:Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_convert_to_tensor_2x2] iters: 30000, wall_time: 13.6903, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 73044.266, 'us_per_example': 13.69}, metrics: None
+I0805 14:40:50.598859 14916 benchmark.py:79] Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_convert_to_tensor_2x2] iters: 30000, wall_time: 13.6903, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 73044.266, 'us_per_example': 13.69}, metrics: None
+INFO:tensorflow:Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_function_invocation_identity] iters: 30000, wall_time: 111.494, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 8969.072, 'us_per_example': 111.494}, metrics: None
+I0805 14:40:54.025429 14916 benchmark.py:79] Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_function_invocation_identity] iters: 30000, wall_time: 111.494, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 8969.072, 'us_per_example': 111.494}, metrics: None
+INFO:tensorflow:Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_nn_relu_2x2] iters: 30000, wall_time: 7.98803, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 125187.285, 'us_per_example': 7.988}, metrics: None
+I0805 14:40:54.328065 14916 benchmark.py:79] Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_nn_relu_2x2] iters: 30000, wall_time: 7.98803, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 125187.285, 'us_per_example': 7.988}, metrics: None
+entry {
+  name: "KpiBenchmarks.KpiBenchmarks.benchmark_tf_constant_2x2"
+  iters: 30000
+  wall_time: 7.1131467819213867
+  extras {
+    key: "us_per_example"
+    value {
+      double_value: 7.113
+    }
+  }
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 140584.755
+    }
+  }
+}
+
+entry {
+  name: "KpiBenchmarks.KpiBenchmarks.benchmark_tf_convert_to_tensor_2x2"
+  iters: 30000
+  wall_time: 13.690328598022461
+  extras {
+    key: "us_per_example"
+    value {
+      double_value: 13.69
+    }
+  }
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 73044.266
+    }
+  }
+}
+
+entry {
+  name: "KpiBenchmarks.KpiBenchmarks.benchmark_tf_function_invocation_identity"
+  iters: 30000
+  wall_time: 111.49425506591797
+  extras {
+    key: "us_per_example"
+    value {
+      double_value: 111.494
+    }
+  }
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 8969.072
+    }
+  }
+}
+
+entry {
+  name: "KpiBenchmarks.KpiBenchmarks.benchmark_tf_nn_relu_2x2"
+  iters: 30000
+  wall_time: 7.98803170522054
+  extras {
+    key: "us_per_example"
+    value {
+      double_value: 7.988
+    }
+  }
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 125187.285
+    }
+  }
+}
+

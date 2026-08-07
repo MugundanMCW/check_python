@@ -1,0 +1,1731 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785909712.996090    5440 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\qchan\miniforge3\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785909714.425808    5440 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1785909715.045471    5440 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_0.eager] iters: 5, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '0', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:31:55.379916  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_0.eager] iters: 5, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '0', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_0_single_threaded.eager] iters: 5, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '0', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:31:55.407761  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_0_single_threaded.eager] iters: 5, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '0', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_0_short_circuit.eager] iters: 5, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '0', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:31:55.427668  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_0_short_circuit.eager] iters: 5, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '0', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_1.eager] iters: 5, wall_time: 1.1281e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:31:56.641457  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_1.eager] iters: 5, wall_time: 1.1281e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_1_single_threaded.eager] iters: 5, wall_time: 8.02803e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:31:56.789132  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_1_single_threaded.eager] iters: 5, wall_time: 8.02803e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_1_short_circuit.eager] iters: 5, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:31:56.860310  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_1_short_circuit.eager] iters: 5, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_2.eager] iters: 5, wall_time: 2.17674e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:31:59.228544  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_2.eager] iters: 5, wall_time: 2.17674e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_2_single_threaded.eager] iters: 5, wall_time: 1.74234e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:31:59.482532  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_2_single_threaded.eager] iters: 5, wall_time: 1.74234e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_2_short_circuit.eager] iters: 5, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:31:59.572920  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_2_short_circuit.eager] iters: 5, wall_time: 0, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_5.eager] iters: 5, wall_time: 5.92354e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:32:05.481700  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_5.eager] iters: 5, wall_time: 5.92354e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_5_single_threaded.eager] iters: 5, wall_time: 3.33416e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:32:06.064617  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_5_single_threaded.eager] iters: 5, wall_time: 3.33416e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_5_short_circuit.eager] iters: 5, wall_time: 8.52871e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:32:06.254949  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_5_short_circuit.eager] iters: 5, wall_time: 8.52871e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_10.eager] iters: 5, wall_time: 0.000117827, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:32:18.286474  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_10.eager] iters: 5, wall_time: 0.000117827, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_10_single_threaded.eager] iters: 5, wall_time: 7.94353e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:32:19.403709  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_10_single_threaded.eager] iters: 5, wall_time: 7.94353e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_10_short_circuit.eager] iters: 5, wall_time: 1.52979e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:32:19.737724  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_10_short_circuit.eager] iters: 5, wall_time: 1.52979e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_20.eager] iters: 5, wall_time: 0.000241442, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:32:44.157436  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_20.eager] iters: 5, wall_time: 0.000241442, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_20_single_threaded.eager] iters: 5, wall_time: 1.65537e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:32:46.433170  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_20_single_threaded.eager] iters: 5, wall_time: 1.65537e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_20_short_circuit.eager] iters: 5, wall_time: 3.86593e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:32:47.103030  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_20_short_circuit.eager] iters: 5, wall_time: 3.86593e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+entry {
+  name: "MapBenchmark.chain_length_0.eager"
+  iters: 5
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_0_single_threaded.eager"
+  iters: 5
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_0_short_circuit.eager"
+  iters: 5
+  extras {
+    key: "parameters"
+    value {
+      string_value: "0"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_1.eager"
+  iters: 5
+  wall_time: 1.1280965805053712e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_1_single_threaded.eager"
+  iters: 5
+  wall_time: 8.0280303955078124e-07
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_1_short_circuit.eager"
+  iters: 5
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_2.eager"
+  iters: 5
+  wall_time: 2.1767401695251464e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_2_single_threaded.eager"
+  iters: 5
+  wall_time: 1.7423391342163086e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_2_short_circuit.eager"
+  iters: 5
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_5.eager"
+  iters: 5
+  wall_time: 5.9235405921936036e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_5_single_threaded.eager"
+  iters: 5
+  wall_time: 3.3341646194458009e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_5_short_circuit.eager"
+  iters: 5
+  wall_time: 8.5287094116210936e-07
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_10.eager"
+  iters: 5
+  wall_time: 0.00011782712936401368
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_10_single_threaded.eager"
+  iters: 5
+  wall_time: 7.9435348510742185e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_10_short_circuit.eager"
+  iters: 5
+  wall_time: 1.5297889709472657e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_20.eager"
+  iters: 5
+  wall_time: 0.00024144182205200194
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_20_single_threaded.eager"
+  iters: 5
+  wall_time: 1.6553688049316407e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_20_short_circuit.eager"
+  iters: 5
+  wall_time: 3.8659334182739258e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_50.eager] iters: 5, wall_time: 0.00060211, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:33:48.972498  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_50.eager] iters: 5, wall_time: 0.00060211, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.1', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_50_single_threaded.eager] iters: 5, wall_time: 4.04246e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:33:54.546979  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_50_single_threaded.eager] iters: 5, wall_time: 4.04246e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.2', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.chain_length_50_short_circuit.eager] iters: 5, wall_time: 8.27868e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:33:56.176243  5440 benchmark.py:79] Benchmark [MapBenchmark.chain_length_50_short_circuit.eager] iters: 5, wall_time: 8.27868e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.3', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_1.eager] iters: 5, wall_time: 1.60102e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:33:57.827765  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_1.eager] iters: 5, wall_time: 1.60102e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_1_single_threaded.eager] iters: 5, wall_time: 2.6207e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:33:58.150571  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_1_single_threaded.eager] iters: 5, wall_time: 2.6207e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_1_short_circuit.eager] iters: 5, wall_time: 1.59087e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:33:58.361462  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_1_short_circuit.eager] iters: 5, wall_time: 1.59087e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_2.eager] iters: 5, wall_time: 1.60609e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:00.057426  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_2.eager] iters: 5, wall_time: 1.60609e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_2_single_threaded.eager] iters: 5, wall_time: 3.35362e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:00.432205  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_2_single_threaded.eager] iters: 5, wall_time: 3.35362e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_2_short_circuit.eager] iters: 5, wall_time: 1.38369e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:00.659550  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_2_short_circuit.eager] iters: 5, wall_time: 1.38369e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_5.eager] iters: 5, wall_time: 1.8138e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:02.561548  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_5.eager] iters: 5, wall_time: 1.8138e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_5_single_threaded.eager] iters: 5, wall_time: 4.30009e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:03.043401  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_5_single_threaded.eager] iters: 5, wall_time: 4.30009e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_5_short_circuit.eager] iters: 5, wall_time: 1.96726e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:03.292313  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_5_short_circuit.eager] iters: 5, wall_time: 1.96726e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_10.eager] iters: 5, wall_time: 2.28501e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:05.679572  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_10.eager] iters: 5, wall_time: 2.28501e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_10_single_threaded.eager] iters: 5, wall_time: 5.68559e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:06.372980  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_10_single_threaded.eager] iters: 5, wall_time: 5.68559e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_10_short_circuit.eager] iters: 5, wall_time: 2.40119e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:06.666996  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_10_short_circuit.eager] iters: 5, wall_time: 2.40119e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_20.eager] iters: 5, wall_time: 3.21633e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:10.071518  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_20.eager] iters: 5, wall_time: 3.21633e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_20_single_threaded.eager] iters: 5, wall_time: 1.00425e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:11.184476  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_20_single_threaded.eager] iters: 5, wall_time: 1.00425e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_20_short_circuit.eager] iters: 5, wall_time: 3.2068e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:11.585338  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_20_short_circuit.eager] iters: 5, wall_time: 3.2068e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+
+entry {
+  name: "MapBenchmark.chain_length_50.eager"
+  iters: 5
+  wall_time: 0.00060211040973663329
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_50_single_threaded.eager"
+  iters: 5
+  wall_time: 4.0424609184265137e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.chain_length_50_short_circuit.eager"
+  iters: 5
+  wall_time: 8.2786798477172856e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_1.eager"
+  iters: 5
+  wall_time: 1.6010189056396485e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_1_single_threaded.eager"
+  iters: 5
+  wall_time: 2.6206970214843752e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.5"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_1_short_circuit.eager"
+  iters: 5
+  wall_time: 1.590871810913086e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.6"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_2.eager"
+  iters: 5
+  wall_time: 1.6060853004455565e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_2_single_threaded.eager"
+  iters: 5
+  wall_time: 3.3536195755004884e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.5"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_2_short_circuit.eager"
+  iters: 5
+  wall_time: 1.3836860656738282e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.6"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_5.eager"
+  iters: 5
+  wall_time: 1.8137955665588378e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_5_single_threaded.eager"
+  iters: 5
+  wall_time: 4.3000936508178715e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.5"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_5_short_circuit.eager"
+  iters: 5
+  wall_time: 1.9672632217407228e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.6"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_10.eager"
+  iters: 5
+  wall_time: 2.285010814666748e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_10_single_threaded.eager"
+  iters: 5
+  wall_time: 5.6855916976928713e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.5"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_10_short_circuit.eager"
+  iters: 5
+  wall_time: 2.4011850357055666e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.6"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_20.eager"
+  iters: 5
+  wall_time: 3.2163333892822269e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_20_single_threaded.eager"
+  iters: 5
+  wall_time: 1.0042524337768555e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.5"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_20_short_circuit.eager"
+  iters: 5
+  wall_time: 3.2068014144897462e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.6"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_50.eager] iters: 5, wall_time: 6.17659e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:18.254750  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_50.eager] iters: 5, wall_time: 6.17659e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_50_single_threaded.eager] iters: 5, wall_time: 1.93664e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:20.565029  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_50_single_threaded.eager] iters: 5, wall_time: 1.93664e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_50_short_circuit.eager] iters: 5, wall_time: 4.55668e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:21.233130  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_50_short_circuit.eager] iters: 5, wall_time: 4.55668e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_100.eager] iters: 5, wall_time: 0.000108825, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:32.708123  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_100.eager] iters: 5, wall_time: 0.000108825, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.4', 'parameters': '100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_100_single_threaded.eager] iters: 5, wall_time: 3.59451e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:36.871396  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_100_single_threaded.eager] iters: 5, wall_time: 3.59451e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.5', 'parameters': '100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.fan_out_100_short_circuit.eager] iters: 5, wall_time: 7.38335e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 11:34:37.964827  5440 benchmark.py:79] Benchmark [MapBenchmark.fan_out_100_short_circuit.eager] iters: 5, wall_time: 7.38335e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.6', 'parameters': '100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.map_cycle_length_default.eager] iters: 5, wall_time: 1.09667e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': 'default_None', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+I0805 11:34:40.853280  5440 benchmark.py:79] Benchmark [MapBenchmark.map_cycle_length_default.eager] iters: 5, wall_time: 1.09667e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': 'default_None', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.parallel_map_num_parallel_calls_1_cycle_length_default.eager] iters: 5, wall_time: 1.29063e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': 'default_1', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+I0805 11:34:43.868402  5440 benchmark.py:79] Benchmark [MapBenchmark.parallel_map_num_parallel_calls_1_cycle_length_default.eager] iters: 5, wall_time: 1.29063e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': 'default_1', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.parallel_map_num_parallel_calls_10_cycle_length_default.eager] iters: 5, wall_time: 1.09776e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': 'default_10', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+I0805 11:34:46.571879  5440 benchmark.py:79] Benchmark [MapBenchmark.parallel_map_num_parallel_calls_10_cycle_length_default.eager] iters: 5, wall_time: 1.09776e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': 'default_10', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.parallel_map_num_parallel_calls_100_cycle_length_default.eager] iters: 5, wall_time: 1.44161e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': 'default_100', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+I0805 11:34:49.841631  5440 benchmark.py:79] Benchmark [MapBenchmark.parallel_map_num_parallel_calls_100_cycle_length_default.eager] iters: 5, wall_time: 1.44161e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': 'default_100', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.parallel_map_num_parallel_calls_autotune_cycle_length_default.eager] iters: 5, wall_time: 1.39736e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': 'default_autotune', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+I0805 11:34:53.030915  5440 benchmark.py:79] Benchmark [MapBenchmark.parallel_map_num_parallel_calls_autotune_cycle_length_default.eager] iters: 5, wall_time: 1.39736e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': 'default_autotune', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.map_cycle_length_100.eager] iters: 5, wall_time: 1.33113e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': '100_None', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+I0805 11:34:56.347185  5440 benchmark.py:79] Benchmark [MapBenchmark.map_cycle_length_100.eager] iters: 5, wall_time: 1.33113e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': '100_None', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.parallel_map_num_parallel_calls_1_cycle_length_100.eager] iters: 5, wall_time: 1.78174e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': '100_1', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+I0805 11:35:00.635712  5440 benchmark.py:79] Benchmark [MapBenchmark.parallel_map_num_parallel_calls_1_cycle_length_100.eager] iters: 5, wall_time: 1.78174e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': '100_1', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.parallel_map_num_parallel_calls_10_cycle_length_100.eager] iters: 5, wall_time: 1.81546e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': '100_10', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+I0805 11:35:04.962620  5440 benchmark.py:79] Benchmark [MapBenchmark.parallel_map_num_parallel_calls_10_cycle_length_100.eager] iters: 5, wall_time: 1.81546e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': '100_10', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.parallel_map_num_parallel_calls_100_cycle_length_100.eager] iters: 5, wall_time: 1.96604e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': '100_100', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+I0805 11:35:09.447968  5440 benchmark.py:79] Benchmark [MapBenchmark.parallel_map_num_parallel_calls_100_cycle_length_100.eager] iters: 5, wall_time: 1.96604e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': '100_100', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.parallel_map_num_parallel_calls_autotune_cycle_length_100.eager] iters: 5, wall_time: 1.72878e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': '100_autotune', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+I0805 11:35:13.733088  5440 benchmark.py:79] Benchmark [MapBenchmark.parallel_map_num_parallel_calls_autotune_cycle_length_100.eager] iters: 5, wall_time: 1.72878e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.10', 'parameters': '100_autotune', 'implementation': 'eager', 'num_elements': 20000}, metrics: None
+INFO:tensorflow:Benchmark [MapBenchmark.parallel_control_flow.eager] iters: 5, wall_time: 0.3965, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.9', 'parameters': '1', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+I0805 11:35:25.328432  5440 benchmark.py:79] Benchmark [MapBenchmark.parallel_control_flow.eager] iters: 5, wall_time: 0.3965, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.9', 'parameters': '1', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+
+entry {
+  name: "MapBenchmark.fan_out_50.eager"
+  iters: 5
+  wall_time: 6.1765885353088384e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_50_single_threaded.eager"
+  iters: 5
+  wall_time: 1.936640739440918e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.5"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_50_short_circuit.eager"
+  iters: 5
+  wall_time: 4.556679725646973e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.6"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_100.eager"
+  iters: 5
+  wall_time: 0.00010882461071014404
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_100_single_threaded.eager"
+  iters: 5
+  wall_time: 3.5945057868957519e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.5"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.fan_out_100_short_circuit.eager"
+  iters: 5
+  wall_time: 7.3833465576171875e-06
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.6"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.map_cycle_length_default.eager"
+  iters: 5
+  wall_time: 1.0966682434082031e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "default_None"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 20000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.10"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.parallel_map_num_parallel_calls_1_cycle_length_default.eager"
+  iters: 5
+  wall_time: 1.2906301021575928e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "default_1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 20000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.10"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.parallel_map_num_parallel_calls_10_cycle_length_default.eager"
+  iters: 5
+  wall_time: 1.0977625846862793e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "default_10"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 20000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.10"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.parallel_map_num_parallel_calls_100_cycle_length_default.eager"
+  iters: 5
+  wall_time: 1.4416074752807618e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "default_100"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 20000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.10"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.parallel_map_num_parallel_calls_autotune_cycle_length_default.eager"
+  iters: 5
+  wall_time: 1.3973641395568847e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "default_autotune"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 20000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.10"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.map_cycle_length_100.eager"
+  iters: 5
+  wall_time: 1.3311326503753662e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100_None"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 20000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.10"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.parallel_map_num_parallel_calls_1_cycle_length_100.eager"
+  iters: 5
+  wall_time: 1.7817378044128417e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100_1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 20000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.10"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.parallel_map_num_parallel_calls_10_cycle_length_100.eager"
+  iters: 5
+  wall_time: 1.8154609203338623e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100_10"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 20000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.10"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.parallel_map_num_parallel_calls_100_cycle_length_100.eager"
+  iters: 5
+  wall_time: 1.9660425186157226e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100_100"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 20000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.10"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.parallel_map_num_parallel_calls_autotune_cycle_length_100.eager"
+  iters: 5
+  wall_time: 1.7287838459014894e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100_autotune"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 20000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.10"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "MapBenchmark.parallel_control_flow.eager"
+  iters: 5
+  wall_time: 0.3965001106262207
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.9"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+INFO:tensorflow:Benchmark [MapBenchmark.sequential_control_flow.eager] iters: 5, wall_time: 0.474194, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.8', 'parameters': '1', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+I0805 11:35:30.209554  5440 benchmark.py:79] Benchmark [MapBenchmark.sequential_control_flow.eager] iters: 5, wall_time: 0.474194, cpu_time: -1,throughput: -1, extras: {'model_name': 'map.benchmark.8', 'parameters': '1', 'implementation': 'eager', 'num_elements': 1}, metrics: None
+
+entry {
+  name: "MapBenchmark.sequential_control_flow.eager"
+  iters: 5
+  wall_time: 0.474193811416626
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map.benchmark.8"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+

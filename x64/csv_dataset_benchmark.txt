@@ -1,0 +1,392 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785912092.840017   30052 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\qchan\miniforge3\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785912094.291026   30052 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1785912095.116579   30052 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_float_fused_dataset_with_cols_4.eager] iters: 10, wall_time: 2.00791e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.3', 'parameters': '4', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:11:37.358509 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_float_fused_dataset_with_cols_4.eager] iters: 10, wall_time: 2.00791e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.3', 'parameters': '4', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_float_fused_dataset_with_cols_64.eager] iters: 10, wall_time: 3.01321e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.3', 'parameters': '64', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:11:40.424523 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_float_fused_dataset_with_cols_64.eager] iters: 10, wall_time: 3.01321e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.3', 'parameters': '64', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_float_fused_dataset_with_cols_256.eager] iters: 10, wall_time: 6.09239e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.3', 'parameters': '256', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:11:46.571770 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_float_fused_dataset_with_cols_256.eager] iters: 10, wall_time: 6.09239e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.3', 'parameters': '256', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_strings_fused_dataset_with_cols_4.eager] iters: 10, wall_time: 2.21984e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.4', 'parameters': '4', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:11:48.972484 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_strings_fused_dataset_with_cols_4.eager] iters: 10, wall_time: 2.21984e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.4', 'parameters': '4', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_strings_fused_dataset_with_cols_64.eager] iters: 10, wall_time: 8.00339e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.4', 'parameters': '64', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:11:56.997205 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_strings_fused_dataset_with_cols_64.eager] iters: 10, wall_time: 8.00339e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.4', 'parameters': '64', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_strings_fused_dataset_with_cols_256.eager] iters: 10, wall_time: 0.000280917, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.4', 'parameters': '256', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:12:25.136765 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_strings_fused_dataset_with_cols_256.eager] iters: 10, wall_time: 0.000280917, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.4', 'parameters': '256', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_float_map_decode_csv_with_cols_4.eager] iters: 10, wall_time: 1.55011e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.1', 'parameters': '4', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:12:26.879737 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_float_map_decode_csv_with_cols_4.eager] iters: 10, wall_time: 1.55011e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.1', 'parameters': '4', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_float_map_decode_csv_with_cols_64.eager] iters: 10, wall_time: 4.68667e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.1', 'parameters': '64', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:12:31.842753 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_float_map_decode_csv_with_cols_64.eager] iters: 10, wall_time: 4.68667e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.1', 'parameters': '64', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_float_map_decode_csv_with_cols_256.eager] iters: 10, wall_time: 0.000132544, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.1', 'parameters': '256', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:12:47.249934 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_float_map_decode_csv_with_cols_256.eager] iters: 10, wall_time: 0.000132544, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.1', 'parameters': '256', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_strings_map_decode_csv_with_cols_4.eager] iters: 10, wall_time: 1.91263e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.2', 'parameters': '4', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:12:49.549875 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_strings_map_decode_csv_with_cols_4.eager] iters: 10, wall_time: 1.91263e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.2', 'parameters': '4', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_strings_map_decode_csv_with_cols_64.eager] iters: 10, wall_time: 0.000174037, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.2', 'parameters': '64', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:13:06.471758 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_strings_map_decode_csv_with_cols_64.eager] iters: 10, wall_time: 0.000174037, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.2', 'parameters': '64', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [CsvDatasetBenchmark.csv_strings_map_decode_csv_with_cols_256.eager] iters: 10, wall_time: 0.000511289, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.2', 'parameters': '256', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0805 12:13:58.662043 30052 benchmark.py:79] Benchmark [CsvDatasetBenchmark.csv_strings_map_decode_csv_with_cols_256.eager] iters: 10, wall_time: 0.000511289, cpu_time: -1,throughput: -1, extras: {'model_name': 'csv.benchmark.2', 'parameters': '256', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+entry {
+  name: "CsvDatasetBenchmark.csv_float_fused_dataset_with_cols_4.eager"
+  iters: 10
+  wall_time: 2.007908821105957e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "4"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_float_fused_dataset_with_cols_64.eager"
+  iters: 10
+  wall_time: 3.0132102966308594e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_float_fused_dataset_with_cols_256.eager"
+  iters: 10
+  wall_time: 6.09238862991333e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "256"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.3"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_strings_fused_dataset_with_cols_4.eager"
+  iters: 10
+  wall_time: 2.219843864440918e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "4"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_strings_fused_dataset_with_cols_64.eager"
+  iters: 10
+  wall_time: 8.0033874511718748e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_strings_fused_dataset_with_cols_256.eager"
+  iters: 10
+  wall_time: 0.00028091726303100588
+  extras {
+    key: "parameters"
+    value {
+      string_value: "256"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.4"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_float_map_decode_csv_with_cols_4.eager"
+  iters: 10
+  wall_time: 1.5501141548156737e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "4"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_float_map_decode_csv_with_cols_64.eager"
+  iters: 10
+  wall_time: 4.6866726875305173e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_float_map_decode_csv_with_cols_256.eager"
+  iters: 10
+  wall_time: 0.00013254392147064208
+  extras {
+    key: "parameters"
+    value {
+      string_value: "256"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_strings_map_decode_csv_with_cols_4.eager"
+  iters: 10
+  wall_time: 1.9126272201538087e-05
+  extras {
+    key: "parameters"
+    value {
+      string_value: "4"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_strings_map_decode_csv_with_cols_64.eager"
+  iters: 10
+  wall_time: 0.0001740368366241455
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
+entry {
+  name: "CsvDatasetBenchmark.csv_strings_map_decode_csv_with_cols_256.eager"
+  iters: 10
+  wall_time: 0.00051128940582275393
+  extras {
+    key: "parameters"
+    value {
+      string_value: "256"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "csv.benchmark.2"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+

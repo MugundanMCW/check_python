@@ -1,0 +1,40 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785917841.641306    7316 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+C:\Users\qchan\miniforge3\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.5.0) or chardet (6.0.0.post1)/charset_normalizer (3.4.4) doesn't match a supported version!
+  warnings.warn(
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785917843.015747    7316 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+I0000 00:00:1785917850.602399    7316 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI AVX_VNNI_INT8 AVX_NE_CONVERT FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+INFO:tensorflow:Benchmark [MatchingFilesBenchmark.nested_directory(500*10).eager] iters: 3, wall_time: 0.512011, cpu_time: -1,throughput: -1, extras: {'model_name': 'matching_files.benchmark.1', 'parameters': '500.10', 'implementation': 'eager', 'num_elements': 1000}, metrics: None
+I0805 14:38:40.387779  7316 benchmark.py:79] Benchmark [MatchingFilesBenchmark.nested_directory(500*10).eager] iters: 3, wall_time: 0.512011, cpu_time: -1,throughput: -1, extras: {'model_name': 'matching_files.benchmark.1', 'parameters': '500.10', 'implementation': 'eager', 'num_elements': 1000}, metrics: None
+entry {
+  name: "MatchingFilesBenchmark.nested_directory(500*10).eager"
+  iters: 3
+  wall_time: 0.51201135134696962
+  extras {
+    key: "parameters"
+    value {
+      string_value: "500.10"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1000
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "matching_files.benchmark.1"
+    }
+  }
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+}
+
