@@ -1,0 +1,39 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785900100.821423   17388 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785900102.197783   17388 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Traceback (most recent call last):
+  File "C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\framework\graph_building_benchmark.py", line 97, in <module>
+    test.main()
+    ~~~~~~~~~^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\test.py", line 53, in main
+    return _googletest.main(argv)
+           ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\googletest.py", line 62, in main
+    benchmark.benchmarks_main(true_main=main_wrapper, argv=argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 487, in benchmarks_main
+    app.run(lambda _: _run_benchmarks(regex), argv=argv)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\absl\app.py", line 410, in run
+    _run_main(main, args)
+    ~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\absl\app.py", line 355, in _run_main
+    sys.exit(main(argv))
+             ~~~~^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 487, in <lambda>
+    app.run(lambda _: _run_benchmarks(regex), argv=argv)
+                      ~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 461, in _run_benchmarks
+    instance_benchmark_fn()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\framework\graph_building_benchmark.py", line 73, in benchmarkAddBatchedMatrices
+    x = array_ops.placeholder(
+        shape=[32, 784, 1000], dtype=dtypes.float32, name="x")
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\ops\array_ops.py", line 3035, in placeholder
+    raise RuntimeError("tf.placeholder() is not compatible with "
+                       "eager execution.")
+RuntimeError: tf.placeholder() is not compatible with eager execution.
+
+==================================================
+Benchmark exited with error code 1.

@@ -1,0 +1,1636 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785900102.971869   15880 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785900104.191719   15880 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_1024_batch_size_8.eager] iters: 1, wall_time: 4.13547e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.1024', 'implementation': 'eager', 'num_elements': 65536}, metrics: None
+I0804 20:21:50.185910 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_1024_batch_size_8.eager] iters: 1, wall_time: 4.13547e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.1024', 'implementation': 'eager', 'num_elements': 65536}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_1024_batch_size_64.eager] iters: 1, wall_time: 0.000113917, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.1024', 'implementation': 'eager', 'num_elements': 16384}, metrics: None
+I0804 20:21:53.948802 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_1024_batch_size_64.eager] iters: 1, wall_time: 0.000113917, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.1024', 'implementation': 'eager', 'num_elements': 16384}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_1024_batch_size_512.eager] iters: 1, wall_time: 0.000906767, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.1024', 'implementation': 'eager', 'num_elements': 8192}, metrics: None
+I0804 20:22:08.830893 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_1024_batch_size_512.eager] iters: 1, wall_time: 0.000906767, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.1024', 'implementation': 'eager', 'num_elements': 8192}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_4096_batch_size_8.eager] iters: 1, wall_time: 1.77382e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.4096', 'implementation': 'eager', 'num_elements': 32768}, metrics: None
+I0804 20:22:10.018564 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_4096_batch_size_8.eager] iters: 1, wall_time: 1.77382e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.4096', 'implementation': 'eager', 'num_elements': 32768}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_4096_batch_size_64.eager] iters: 1, wall_time: 0.000137783, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.4096', 'implementation': 'eager', 'num_elements': 8192}, metrics: None
+I0804 20:22:12.290496 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_4096_batch_size_64.eager] iters: 1, wall_time: 0.000137783, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.4096', 'implementation': 'eager', 'num_elements': 8192}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_4096_batch_size_512.eager] iters: 1, wall_time: 0.00130067, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.4096', 'implementation': 'eager', 'num_elements': 4096}, metrics: None
+I0804 20:22:22.986077 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_4096_batch_size_512.eager] iters: 1, wall_time: 0.00130067, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.4096', 'implementation': 'eager', 'num_elements': 4096}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_16384_batch_size_8.eager] iters: 1, wall_time: 3.50289e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.16384', 'implementation': 'eager', 'num_elements': 16384}, metrics: None
+I0804 20:22:24.161633 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_16384_batch_size_8.eager] iters: 1, wall_time: 3.50289e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.16384', 'implementation': 'eager', 'num_elements': 16384}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_16384_batch_size_64.eager] iters: 1, wall_time: 0.000283047, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.16384', 'implementation': 'eager', 'num_elements': 4096}, metrics: None
+I0804 20:22:26.507694 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_16384_batch_size_64.eager] iters: 1, wall_time: 0.000283047, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.16384', 'implementation': 'eager', 'num_elements': 4096}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_16384_batch_size_512.eager] iters: 1, wall_time: 0.00269173, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.16384', 'implementation': 'eager', 'num_elements': 2048}, metrics: None
+I0804 20:22:37.547844 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_16384_batch_size_512.eager] iters: 1, wall_time: 0.00269173, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.16384', 'implementation': 'eager', 'num_elements': 2048}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_65536_batch_size_8.eager] iters: 1, wall_time: 9.84364e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.65536', 'implementation': 'eager', 'num_elements': 8192}, metrics: None
+I0804 20:22:39.191090 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_65536_batch_size_8.eager] iters: 1, wall_time: 9.84364e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.65536', 'implementation': 'eager', 'num_elements': 8192}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_65536_batch_size_64.eager] iters: 1, wall_time: 0.00109636, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.65536', 'implementation': 'eager', 'num_elements': 2048}, metrics: None
+I0804 20:22:43.709769 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_65536_batch_size_64.eager] iters: 1, wall_time: 0.00109636, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.65536', 'implementation': 'eager', 'num_elements': 2048}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_65536_batch_size_512.eager] iters: 1, wall_time: 0.00840767, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.65536', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+I0804 20:23:00.914970 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_65536_batch_size_512.eager] iters: 1, wall_time: 0.00840767, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.65536', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_262144_batch_size_8.eager] iters: 1, wall_time: 0.000506075, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.262144', 'implementation': 'eager', 'num_elements': 4096}, metrics: None
+I0804 20:23:05.124963 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_262144_batch_size_8.eager] iters: 1, wall_time: 0.000506075, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.262144', 'implementation': 'eager', 'num_elements': 4096}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_262144_batch_size_64.eager] iters: 1, wall_time: 0.0038195, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.262144', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+I0804 20:23:13.047304 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_262144_batch_size_64.eager] iters: 1, wall_time: 0.0038195, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.262144', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_262144_batch_size_512.eager] iters: 1, wall_time: 0.030388, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.262144', 'implementation': 'eager', 'num_elements': 512}, metrics: None
+I0804 20:23:44.623893 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_262144_batch_size_512.eager] iters: 1, wall_time: 0.030388, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.262144', 'implementation': 'eager', 'num_elements': 512}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_1048576_batch_size_8.eager] iters: 1, wall_time: 0.00212415, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.1048576', 'implementation': 'eager', 'num_elements': 2048}, metrics: None
+I0804 20:23:53.400427 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_1048576_batch_size_8.eager] iters: 1, wall_time: 0.00212415, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.1048576', 'implementation': 'eager', 'num_elements': 2048}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_1048576_batch_size_64.eager] iters: 1, wall_time: 0.0180429, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.1048576', 'implementation': 'eager', 'num_elements': 512}, metrics: None
+I0804 20:24:11.816932 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_1048576_batch_size_64.eager] iters: 1, wall_time: 0.0180429, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.1048576', 'implementation': 'eager', 'num_elements': 512}, metrics: None
+entry {
+  name: "BatchBenchmark.batch_element_size_1024_batch_size_8.eager"
+  iters: 1
+  wall_time: 4.135474227950908e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 65536.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "8.1024"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_1024_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.00011391706357244402
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 16384.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.1024"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_1024_batch_size_512.eager"
+  iters: 1
+  wall_time: 0.0009067669743672013
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 8192.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "512.1024"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_4096_batch_size_8.eager"
+  iters: 1
+  wall_time: 1.77381734829396e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 32768.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "8.4096"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_4096_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.00013778329594060779
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 8192.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.4096"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_4096_batch_size_512.eager"
+  iters: 1
+  wall_time: 0.0013006695080548525
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 4096.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "512.4096"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_16384_batch_size_8.eager"
+  iters: 1
+  wall_time: 3.502887557260692e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 16384.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "8.16384"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_16384_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.000283047033008188
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 4096.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.16384"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_16384_batch_size_512.eager"
+  iters: 1
+  wall_time: 0.0026917275972664356
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 2048.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "512.16384"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_65536_batch_size_8.eager"
+  iters: 1
+  wall_time: 9.843640145845711e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 8192.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "8.65536"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_65536_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.0010963620152324438
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 2048.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.65536"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_65536_batch_size_512.eager"
+  iters: 1
+  wall_time: 0.008407673565670848
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1024.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "512.65536"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_262144_batch_size_8.eager"
+  iters: 1
+  wall_time: 0.0005060745170339942
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 4096.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "8.262144"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_262144_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.003819498233497143
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1024.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.262144"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_262144_batch_size_512.eager"
+  iters: 1
+  wall_time: 0.030388040468096733
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 512.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "512.262144"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_1048576_batch_size_8.eager"
+  iters: 1
+  wall_time: 0.0021241530776023865
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 2048.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "8.1048576"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_1048576_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.01804290385916829
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 512.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.1048576"
+    }
+  }
+}
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_1048576_batch_size_512.eager] iters: 1, wall_time: 0.138082, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.1048576', 'implementation': 'eager', 'num_elements': 256}, metrics: None
+I0804 20:25:23.373194 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_1048576_batch_size_512.eager] iters: 1, wall_time: 0.138082, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.1048576', 'implementation': 'eager', 'num_elements': 256}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_4194304_batch_size_8.eager] iters: 1, wall_time: 0.00977779, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.4194304', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+I0804 20:25:43.526668 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_4194304_batch_size_8.eager] iters: 1, wall_time: 0.00977779, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '8.4194304', 'implementation': 'eager', 'num_elements': 1024}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_4194304_batch_size_64.eager] iters: 1, wall_time: 0.0786712, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.4194304', 'implementation': 'eager', 'num_elements': 256}, metrics: None
+I0804 20:26:23.781991 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_4194304_batch_size_64.eager] iters: 1, wall_time: 0.0786712, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '64.4194304', 'implementation': 'eager', 'num_elements': 256}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_element_size_4194304_batch_size_512.eager] iters: 1, wall_time: 0.624426, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.4194304', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+I0804 20:29:08.965374 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_element_size_4194304_batch_size_512.eager] iters: 1, wall_time: 0.624426, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.2', 'parameters': '512.4194304', 'implementation': 'eager', 'num_elements': 128}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_0_batch_size_1.eager] iters: 1, wall_time: 2.1721e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1.0', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0804 20:29:09.435005 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_0_batch_size_1.eager] iters: 1, wall_time: 2.1721e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1.0', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_0_batch_size_32.eager] iters: 1, wall_time: 5.78262e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '32.0', 'implementation': 'eager', 'num_elements': 3125}, metrics: None
+I0804 20:29:09.816881 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_0_batch_size_32.eager] iters: 1, wall_time: 5.78262e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '32.0', 'implementation': 'eager', 'num_elements': 3125}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_0_batch_size_64.eager] iters: 1, wall_time: 0.000116223, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '64.0', 'implementation': 'eager', 'num_elements': 1562}, metrics: None
+I0804 20:29:10.200593 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_0_batch_size_64.eager] iters: 1, wall_time: 0.000116223, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '64.0', 'implementation': 'eager', 'num_elements': 1562}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_0_batch_size_128.eager] iters: 1, wall_time: 0.00023672, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '128.0', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+I0804 20:29:10.589236 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_0_batch_size_128.eager] iters: 1, wall_time: 0.00023672, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '128.0', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_0_batch_size_1024.eager] iters: 1, wall_time: 0.00187036, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1024.0', 'implementation': 'eager', 'num_elements': 97}, metrics: None
+I0804 20:29:10.969257 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_0_batch_size_1024.eager] iters: 1, wall_time: 0.00187036, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1024.0', 'implementation': 'eager', 'num_elements': 97}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_1_batch_size_1.eager] iters: 1, wall_time: 2.1685e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1.1', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0804 20:29:11.420833 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_1_batch_size_1.eager] iters: 1, wall_time: 2.1685e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1.1', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_1_batch_size_32.eager] iters: 1, wall_time: 5.9175e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '32.1', 'implementation': 'eager', 'num_elements': 3125}, metrics: None
+I0804 20:29:11.804550 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_1_batch_size_32.eager] iters: 1, wall_time: 5.9175e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '32.1', 'implementation': 'eager', 'num_elements': 3125}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_1_batch_size_64.eager] iters: 1, wall_time: 0.000117911, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '64.1', 'implementation': 'eager', 'num_elements': 1562}, metrics: None
+I0804 20:29:12.185989 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_1_batch_size_64.eager] iters: 1, wall_time: 0.000117911, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '64.1', 'implementation': 'eager', 'num_elements': 1562}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_1_batch_size_128.eager] iters: 1, wall_time: 0.000236714, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '128.1', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+I0804 20:29:12.568692 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_1_batch_size_128.eager] iters: 1, wall_time: 0.000236714, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '128.1', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_1_batch_size_1024.eager] iters: 1, wall_time: 0.00187712, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1024.1', 'implementation': 'eager', 'num_elements': 97}, metrics: None
+I0804 20:29:12.947363 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_1_batch_size_1024.eager] iters: 1, wall_time: 0.00187712, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1024.1', 'implementation': 'eager', 'num_elements': 97}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_5_batch_size_1.eager] iters: 1, wall_time: 2.17636e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1.5', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0804 20:29:13.518808 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_5_batch_size_1.eager] iters: 1, wall_time: 2.17636e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1.5', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_5_batch_size_32.eager] iters: 1, wall_time: 5.84246e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '32.5', 'implementation': 'eager', 'num_elements': 3125}, metrics: None
+I0804 20:29:13.903903 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_5_batch_size_32.eager] iters: 1, wall_time: 5.84246e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '32.5', 'implementation': 'eager', 'num_elements': 3125}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_5_batch_size_64.eager] iters: 1, wall_time: 0.000118638, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '64.5', 'implementation': 'eager', 'num_elements': 1562}, metrics: None
+I0804 20:29:14.289295 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_5_batch_size_64.eager] iters: 1, wall_time: 0.000118638, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '64.5', 'implementation': 'eager', 'num_elements': 1562}, metrics: None
+
+entry {
+  name: "BatchBenchmark.batch_element_size_1048576_batch_size_512.eager"
+  iters: 1
+  wall_time: 0.13808238599449396
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 256.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "512.1048576"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_4194304_batch_size_8.eager"
+  iters: 1
+  wall_time: 0.009777786210179329
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1024.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "8.4194304"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_4194304_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.07867123931646347
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 256.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.4194304"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_element_size_4194304_batch_size_512.eager"
+  iters: 1
+  wall_time: 0.6244264598935843
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 128.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "512.4194304"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_0_batch_size_1.eager"
+  iters: 1
+  wall_time: 2.172098159790039e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.0"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_0_batch_size_32.eager"
+  iters: 1
+  wall_time: 5.782615661621094e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 3125.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "32.0"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_0_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.0001162231044793709
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1562.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.0"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_0_batch_size_128.eager"
+  iters: 1
+  wall_time: 0.00023672003752138183
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 781.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.0"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_0_batch_size_1024.eager"
+  iters: 1
+  wall_time: 0.0018703618000463112
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 97.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1024.0"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_1_batch_size_1.eager"
+  iters: 1
+  wall_time: 2.1685004234313964e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.1"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_1_batch_size_32.eager"
+  iters: 1
+  wall_time: 5.917503356933594e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 3125.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "32.1"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_1_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.00011791126676161371
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1562.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.1"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_1_batch_size_128.eager"
+  iters: 1
+  wall_time: 0.0002367136267785379
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 781.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.1"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_1_batch_size_1024.eager"
+  iters: 1
+  wall_time: 0.0018771161738130235
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 97.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1024.1"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_5_batch_size_1.eager"
+  iters: 1
+  wall_time: 2.176363468170166e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.5"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_5_batch_size_32.eager"
+  iters: 1
+  wall_time: 5.8424606323242185e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 3125.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "32.5"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_5_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.00011863827552746567
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1562.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.5"
+    }
+  }
+}
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_5_batch_size_128.eager] iters: 1, wall_time: 0.000231238, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '128.5', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+I0804 20:29:14.667834 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_5_batch_size_128.eager] iters: 1, wall_time: 0.000231238, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '128.5', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_5_batch_size_1024.eager] iters: 1, wall_time: 0.00186822, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1024.5', 'implementation': 'eager', 'num_elements': 97}, metrics: None
+I0804 20:29:15.045560 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_5_batch_size_1024.eager] iters: 1, wall_time: 0.00186822, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1024.5', 'implementation': 'eager', 'num_elements': 97}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_10_batch_size_1.eager] iters: 1, wall_time: 2.16587e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1.10', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0804 20:29:15.492537 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_10_batch_size_1.eager] iters: 1, wall_time: 2.16587e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1.10', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_10_batch_size_32.eager] iters: 1, wall_time: 5.78662e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '32.10', 'implementation': 'eager', 'num_elements': 3125}, metrics: None
+I0804 20:29:15.872387 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_10_batch_size_32.eager] iters: 1, wall_time: 5.78662e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '32.10', 'implementation': 'eager', 'num_elements': 3125}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_10_batch_size_64.eager] iters: 1, wall_time: 0.000116615, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '64.10', 'implementation': 'eager', 'num_elements': 1562}, metrics: None
+I0804 20:29:16.252658 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_10_batch_size_64.eager] iters: 1, wall_time: 0.000116615, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '64.10', 'implementation': 'eager', 'num_elements': 1562}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_10_batch_size_128.eager] iters: 1, wall_time: 0.000234298, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '128.10', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+I0804 20:29:16.631925 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_10_batch_size_128.eager] iters: 1, wall_time: 0.000234298, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '128.10', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_10_batch_size_1024.eager] iters: 1, wall_time: 0.00184693, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1024.10', 'implementation': 'eager', 'num_elements': 97}, metrics: None
+I0804 20:29:17.007035 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_10_batch_size_1024.eager] iters: 1, wall_time: 0.00184693, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1024.10', 'implementation': 'eager', 'num_elements': 97}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_100_batch_size_1.eager] iters: 1, wall_time: 2.15292e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1.100', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0804 20:29:17.456674 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_100_batch_size_1.eager] iters: 1, wall_time: 2.15292e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1.100', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_100_batch_size_32.eager] iters: 1, wall_time: 5.81008e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '32.100', 'implementation': 'eager', 'num_elements': 3125}, metrics: None
+I0804 20:29:17.840738 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_100_batch_size_32.eager] iters: 1, wall_time: 5.81008e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '32.100', 'implementation': 'eager', 'num_elements': 3125}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_100_batch_size_64.eager] iters: 1, wall_time: 0.000114858, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '64.100', 'implementation': 'eager', 'num_elements': 1562}, metrics: None
+I0804 20:29:18.216272 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_100_batch_size_64.eager] iters: 1, wall_time: 0.000114858, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '64.100', 'implementation': 'eager', 'num_elements': 1562}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_100_batch_size_128.eager] iters: 1, wall_time: 0.00023045, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '128.100', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+I0804 20:29:18.592607 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_100_batch_size_128.eager] iters: 1, wall_time: 0.00023045, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '128.100', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.sparse_num_elements_100_batch_size_1024.eager] iters: 1, wall_time: 0.00188239, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1024.100', 'implementation': 'eager', 'num_elements': 97}, metrics: None
+I0804 20:29:18.976060 15880 benchmark.py:79] Benchmark [BatchBenchmark.sparse_num_elements_100_batch_size_1024.eager] iters: 1, wall_time: 0.00188239, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.1', 'parameters': '1024.100', 'implementation': 'eager', 'num_elements': 97}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_size_128_batch.eager] iters: 1, wall_time: 0.0581567, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.4', 'parameters': '128.None', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+I0804 20:30:49.615793 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_size_128_batch.eager] iters: 1, wall_time: 0.0581567, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.4', 'parameters': '128.None', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_1.eager] iters: 1, wall_time: 0.0622346, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.4', 'parameters': '128.1', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+I0804 20:32:23.531724 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_1.eager] iters: 1, wall_time: 0.0622346, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.4', 'parameters': '128.1', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_4.eager] iters: 1, wall_time: 0.05578, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.4', 'parameters': '128.4', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+I0804 20:33:50.532064 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_4.eager] iters: 1, wall_time: 0.05578, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.4', 'parameters': '128.4', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_16.eager] iters: 1, wall_time: 0.0557899, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.4', 'parameters': '128.16', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+I0804 20:35:17.705223 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_16.eager] iters: 1, wall_time: 0.0557899, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.4', 'parameters': '128.16', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+INFO:tensorflow:Benchmark [BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_autotune.eager] iters: 1, wall_time: 0.0555848, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.4', 'parameters': '128.autotune', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+I0804 20:36:44.491117 15880 benchmark.py:79] Benchmark [BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_autotune.eager] iters: 1, wall_time: 0.0555848, cpu_time: -1,throughput: -1, extras: {'model_name': 'batch.benchmark.4', 'parameters': '128.autotune', 'implementation': 'eager', 'num_elements': 781}, metrics: None
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_5_batch_size_128.eager"
+  iters: 1
+  wall_time: 0.00023123763129592094
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 781.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.5"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_5_batch_size_1024.eager"
+  iters: 1
+  wall_time: 0.0018682234066048848
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 97.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1024.5"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_10_batch_size_1.eager"
+  iters: 1
+  wall_time: 2.1658706665039062e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.10"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_10_batch_size_32.eager"
+  iters: 1
+  wall_time: 5.78662109375e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 3125.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "32.10"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_10_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.00011661492297652436
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1562.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.10"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_10_batch_size_128.eager"
+  iters: 1
+  wall_time: 0.00023429830309370874
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 781.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.10"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_10_batch_size_1024.eager"
+  iters: 1
+  wall_time: 0.0018469279574364731
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 97.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1024.10"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_100_batch_size_1.eager"
+  iters: 1
+  wall_time: 2.1529221534729006e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1.100"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_100_batch_size_32.eager"
+  iters: 1
+  wall_time: 5.8100814819335935e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 3125.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "32.100"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_100_batch_size_64.eager"
+  iters: 1
+  wall_time: 0.0001148576162536074
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1562.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "64.100"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_100_batch_size_128.eager"
+  iters: 1
+  wall_time: 0.00023045002574652014
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 781.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.100"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.sparse_num_elements_100_batch_size_1024.eager"
+  iters: 1
+  wall_time: 0.0018823933355587045
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 97.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1024.100"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_size_128_batch.eager"
+  iters: 1
+  wall_time: 0.058156704933176276
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.4"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 781.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.None"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_1.eager"
+  iters: 1
+  wall_time: 0.062234626078880396
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.4"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 781.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.1"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_4.eager"
+  iters: 1
+  wall_time: 0.05577996812007186
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.4"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 781.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.4"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_16.eager"
+  iters: 1
+  wall_time: 0.05578987851796169
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.4"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 781.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.16"
+    }
+  }
+}
+
+entry {
+  name: "BatchBenchmark.batch_size_128_parallel_batch_num_parallel_calls_autotune.eager"
+  iters: 1
+  wall_time: 0.055584842508489433
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "batch.benchmark.4"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 781.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "128.autotune"
+    }
+  }
+}
+

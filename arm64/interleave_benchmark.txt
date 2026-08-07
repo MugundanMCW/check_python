@@ -1,0 +1,330 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785901020.097876   17084 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785901021.362052   17084 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\data\benchmarks\interleave_benchmark.py:68: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.deterministic`.
+W0804 20:37:01.614661 17084 deprecation.py:50] From C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\data\benchmarks\interleave_benchmark.py:68: parallel_interleave (from tensorflow.python.data.experimental.ops.interleave_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.interleave(map_func, cycle_length, block_length, num_parallel_calls=tf.data.AUTOTUNE)` instead. If sloppy execution is desired, use `tf.data.Options.deterministic`.
+INFO:tensorflow:Benchmark [ParallelInterleaveBenchmark.fast_input_experimental_parallel.eager] iters: 100, wall_time: 2.19821e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.fast_input.0', 'parameters': '200000.10.100.None', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+I0804 20:38:32.414208 17084 benchmark.py:79] Benchmark [ParallelInterleaveBenchmark.fast_input_experimental_parallel.eager] iters: 100, wall_time: 2.19821e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.fast_input.0', 'parameters': '200000.10.100.None', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+INFO:tensorflow:Benchmark [ParallelInterleaveBenchmark.fast_input_core_parallel.eager] iters: 100, wall_time: 2.26105e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.fast_input.1', 'parameters': '200000.10.100.None', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+I0804 20:40:04.047514 17084 benchmark.py:79] Benchmark [ParallelInterleaveBenchmark.fast_input_core_parallel.eager] iters: 100, wall_time: 2.26105e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.fast_input.1', 'parameters': '200000.10.100.None', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+INFO:tensorflow:Benchmark [ParallelInterleaveBenchmark.long_cycle_experimental_parallel.eager] iters: 100, wall_time: 4.8596e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.long_cycle.0', 'parameters': '100000.1000.100.None', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0804 20:42:07.052477 17084 benchmark.py:79] Benchmark [ParallelInterleaveBenchmark.long_cycle_experimental_parallel.eager] iters: 100, wall_time: 4.8596e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.long_cycle.0', 'parameters': '100000.1000.100.None', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+INFO:tensorflow:Benchmark [ParallelInterleaveBenchmark.long_cycle_core_parallel.eager] iters: 100, wall_time: 6.55027e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.long_cycle.1', 'parameters': '100000.1000.100.None', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0804 20:44:50.551301 17084 benchmark.py:79] Benchmark [ParallelInterleaveBenchmark.long_cycle_core_parallel.eager] iters: 100, wall_time: 6.55027e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.long_cycle.1', 'parameters': '100000.1000.100.None', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+INFO:tensorflow:Benchmark [ParallelInterleaveBenchmark.remote_file_simulation_experimental_parallel.eager] iters: 100, wall_time: 0.00155601, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.remote_file.0', 'parameters': '5000.10.100.None', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0804 21:10:54.157802 17084 benchmark.py:79] Benchmark [ParallelInterleaveBenchmark.remote_file_simulation_experimental_parallel.eager] iters: 100, wall_time: 0.00155601, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.remote_file.0', 'parameters': '5000.10.100.None', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [ParallelInterleaveBenchmark.remote_file_simulation_core_parallel.eager] iters: 100, wall_time: 0.00155703, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.remote_file.1', 'parameters': '5000.10.100.None', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+I0804 21:36:55.291190 17084 benchmark.py:79] Benchmark [ParallelInterleaveBenchmark.remote_file_simulation_core_parallel.eager] iters: 100, wall_time: 0.00155703, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.remote_file.1', 'parameters': '5000.10.100.None', 'implementation': 'eager', 'num_elements': 5000}, metrics: None
+INFO:tensorflow:Benchmark [ParallelInterleaveBenchmark.single_cycle_non_parallel.eager] iters: 100, wall_time: 6.68531e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.single_cycle.0', 'parameters': '200000.1.100.None', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+I0804 21:37:22.443063 17084 benchmark.py:79] Benchmark [ParallelInterleaveBenchmark.single_cycle_non_parallel.eager] iters: 100, wall_time: 6.68531e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.single_cycle.0', 'parameters': '200000.1.100.None', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+INFO:tensorflow:Benchmark [ParallelInterleaveBenchmark.single_cycle_experimental_parallel.eager] iters: 100, wall_time: 1.0325e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.single_cycle.1', 'parameters': '200000.1.100.None', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+I0804 21:38:03.316585 17084 benchmark.py:79] Benchmark [ParallelInterleaveBenchmark.single_cycle_experimental_parallel.eager] iters: 100, wall_time: 1.0325e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.single_cycle.1', 'parameters': '200000.1.100.None', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+INFO:tensorflow:Benchmark [ParallelInterleaveBenchmark.single_cycle_core_parallel.eager] iters: 100, wall_time: 2.23504e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.single_cycle.2', 'parameters': '200000.1.100.None', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+I0804 21:39:38.396822 17084 benchmark.py:79] Benchmark [ParallelInterleaveBenchmark.single_cycle_core_parallel.eager] iters: 100, wall_time: 2.23504e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.single_cycle.2', 'parameters': '200000.1.100.None', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+INFO:tensorflow:Benchmark [ParallelInterleaveBenchmark.single_parallel_call_core_parallel.eager] iters: 100, wall_time: 1.06551e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.single_parallel_call.1', 'parameters': '200000.10.100.1', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+I0804 21:40:23.896807 17084 benchmark.py:79] Benchmark [ParallelInterleaveBenchmark.single_parallel_call_core_parallel.eager] iters: 100, wall_time: 1.06551e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'interleave.benchmark.single_parallel_call.1', 'parameters': '200000.10.100.1', 'implementation': 'eager', 'num_elements': 200000}, metrics: None
+entry {
+  name: "ParallelInterleaveBenchmark.fast_input_experimental_parallel.eager"
+  iters: 100
+  wall_time: 2.198212146759033e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "interleave.benchmark.fast_input.0"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 200000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "200000.10.100.None"
+    }
+  }
+}
+
+entry {
+  name: "ParallelInterleaveBenchmark.fast_input_core_parallel.eager"
+  iters: 100
+  wall_time: 2.261050343513489e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "interleave.benchmark.fast_input.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 200000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "200000.10.100.None"
+    }
+  }
+}
+
+entry {
+  name: "ParallelInterleaveBenchmark.long_cycle_experimental_parallel.eager"
+  iters: 100
+  wall_time: 4.859597682952881e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "interleave.benchmark.long_cycle.0"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100000.1000.100.None"
+    }
+  }
+}
+
+entry {
+  name: "ParallelInterleaveBenchmark.long_cycle_core_parallel.eager"
+  iters: 100
+  wall_time: 6.550272703170777e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "interleave.benchmark.long_cycle.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100000.1000.100.None"
+    }
+  }
+}
+
+entry {
+  name: "ParallelInterleaveBenchmark.remote_file_simulation_experimental_parallel.eager"
+  iters: 100
+  wall_time: 0.0015560131311416626
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "interleave.benchmark.remote_file.0"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5000.10.100.None"
+    }
+  }
+}
+
+entry {
+  name: "ParallelInterleaveBenchmark.remote_file_simulation_core_parallel.eager"
+  iters: 100
+  wall_time: 0.0015570257902145386
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "interleave.benchmark.remote_file.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 5000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5000.10.100.None"
+    }
+  }
+}
+
+entry {
+  name: "ParallelInterleaveBenchmark.single_cycle_non_parallel.eager"
+  iters: 100
+  wall_time: 6.68531060218811e-07
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "interleave.benchmark.single_cycle.0"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 200000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "200000.1.100.None"
+    }
+  }
+}
+
+entry {
+  name: "ParallelInterleaveBenchmark.single_cycle_experimental_parallel.eager"
+  iters: 100
+  wall_time: 1.0324960947036744e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "interleave.benchmark.single_cycle.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 200000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "200000.1.100.None"
+    }
+  }
+}
+
+entry {
+  name: "ParallelInterleaveBenchmark.single_cycle_core_parallel.eager"
+  iters: 100
+  wall_time: 2.235041856765747e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "interleave.benchmark.single_cycle.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 200000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "200000.1.100.None"
+    }
+  }
+}
+
+entry {
+  name: "ParallelInterleaveBenchmark.single_parallel_call_core_parallel.eager"
+  iters: 100
+  wall_time: 1.0655057430267334e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "interleave.benchmark.single_parallel_call.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 200000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "200000.10.100.1"
+    }
+  }
+}
+

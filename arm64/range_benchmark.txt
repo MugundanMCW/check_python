@@ -1,0 +1,64 @@
+INFO:tensorflow:Benchmark [RangeBenchmark.modeling_on.eager] iters: 5, wall_time: 1.14788e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'range.benchmark.1', 'parameters': '10000000.True', 'implementation': 'eager', 'num_elements': 10000000}, metrics: None
+I0804 23:07:15.562431 12576 benchmark.py:79] Benchmark [RangeBenchmark.modeling_on.eager] iters: 5, wall_time: 1.14788e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'range.benchmark.1', 'parameters': '10000000.True', 'implementation': 'eager', 'num_elements': 10000000}, metrics: None
+INFO:tensorflow:Benchmark [RangeBenchmark.modeling_off.eager] iters: 5, wall_time: 6.87576e-08, cpu_time: -1,throughput: -1, extras: {'model_name': 'range.benchmark.2', 'parameters': '50000000.False', 'implementation': 'eager', 'num_elements': 50000000}, metrics: None
+I0804 23:07:49.987473 12576 benchmark.py:79] Benchmark [RangeBenchmark.modeling_off.eager] iters: 5, wall_time: 6.87576e-08, cpu_time: -1,throughput: -1, extras: {'model_name': 'range.benchmark.2', 'parameters': '50000000.False', 'implementation': 'eager', 'num_elements': 50000000}, metrics: None
+entry {
+  name: "RangeBenchmark.modeling_on.eager"
+  iters: 5
+  wall_time: 1.1478762626647949e-07
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "range.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10000000.True"
+    }
+  }
+}
+
+entry {
+  name: "RangeBenchmark.modeling_off.eager"
+  iters: 5
+  wall_time: 6.875756263732911e-08
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "range.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 50000000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50000000.False"
+    }
+  }
+}
+

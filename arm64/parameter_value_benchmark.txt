@@ -1,0 +1,26 @@
+WARNING:tensorflow:From C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\autograph\impl\api.py:460: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+W0805 02:01:13.309207 23712 deprecation.py:50] From C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\autograph\impl\api.py:460: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    

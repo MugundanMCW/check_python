@@ -1,0 +1,384 @@
+INFO:tensorflow:Benchmark [UnbatchBenchmark.native_batch_size_1.eager] iters: 5, wall_time: 2.44248e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:05.176288 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.native_batch_size_1.eager] iters: 5, wall_time: 2.44248e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.native_batch_size_2.eager] iters: 5, wall_time: 2.15433e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:05.457271 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.native_batch_size_2.eager] iters: 5, wall_time: 2.15433e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.native_batch_size_5.eager] iters: 5, wall_time: 1.94557e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:05.715175 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.native_batch_size_5.eager] iters: 5, wall_time: 1.94557e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.native_batch_size_10.eager] iters: 5, wall_time: 1.87926e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:05.959994 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.native_batch_size_10.eager] iters: 5, wall_time: 1.87926e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.native_batch_size_20.eager] iters: 5, wall_time: 1.83666e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:06.196732 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.native_batch_size_20.eager] iters: 5, wall_time: 1.83666e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.native_batch_size_50.eager] iters: 5, wall_time: 1.81394e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:06.429623 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.native_batch_size_50.eager] iters: 5, wall_time: 1.81394e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.1', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.unfused_batch_size_1.eager] iters: 5, wall_time: 2.85507e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:09.217988 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.unfused_batch_size_1.eager] iters: 5, wall_time: 2.85507e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '1', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.unfused_batch_size_2.eager] iters: 5, wall_time: 9.92239e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:10.239495 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.unfused_batch_size_2.eager] iters: 5, wall_time: 9.92239e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '2', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.unfused_batch_size_5.eager] iters: 5, wall_time: 5.73158e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:10.862881 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.unfused_batch_size_5.eager] iters: 5, wall_time: 5.73158e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '5', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.unfused_batch_size_10.eager] iters: 5, wall_time: 4.85544e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:11.434691 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.unfused_batch_size_10.eager] iters: 5, wall_time: 4.85544e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '10', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.unfused_batch_size_20.eager] iters: 5, wall_time: 3.87816e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:11.870964 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.unfused_batch_size_20.eager] iters: 5, wall_time: 3.87816e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '20', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [UnbatchBenchmark.unfused_batch_size_50.eager] iters: 5, wall_time: 2.68095e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0805 02:19:12.181695 24820 benchmark.py:79] Benchmark [UnbatchBenchmark.unfused_batch_size_50.eager] iters: 5, wall_time: 2.68095e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'unbatch.benchmark.2', 'parameters': '50', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+entry {
+  name: "UnbatchBenchmark.native_batch_size_1.eager"
+  iters: 5
+  wall_time: 2.442479133605957e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.native_batch_size_2.eager"
+  iters: 5
+  wall_time: 2.1543264389038086e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.native_batch_size_5.eager"
+  iters: 5
+  wall_time: 1.9455671310424803e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.native_batch_size_10.eager"
+  iters: 5
+  wall_time: 1.879262924194336e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.native_batch_size_20.eager"
+  iters: 5
+  wall_time: 1.8366575241088867e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.native_batch_size_50.eager"
+  iters: 5
+  wall_time: 1.8139362335205078e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.unfused_batch_size_1.eager"
+  iters: 5
+  wall_time: 2.855074405670166e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.unfused_batch_size_2.eager"
+  iters: 5
+  wall_time: 9.922385215759277e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "2"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.unfused_batch_size_5.eager"
+  iters: 5
+  wall_time: 5.731582641601562e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.unfused_batch_size_10.eager"
+  iters: 5
+  wall_time: 4.855442047119141e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.unfused_batch_size_20.eager"
+  iters: 5
+  wall_time: 3.878164291381836e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20"
+    }
+  }
+}
+
+entry {
+  name: "UnbatchBenchmark.unfused_batch_size_50.eager"
+  iters: 5
+  wall_time: 2.68094539642334e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "unbatch.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "50"
+    }
+  }
+}
+

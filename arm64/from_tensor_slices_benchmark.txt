@@ -1,0 +1,161 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785901011.894613   10752 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785901013.142031   10752 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+INFO:tensorflow:Benchmark [FromTensorSlicesBenchmark.reshape_slice_repeat_input_10000.eager] iters: 5, wall_time: 5.15676e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.2', 'parameters': '10000', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 20:36:53.654939 10752 benchmark.py:79] Benchmark [FromTensorSlicesBenchmark.reshape_slice_repeat_input_10000.eager] iters: 5, wall_time: 5.15676e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.2', 'parameters': '10000', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [FromTensorSlicesBenchmark.slice_batch_cache_repeat_input_10000_batch_100.eager] iters: 5, wall_time: 5.36346e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.4', 'parameters': '10000.100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 20:36:53.757008 10752 benchmark.py:79] Benchmark [FromTensorSlicesBenchmark.slice_batch_cache_repeat_input_10000_batch_100.eager] iters: 5, wall_time: 5.36346e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.4', 'parameters': '10000.100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [FromTensorSlicesBenchmark.slice_repeat_batch_input_10000_batch_100.eager] iters: 5, wall_time: 5.53278e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.1', 'parameters': '10000.100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 20:36:59.458145 10752 benchmark.py:79] Benchmark [FromTensorSlicesBenchmark.slice_repeat_batch_input_10000_batch_100.eager] iters: 5, wall_time: 5.53278e-05, cpu_time: -1,throughput: -1, extras: {'model_name': 'from_tensor_slices.benchmark.1', 'parameters': '10000.100', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+WARNING:tensorflow:From C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\autograph\impl\api.py:460: get_single_element (from tensorflow.python.data.experimental.ops.get_single_element) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.get_single_element()`.
+W0804 20:36:59.501402 10752 deprecation.py:50] From C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\autograph\impl\api.py:460: get_single_element (from tensorflow.python.data.experimental.ops.get_single_element) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.data.Dataset.get_single_element()`.
+entry {
+  name: "FromTensorSlicesBenchmark.reshape_slice_repeat_input_10000.eager"
+  iters: 5
+  wall_time: 5.156755447387695e-07
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "from_tensor_slices.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10000"
+    }
+  }
+}
+
+entry {
+  name: "FromTensorSlicesBenchmark.slice_batch_cache_repeat_input_10000_batch_100.eager"
+  iters: 5
+  wall_time: 5.36346435546875e-07
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "from_tensor_slices.benchmark.4"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10000.100"
+    }
+  }
+}
+
+entry {
+  name: "FromTensorSlicesBenchmark.slice_repeat_batch_input_10000_batch_100.eager"
+  iters: 5
+  wall_time: 5.532784461975098e-05
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "from_tensor_slices.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10000.100"
+    }
+  }
+}
+
+Traceback (most recent call last):
+  File "C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\data\benchmarks\from_tensor_slices_benchmark.py", line 161, in <module>
+    benchmark_base.test.main()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\test.py", line 53, in main
+    return _googletest.main(argv)
+           ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\googletest.py", line 62, in main
+    benchmark.benchmarks_main(true_main=main_wrapper, argv=argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 487, in benchmarks_main
+    app.run(lambda _: _run_benchmarks(regex), argv=argv)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\absl\app.py", line 410, in run
+    _run_main(main, args)
+    ~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\absl\app.py", line 355, in _run_main
+    sys.exit(main(argv))
+             ~~~~^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 487, in <lambda>
+    app.run(lambda _: _run_benchmarks(regex), argv=argv)
+                      ~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 461, in _run_benchmarks
+    instance_benchmark_fn()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\data\benchmarks\from_tensor_slices_benchmark.py", line 127, in benchmark_slice_repeat_sparse
+    make_dataset(),
+    ~~~~~~~~~~~~^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\util\traceback_utils.py", line 167, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\msys64\tmp\__autograph_generated_filemup6blc9.py", line 21, in tf__make_dataset
+    raise
+  File "C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\data\benchmarks\from_tensor_slices_benchmark.py", line 33, in __init__
+    self._map_func = structured_function.StructuredFunctionWrapper(
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        map_func,
+        ^^^^^^^^^
+        self._transformation_name(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        dataset=input_dataset,
+        ^^^^^^^^^^^^^^^^^^^^^^
+        defun_kwargs={"_executor": "SINGLE_THREADED_EXECUTOR"})
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: in user code:
+
+    File "C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\data\benchmarks\from_tensor_slices_benchmark.py", line 124, in make_dataset  *
+        dataset, dataset_ops.Dataset.from_tensor_slices)
+    File "C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\data\benchmarks\from_tensor_slices_benchmark.py", line 33, in __init__  **
+        self._map_func = structured_function.StructuredFunctionWrapper(
+
+    ValueError: `_executor is not supported by tf.function as an attribute.
+
+
+==================================================
+Benchmark exited with error code 1.

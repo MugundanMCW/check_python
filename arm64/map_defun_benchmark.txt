@@ -1,0 +1,208 @@
+INFO:tensorflow:Benchmark [MapDefunBenchmark.with_defun_size_10] iters: 1000, wall_time: 1e-100, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 1e+100, 'model_name': 'map_defun.benchmark.1', 'parameters': '1000'}, metrics: None
+I0805 01:15:48.233571 26552 benchmark.py:79] Benchmark [MapDefunBenchmark.with_defun_size_10] iters: 1000, wall_time: 1e-100, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 1e+100, 'model_name': 'map_defun.benchmark.1', 'parameters': '1000'}, metrics: None
+INFO:tensorflow:Benchmark [MapDefunBenchmark.without_defun_size_10] iters: 1000, wall_time: 6.50883e-05, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 15363.750915750916, 'model_name': 'map_defun.benchmark.2', 'parameters': '1000'}, metrics: None
+I0805 01:15:48.375052 26552 benchmark.py:79] Benchmark [MapDefunBenchmark.without_defun_size_10] iters: 1000, wall_time: 6.50883e-05, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 15363.750915750916, 'model_name': 'map_defun.benchmark.2', 'parameters': '1000'}, metrics: None
+INFO:tensorflow:Benchmark [MapDefunBenchmark.with_defun_size_100] iters: 100, wall_time: 1e-100, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 1e+100, 'model_name': 'map_defun.benchmark.1', 'parameters': '100'}, metrics: None
+I0805 01:15:50.193439 26552 benchmark.py:79] Benchmark [MapDefunBenchmark.with_defun_size_100] iters: 100, wall_time: 1e-100, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 1e+100, 'model_name': 'map_defun.benchmark.1', 'parameters': '100'}, metrics: None
+INFO:tensorflow:Benchmark [MapDefunBenchmark.without_defun_size_100] iters: 100, wall_time: 6.62804e-05, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 15087.424460431655, 'model_name': 'map_defun.benchmark.2', 'parameters': '100'}, metrics: None
+I0805 01:15:50.207937 26552 benchmark.py:79] Benchmark [MapDefunBenchmark.without_defun_size_100] iters: 100, wall_time: 6.62804e-05, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 15087.424460431655, 'model_name': 'map_defun.benchmark.2', 'parameters': '100'}, metrics: None
+INFO:tensorflow:Benchmark [MapDefunBenchmark.with_defun_size_1000] iters: 10, wall_time: 1e-100, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 1e+100, 'model_name': 'map_defun.benchmark.1', 'parameters': '10'}, metrics: None
+I0805 01:15:52.153574 26552 benchmark.py:79] Benchmark [MapDefunBenchmark.with_defun_size_1000] iters: 10, wall_time: 1e-100, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 1e+100, 'model_name': 'map_defun.benchmark.1', 'parameters': '10'}, metrics: None
+INFO:tensorflow:Benchmark [MapDefunBenchmark.without_defun_size_1000] iters: 10, wall_time: 7.4029e-05, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 13508.225442834138, 'model_name': 'map_defun.benchmark.2', 'parameters': '10'}, metrics: None
+I0805 01:15:52.157147 26552 benchmark.py:79] Benchmark [MapDefunBenchmark.without_defun_size_1000] iters: 10, wall_time: 7.4029e-05, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 13508.225442834138, 'model_name': 'map_defun.benchmark.2', 'parameters': '10'}, metrics: None
+INFO:tensorflow:Benchmark [MapDefunBenchmark.with_defun_size_10000] iters: 1, wall_time: 2.38419e-07, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 4194304.0, 'model_name': 'map_defun.benchmark.1', 'parameters': '1'}, metrics: None
+I0805 01:15:54.043129 26552 benchmark.py:79] Benchmark [MapDefunBenchmark.with_defun_size_10000] iters: 1, wall_time: 2.38419e-07, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 4194304.0, 'model_name': 'map_defun.benchmark.1', 'parameters': '1'}, metrics: None
+INFO:tensorflow:Benchmark [MapDefunBenchmark.without_defun_size_10000] iters: 1, wall_time: 8.74996e-05, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 11428.621253405994, 'model_name': 'map_defun.benchmark.2', 'parameters': '1'}, metrics: None
+I0805 01:15:54.044138 26552 benchmark.py:79] Benchmark [MapDefunBenchmark.without_defun_size_10000] iters: 1, wall_time: 8.74996e-05, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 11428.621253405994, 'model_name': 'map_defun.benchmark.2', 'parameters': '1'}, metrics: None
+entry {
+  name: "MapDefunBenchmark.with_defun_size_10"
+  iters: 1000
+  wall_time: 1e-100
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 1e+100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_defun.benchmark.1"
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1000"
+    }
+  }
+}
+
+entry {
+  name: "MapDefunBenchmark.without_defun_size_10"
+  iters: 1000
+  wall_time: 6.508827209472656e-05
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 15363.750915750916
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_defun.benchmark.2"
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1000"
+    }
+  }
+}
+
+entry {
+  name: "MapDefunBenchmark.with_defun_size_100"
+  iters: 100
+  wall_time: 1e-100
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 1e+100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_defun.benchmark.1"
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100"
+    }
+  }
+}
+
+entry {
+  name: "MapDefunBenchmark.without_defun_size_100"
+  iters: 100
+  wall_time: 6.628036499023438e-05
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 15087.424460431655
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_defun.benchmark.2"
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100"
+    }
+  }
+}
+
+entry {
+  name: "MapDefunBenchmark.with_defun_size_1000"
+  iters: 10
+  wall_time: 1e-100
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 1e+100
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_defun.benchmark.1"
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+}
+
+entry {
+  name: "MapDefunBenchmark.without_defun_size_1000"
+  iters: 10
+  wall_time: 7.402896881103516e-05
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 13508.225442834138
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_defun.benchmark.2"
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+}
+
+entry {
+  name: "MapDefunBenchmark.with_defun_size_10000"
+  iters: 1
+  wall_time: 2.384185791015625e-07
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 4194304.0
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_defun.benchmark.1"
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+}
+
+entry {
+  name: "MapDefunBenchmark.without_defun_size_10000"
+  iters: 1
+  wall_time: 8.749961853027344e-05
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 11428.621253405994
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "map_defun.benchmark.2"
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+}
+

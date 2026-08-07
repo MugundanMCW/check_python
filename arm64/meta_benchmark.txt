@@ -1,0 +1,92 @@
+INFO:tensorflow:Benchmark [MetaBenchmark.benchmark_fast_dataset_in_eager] iters: 100000, wall_time: 2.24443e-05, cpu_time: -1,throughput: -1, extras: {'iters_per_second': np.float64(44554.75310300338), 'median': np.float64(2.2444294499582612e-05), 'mean': np.float64(2.2445676700095647e-05), 'min': np.float64(2.2355977999977768e-05), 'max': np.float64(2.257469500065781e-05), 'num_reps': 10}, metrics: None
+I0804 23:05:55.253694 29968 benchmark.py:79] Benchmark [MetaBenchmark.benchmark_fast_dataset_in_eager] iters: 100000, wall_time: 2.24443e-05, cpu_time: -1,throughput: -1, extras: {'iters_per_second': np.float64(44554.75310300338), 'median': np.float64(2.2444294499582612e-05), 'mean': np.float64(2.2445676700095647e-05), 'min': np.float64(2.2355977999977768e-05), 'max': np.float64(2.257469500065781e-05), 'num_reps': 10}, metrics: None
+entry {
+  name: "MetaBenchmark.benchmark_fast_dataset_in_eager"
+  iters: 100000
+  wall_time: 2.2444294499582612e-05
+  extras {
+    key: "iters_per_second"
+    value {
+      double_value: 44554.75310300338
+    }
+  }
+  extras {
+    key: "max"
+    value {
+      double_value: 2.257469500065781e-05
+    }
+  }
+  extras {
+    key: "mean"
+    value {
+      double_value: 2.2445676700095647e-05
+    }
+  }
+  extras {
+    key: "median"
+    value {
+      double_value: 2.2444294499582612e-05
+    }
+  }
+  extras {
+    key: "min"
+    value {
+      double_value: 2.2355977999977768e-05
+    }
+  }
+  extras {
+    key: "num_reps"
+    value {
+      double_value: 10.0
+    }
+  }
+}
+
+Traceback (most recent call last):
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\data\ops\dataset_ops.py", line 4399, in make_initializable_iterator
+    return dataset._make_initializable_iterator(shared_name)  # pylint: disable=protected-access
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_SkipDataset' object has no attribute '_make_initializable_iterator'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\data\benchmarks\meta_benchmark.py", line 149, in <module>
+    test.main()
+    ~~~~~~~~~^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\test.py", line 53, in main
+    return _googletest.main(argv)
+           ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\googletest.py", line 62, in main
+    benchmark.benchmarks_main(true_main=main_wrapper, argv=argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 487, in benchmarks_main
+    app.run(lambda _: _run_benchmarks(regex), argv=argv)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\absl\app.py", line 410, in run
+    _run_main(main, args)
+    ~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\absl\app.py", line 355, in _run_main
+    sys.exit(main(argv))
+             ~~~~^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 487, in <lambda>
+    app.run(lambda _: _run_benchmarks(regex), argv=argv)
+                      ~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\platform\benchmark.py", line 461, in _run_benchmarks
+    instance_benchmark_fn()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\data\benchmarks\meta_benchmark.py", line 43, in benchmark_fast_dataset_with_only_cpp_iterations
+    self.run_benchmark_with_only_cpp_iterations(dataset)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\HCKTest\Desktop\Mugundan\tensorflow\tensorflow\python\data\benchmarks\meta_benchmark.py", line 136, in run_benchmark_with_only_cpp_iterations
+    iterator = dataset_ops.make_initializable_iterator(dataset)
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\data\ops\dataset_ops.py", line 4401, in make_initializable_iterator
+    return DatasetV1Adapter(dataset)._make_initializable_iterator(shared_name)  # pylint: disable=protected-access
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\HCKTest\AppData\Local\Programs\Python\Python313-arm64\Lib\site-packages\tensorflow\python\data\ops\dataset_ops.py", line 3898, in _make_initializable_iterator
+    raise RuntimeError("`make_initializable_iterator()` is not supported in "
+                       "eager mode. Use Python-style iteration instead.")
+RuntimeError: `make_initializable_iterator()` is not supported in eager mode. Use Python-style iteration instead.
+
+==================================================
+Benchmark exited with error code 1.

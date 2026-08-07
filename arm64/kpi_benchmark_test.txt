@@ -1,0 +1,80 @@
+INFO:tensorflow:Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_constant_2x2] iters: 30000, wall_time: 7.2691, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 137568.681, 'us_per_example': 7.269}, metrics: None
+I0805 02:19:14.685561 27140 benchmark.py:79] Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_constant_2x2] iters: 30000, wall_time: 7.2691, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 137568.681, 'us_per_example': 7.269}, metrics: None
+INFO:tensorflow:Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_convert_to_tensor_2x2] iters: 30000, wall_time: 13.2886, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 75252.33, 'us_per_example': 13.289}, metrics: None
+I0805 02:19:15.150516 27140 benchmark.py:79] Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_convert_to_tensor_2x2] iters: 30000, wall_time: 13.2886, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 75252.33, 'us_per_example': 13.289}, metrics: None
+INFO:tensorflow:Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_function_invocation_identity] iters: 30000, wall_time: 124.784, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 8013.83, 'us_per_example': 124.784}, metrics: None
+I0805 02:19:18.987858 27140 benchmark.py:79] Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_function_invocation_identity] iters: 30000, wall_time: 124.784, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 8013.83, 'us_per_example': 124.784}, metrics: None
+INFO:tensorflow:Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_nn_relu_2x2] iters: 30000, wall_time: 7.25411, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 137852.928, 'us_per_example': 7.254}, metrics: None
+I0805 02:19:19.278401 27140 benchmark.py:79] Benchmark [KpiBenchmarks.KpiBenchmarks.benchmark_tf_nn_relu_2x2] iters: 30000, wall_time: 7.25411, cpu_time: -1,throughput: -1, extras: {'examples_per_sec': 137852.928, 'us_per_example': 7.254}, metrics: None
+entry {
+  name: "KpiBenchmarks.KpiBenchmarks.benchmark_tf_constant_2x2"
+  iters: 30000
+  wall_time: 7.269096374511719
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 137568.681
+    }
+  }
+  extras {
+    key: "us_per_example"
+    value {
+      double_value: 7.269
+    }
+  }
+}
+
+entry {
+  name: "KpiBenchmarks.KpiBenchmarks.benchmark_tf_convert_to_tensor_2x2"
+  iters: 30000
+  wall_time: 13.288625081380209
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 75252.33
+    }
+  }
+  extras {
+    key: "us_per_example"
+    value {
+      double_value: 13.289
+    }
+  }
+}
+
+entry {
+  name: "KpiBenchmarks.KpiBenchmarks.benchmark_tf_function_invocation_identity"
+  iters: 30000
+  wall_time: 124.7842788696289
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 8013.83
+    }
+  }
+  extras {
+    key: "us_per_example"
+    value {
+      double_value: 124.784
+    }
+  }
+}
+
+entry {
+  name: "KpiBenchmarks.KpiBenchmarks.benchmark_tf_nn_relu_2x2"
+  iters: 30000
+  wall_time: 7.2541077931722
+  extras {
+    key: "examples_per_sec"
+    value {
+      double_value: 137852.928
+    }
+  }
+  extras {
+    key: "us_per_example"
+    value {
+      double_value: 7.254
+    }
+  }
+}
+

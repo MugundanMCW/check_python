@@ -1,0 +1,160 @@
+INFO:tensorflow:Benchmark [PrefetchBenchmark.prefetch_1.eager] iters: 5, wall_time: 2.32367e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'prefetch.benchmark.1', 'parameters': '1', 'implementation': 'eager', 'num_elements': 1000000}, metrics: None
+I0804 23:06:23.648836 29712 benchmark.py:79] Benchmark [PrefetchBenchmark.prefetch_1.eager] iters: 5, wall_time: 2.32367e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'prefetch.benchmark.1', 'parameters': '1', 'implementation': 'eager', 'num_elements': 1000000}, metrics: None
+INFO:tensorflow:Benchmark [PrefetchBenchmark.prefetch_5.eager] iters: 5, wall_time: 1.02499e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'prefetch.benchmark.1', 'parameters': '5', 'implementation': 'eager', 'num_elements': 1000000}, metrics: None
+I0804 23:06:33.681892 29712 benchmark.py:79] Benchmark [PrefetchBenchmark.prefetch_5.eager] iters: 5, wall_time: 1.02499e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'prefetch.benchmark.1', 'parameters': '5', 'implementation': 'eager', 'num_elements': 1000000}, metrics: None
+INFO:tensorflow:Benchmark [PrefetchBenchmark.prefetch_10.eager] iters: 5, wall_time: 9.10385e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'prefetch.benchmark.1', 'parameters': '10', 'implementation': 'eager', 'num_elements': 1000000}, metrics: None
+I0804 23:06:42.947615 29712 benchmark.py:79] Benchmark [PrefetchBenchmark.prefetch_10.eager] iters: 5, wall_time: 9.10385e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'prefetch.benchmark.1', 'parameters': '10', 'implementation': 'eager', 'num_elements': 1000000}, metrics: None
+INFO:tensorflow:Benchmark [PrefetchBenchmark.prefetch_20.eager] iters: 5, wall_time: 9.08504e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'prefetch.benchmark.1', 'parameters': '20', 'implementation': 'eager', 'num_elements': 1000000}, metrics: None
+I0804 23:06:51.972137 29712 benchmark.py:79] Benchmark [PrefetchBenchmark.prefetch_20.eager] iters: 5, wall_time: 9.08504e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'prefetch.benchmark.1', 'parameters': '20', 'implementation': 'eager', 'num_elements': 1000000}, metrics: None
+INFO:tensorflow:Benchmark [PrefetchBenchmark.prefetch_100.eager] iters: 5, wall_time: 9.48361e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'prefetch.benchmark.1', 'parameters': '100', 'implementation': 'eager', 'num_elements': 1000000}, metrics: None
+I0804 23:07:01.593420 29712 benchmark.py:79] Benchmark [PrefetchBenchmark.prefetch_100.eager] iters: 5, wall_time: 9.48361e-07, cpu_time: -1,throughput: -1, extras: {'model_name': 'prefetch.benchmark.1', 'parameters': '100', 'implementation': 'eager', 'num_elements': 1000000}, metrics: None
+entry {
+  name: "PrefetchBenchmark.prefetch_1.eager"
+  iters: 5
+  wall_time: 2.3236722946166992e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "prefetch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1000000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "1"
+    }
+  }
+}
+
+entry {
+  name: "PrefetchBenchmark.prefetch_5.eager"
+  iters: 5
+  wall_time: 1.0249881744384766e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "prefetch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1000000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "5"
+    }
+  }
+}
+
+entry {
+  name: "PrefetchBenchmark.prefetch_10.eager"
+  iters: 5
+  wall_time: 9.103848934173584e-07
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "prefetch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1000000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "10"
+    }
+  }
+}
+
+entry {
+  name: "PrefetchBenchmark.prefetch_20.eager"
+  iters: 5
+  wall_time: 9.085040092468261e-07
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "prefetch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1000000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "20"
+    }
+  }
+}
+
+entry {
+  name: "PrefetchBenchmark.prefetch_100.eager"
+  iters: 5
+  wall_time: 9.483613967895508e-07
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "prefetch.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1000000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100"
+    }
+  }
+}
+

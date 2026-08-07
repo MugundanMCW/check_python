@@ -1,0 +1,68 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785901006.102207   15024 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1785901007.410175   15024 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+INFO:tensorflow:Benchmark [FilterBenchmark.return_component.eager] iters: 5, wall_time: 1.65743e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'filter.benchmark.2', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0804 20:36:49.585868 15024 benchmark.py:79] Benchmark [FilterBenchmark.return_component.eager] iters: 5, wall_time: 1.65743e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'filter.benchmark.2', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+INFO:tensorflow:Benchmark [FilterBenchmark.simple_function.eager] iters: 5, wall_time: 1.64875e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'filter.benchmark.1', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+I0804 20:36:51.303718 15024 benchmark.py:79] Benchmark [FilterBenchmark.simple_function.eager] iters: 5, wall_time: 1.64875e-06, cpu_time: -1,throughput: -1, extras: {'model_name': 'filter.benchmark.1', 'parameters': '100000', 'implementation': 'eager', 'num_elements': 100000}, metrics: None
+entry {
+  name: "FilterBenchmark.return_component.eager"
+  iters: 5
+  wall_time: 1.6574335098266602e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "filter.benchmark.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100000"
+    }
+  }
+}
+
+entry {
+  name: "FilterBenchmark.simple_function.eager"
+  iters: 5
+  wall_time: 1.6487479209899903e-06
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "filter.benchmark.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 100000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "100000"
+    }
+  }
+}
+

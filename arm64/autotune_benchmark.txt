@@ -1,0 +1,390 @@
+INFO:tensorflow:Benchmark [AutotuneBenchmark.batch.eager] iters: 1, wall_time: 0.00228343, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.batch.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 23:08:39.257579 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.batch.eager] iters: 1, wall_time: 0.00228343, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.batch.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.batch_autotune_parallelism_only.eager] iters: 1, wall_time: 0.00275143, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.batch.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 23:09:34.411097 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.batch_autotune_parallelism_only.eager] iters: 1, wall_time: 0.00275143, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.batch.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.interleave.eager] iters: 1, wall_time: 0.000515954, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.interleave.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 23:09:44.881096 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.interleave.eager] iters: 1, wall_time: 0.000515954, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.interleave.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.interleave_autotune_parallelism_only.eager] iters: 1, wall_time: 0.000517842, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.interleave.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 23:09:55.348575 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.interleave_autotune_parallelism_only.eager] iters: 1, wall_time: 0.000517842, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.interleave.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.map.eager] iters: 1, wall_time: 0.000489387, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 23:10:05.184770 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.map.eager] iters: 1, wall_time: 0.000489387, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.map_autotune_parallelism_only.eager] iters: 1, wall_time: 0.000478893, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 23:10:14.906708 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.map_autotune_parallelism_only.eager] iters: 1, wall_time: 0.000478893, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.map_and_batch.eager] iters: 1, wall_time: 0.00771946, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_batch.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 1000}, metrics: None
+I0804 23:10:30.412897 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.map_and_batch.eager] iters: 1, wall_time: 0.00771946, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_batch.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 1000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.map_and_batch_autotune_parallelism_only.eager] iters: 1, wall_time: 0.00779147, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_batch.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 1000}, metrics: None
+I0804 23:10:46.098701 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.map_and_batch_autotune_parallelism_only.eager] iters: 1, wall_time: 0.00779147, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_batch.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 1000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.map_and_interleave.eager] iters: 1, wall_time: 0.00350405, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_interleave.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 23:11:43.227156 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.map_and_interleave.eager] iters: 1, wall_time: 0.00350405, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_interleave.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.map_and_interleave_autotune_parallelism_only.eager] iters: 1, wall_time: 0.00228444, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_interleave.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+I0804 23:12:31.167295 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.map_and_interleave_autotune_parallelism_only.eager] iters: 1, wall_time: 0.00228444, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_interleave.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 10000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.map_and_batch_and_interleave.eager] iters: 1, wall_time: 0.0286637, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_batch_and_interleave.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 1000}, metrics: None
+I0804 23:13:31.940068 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.map_and_batch_and_interleave.eager] iters: 1, wall_time: 0.0286637, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_batch_and_interleave.1', 'parameters': 'False', 'implementation': 'eager', 'num_elements': 1000}, metrics: None
+INFO:tensorflow:Benchmark [AutotuneBenchmark.map_and_batch_and_interleave_autotune_parallelism_only.eager] iters: 1, wall_time: 0.0299661, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_batch_and_interleave.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 1000}, metrics: None
+I0804 23:14:33.881117 25572 benchmark.py:79] Benchmark [AutotuneBenchmark.map_and_batch_and_interleave_autotune_parallelism_only.eager] iters: 1, wall_time: 0.0299661, cpu_time: -1,throughput: -1, extras: {'model_name': 'autotune.benchmark.map_and_batch_and_interleave.2', 'parameters': 'True', 'implementation': 'eager', 'num_elements': 1000}, metrics: None
+entry {
+  name: "AutotuneBenchmark.batch.eager"
+  iters: 1
+  wall_time: 0.0022834264278411864
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.batch.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "False"
+    }
+  }
+}
+
+entry {
+  name: "AutotuneBenchmark.batch_autotune_parallelism_only.eager"
+  iters: 1
+  wall_time: 0.0027514325618743897
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.batch.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "True"
+    }
+  }
+}
+
+autotune parallelism vs no autotuning speedup: 0.8299045593491202
+entry {
+  name: "AutotuneBenchmark.interleave.eager"
+  iters: 1
+  wall_time: 0.0005159544229507446
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.interleave.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "False"
+    }
+  }
+}
+
+entry {
+  name: "AutotuneBenchmark.interleave_autotune_parallelism_only.eager"
+  iters: 1
+  wall_time: 0.0005178422927856445
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.interleave.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "True"
+    }
+  }
+}
+
+autotune parallelism vs no autotuning speedup: 0.996354353707295
+entry {
+  name: "AutotuneBenchmark.map.eager"
+  iters: 1
+  wall_time: 0.0004893870830535888
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.map.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "False"
+    }
+  }
+}
+
+entry {
+  name: "AutotuneBenchmark.map_autotune_parallelism_only.eager"
+  iters: 1
+  wall_time: 0.0004788930892944336
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.map.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "True"
+    }
+  }
+}
+
+autotune parallelism vs no autotuning speedup: 1.0219130198237278
+entry {
+  name: "AutotuneBenchmark.map_and_batch.eager"
+  iters: 1
+  wall_time: 0.007719464540481567
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.map_and_batch.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "False"
+    }
+  }
+}
+
+entry {
+  name: "AutotuneBenchmark.map_and_batch_autotune_parallelism_only.eager"
+  iters: 1
+  wall_time: 0.007791468143463135
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.map_and_batch.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "True"
+    }
+  }
+}
+
+autotune parallelism vs no autotuning speedup: 0.9907586604147285
+entry {
+  name: "AutotuneBenchmark.map_and_interleave.eager"
+  iters: 1
+  wall_time: 0.0035040455579757692
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.map_and_interleave.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "False"
+    }
+  }
+}
+
+entry {
+  name: "AutotuneBenchmark.map_and_interleave_autotune_parallelism_only.eager"
+  iters: 1
+  wall_time: 0.00228444185256958
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.map_and_interleave.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 10000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "True"
+    }
+  }
+}
+
+autotune parallelism vs no autotuning speedup: 1.533873823067266
+entry {
+  name: "AutotuneBenchmark.map_and_batch_and_interleave.eager"
+  iters: 1
+  wall_time: 0.02866371750831604
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.map_and_batch_and_interleave.1"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "False"
+    }
+  }
+}
+
+entry {
+  name: "AutotuneBenchmark.map_and_batch_and_interleave_autotune_parallelism_only.eager"
+  iters: 1
+  wall_time: 0.029966084718704225
+  extras {
+    key: "implementation"
+    value {
+      string_value: "eager"
+    }
+  }
+  extras {
+    key: "model_name"
+    value {
+      string_value: "autotune.benchmark.map_and_batch_and_interleave.2"
+    }
+  }
+  extras {
+    key: "num_elements"
+    value {
+      double_value: 1000.0
+    }
+  }
+  extras {
+    key: "parameters"
+    value {
+      string_value: "True"
+    }
+  }
+}
+
+autotune parallelism vs no autotuning speedup: 0.9565386261630878
