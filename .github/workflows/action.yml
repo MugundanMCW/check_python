@@ -1,24 +1,39 @@
-name: List Python Installations
+name: Windows ARM64 CPU Info
 
 on:
   workflow_dispatch:
 
 jobs:
-  list-python:
-    runs-on: windows-11-arm
+  cpu-info:
+    runs-on: windows-11-vs2026-arm
 
     steps:
-      - name: Show Python installations
+      - name: Print CPU configuration
         shell: pwsh
         run: |
-          Write-Host "=== python.exe locations ==="
-          where.exe python
+          Write-Host "===== System Information ====="
+          Get-ComputerInfo | Select-Object `
+            WindowsProductName,
+            WindowsVersion,
+            OsArchitecture,
+            CsSystemType,
+            CsNumberOfLogicalProcessors,
+            CsNumberOfProcessors
 
-          Write-Host "`n=== py launcher ==="
-          where.exe py
+          Write-Host "`n===== CPU Information ====="
+          Get-CimInstance Win32_Processor | Select-Object `
+            Name,
+            Manufacturer,
+            Architecture,
+            NumberOfCores,
+            NumberOfLogicalProcessors,
+            MaxClockSpeed
 
-          Write-Host "`n=== Python versions ==="
-          py -0p
+          Write-Host "`n===== Memory ====="
+          $memory = Get-CimInstance Win32_ComputerSystem
+          Write-Host "Total RAM: $([math]::Round($memory.TotalPhysicalMemory / 1GB, 2)) GB"
 
-          Write-Host "`n=== Python commands ==="
-          Get-Command python -All | Format-Table Name, Source
+          Write-Host "`n===== Environment ====="
+          Write-Host "PROCESSOR_ARCHITECTURE: $env:PROCESSOR_ARCHITECTURE"
+          Write-Host "PROCESSOR_IDENTIFIER:   $env:PROCESSOR_IDENTIFIER"
+          Write-Host "NUMBER_OF_PROCESSORS:   $env:NUMBER_OF_PROCESSORS"
