@@ -16,7 +16,7 @@ jobs:
             throw "Runner is not ARM64"
           }
 
-      - name: Checkout Moby
+      - name: Clone Moby
         shell: pwsh
         run: |
           git clone --depth 1 https://github.com/moby/moby.git moby
@@ -38,7 +38,18 @@ jobs:
           cd moby
           ./hack/make.ps1 -Client -Daemon
 
+          New-Item -ItemType Directory -Force -Path ..\docker-bin | Out-Null
+          Copy-Item bundles\*.exe ..\docker-bin\
+
+      - name: Add Docker to PATH
+        shell: pwsh
+        run: |
+          (Resolve-Path docker-bin).Path |
+            Out-File -FilePath $env:GITHUB_PATH -Append -Encoding utf8
+
       - name: Start Docker
+        id: dockerd
+        background: true
         shell: pwsh
         run: |
           dockerd --exec-opt isolation=process
@@ -70,3 +81,12 @@ jobs:
           docker run --rm `
             mcr.microsoft.com/windows/nanoserver:ltsc2025-arm64 `
             cmd /c "echo Architecture: %PROCESSOR_ARCHITECTURE% && ver"
+
+      - name: Stop Docker
+        if: always()
+        shell: pwsh
+        run: |
+          docker version *> $null
+          if ($LASTEXITCODE -eq 0) {
+            docker info
+          }
