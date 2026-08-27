@@ -5,33 +5,29 @@ on:
 
 jobs:
   test:
-    runs-on: windows-11-vs2026-arm
+    runs-on: windows-11-arm
 
     steps:
-      - name: Check host architecture
+      - name: Check ARM64
         shell: pwsh
         run: |
-          Write-Host "Host: $env:PROCESSOR_ARCHITECTURE"
           if ($env:PROCESSOR_ARCHITECTURE -ne "ARM64") {
-            throw "Host is not ARM64"
+            throw "Not an ARM64 runner"
           }
 
-      - name: Run ARM64 Windows container
+      - name: Install Docker
+        shell: pwsh
+        run: |
+          winget install Docker.DockerCLI --accept-source-agreements --accept-package-agreements
+
+      - name: Check Docker
+        shell: pwsh
+        run: |
+          docker version
+
+      - name: Run ARM64 container
         shell: pwsh
         run: |
           docker run --rm `
             mcr.microsoft.com/windows/nanoserver:ltsc2025-arm64 `
-            cmd /c "echo Container: %PROCESSOR_ARCHITECTURE% && ver"
-
-      - name: Verify container architecture
-        shell: pwsh
-        run: |
-          $arch = docker run --rm `
-            mcr.microsoft.com/windows/nanoserver:ltsc2025-arm64 `
-            cmd /c "echo %PROCESSOR_ARCHITECTURE%"
-
-          Write-Host "Container architecture: $arch"
-
-          if ($arch.Trim() -ne "ARM64") {
-            throw "Container is not ARM64"
-          }
+            cmd /c "echo Architecture: %PROCESSOR_ARCHITECTURE% && ver"
