@@ -1,4 +1,4 @@
-name: Windows ARM64 Container Test
+name: Windows ARM64 Docker Test
 
 on:
   workflow_dispatch:
@@ -11,21 +11,60 @@ jobs:
       - name: Check ARM64
         shell: pwsh
         run: |
+          Write-Host "Architecture: $env:PROCESSOR_ARCHITECTURE"
           if ($env:PROCESSOR_ARCHITECTURE -ne "ARM64") {
-            throw "Not an ARM64 runner"
+            throw "Runner is not ARM64"
           }
 
-      - name: Install Docker
+      - name: Checkout Moby
         shell: pwsh
         run: |
-          winget install Docker.DockerCLI --accept-source-agreements --accept-package-agreements
+          git clone --depth 1 https://github.com/moby/moby.git moby
 
-      - name: Check Docker
+      - name: Setup Go
+        uses: actions/setup-go@v7
+        with:
+          go-version-file: moby/go.mod
+          cache: false
+
+      - name: Build Docker
         shell: pwsh
         run: |
+          go install github.com/tc-hib/go-winres@latest
+
+          $env:GOPATH = go env GOPATH
+          $env:Path += ";$env:GOPATH\bin"
+
+          cd moby
+          ./hack/make.ps1 -Client -Daemon
+
+      - name: Start Docker
+        shell: pwsh
+        run: |
+          dockerd --exec-opt isolation=process
+
+      - name: Wait for Docker
+        shell: pwsh
+        run: |
+          $deadline = (Get-Date).AddMinutes(3)
+
+          while ($true) {
+            docker version *> $null
+
+            if ($LASTEXITCODE -eq 0) {
+              break
+            }
+
+            if ((Get-Date) -gt $deadline) {
+              throw "Docker did not start"
+            }
+
+            Start-Sleep -Seconds 5
+          }
+
           docker version
 
-      - name: Run ARM64 container
+      - name: Run ARM64 Windows container
         shell: pwsh
         run: |
           docker run --rm `
