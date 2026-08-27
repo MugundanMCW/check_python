@@ -1,32 +1,37 @@
-name: Check ARM KVM
+name: Windows ARM64 Container Test
 
 on:
   workflow_dispatch:
 
 jobs:
-  kvm:
-    runs-on: ubuntu-26.04-arm
+  test:
+    runs-on: windows-11-arm
 
     steps:
-      - name: Check architecture
+      - name: Check host architecture
+        shell: pwsh
         run: |
-          uname -m
-          lscpu
+          Write-Host "Host: $env:PROCESSOR_ARCHITECTURE"
+          if ($env:PROCESSOR_ARCHITECTURE -ne "ARM64") {
+            throw "Host is not ARM64"
+          }
 
-      - name: Install cpu-checker
+      - name: Run ARM64 Windows container
+        shell: pwsh
         run: |
-          sudo apt-get update
-          sudo apt-get install -y cpu-checker
+          docker run --rm `
+            mcr.microsoft.com/windows/nanoserver:ltsc2025-arm64 `
+            cmd /c "echo Container: %PROCESSOR_ARCHITECTURE% && ver"
 
-      - name: Check KVM
+      - name: Verify container architecture
+        shell: pwsh
         run: |
-          echo "=== kvm-ok ==="
-          sudo kvm-ok
+          $arch = docker run --rm `
+            mcr.microsoft.com/windows/nanoserver:ltsc2025-arm64 `
+            cmd /c "echo %PROCESSOR_ARCHITECTURE%"
 
-          echo
-          echo "=== /dev/kvm ==="
-          ls -l /dev/kvm
+          Write-Host "Container architecture: $arch"
 
-          echo
-          echo "=== KVM modules ==="
-          lsmod | grep kvm || true
+          if ($arch.Trim() -ne "ARM64") {
+            throw "Container is not ARM64"
+          }
