@@ -1,33 +1,41 @@
-name: Build Jiter Wheel on Windows ARM64
+name: Check ARM KVM
 
 on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: windows-11-arm
+  check:
+    runs-on: ubuntu-26.04-arm
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: CPU architecture
+        run: |
+          echo "Architecture:"
+          uname -m
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.13'
-          architecture: 'arm64'
+          echo
+          echo "CPU:"
+          lscpu
 
-      - name: Build Jiter wheel
-        uses: PyO3/maturin-action@v1
-        with:
-          command: build
-          rust-toolchain: stable
-          target: aarch64
-          args: --release --out dist --interpreter 3.11 3.12 3.13 3.13t 3.14 3.14t
-          working-directory: crates/jiter-python
-          sccache: false
+      - name: Check KVM
+        run: |
+          echo "Checking /dev/kvm..."
 
-      - name: Upload wheel artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: jiter-wheel
-          path: crates/jiter-python/dist/*.whl
+          if [ -e /dev/kvm ]; then
+            echo "KVM device exists:"
+            ls -l /dev/kvm
+
+            if [ -r /dev/kvm ] && [ -w /dev/kvm ]; then
+              echo "KVM device is accessible"
+            else
+              echo "KVM exists but is not accessible"
+              exit 1
+            fi
+          else
+            echo "KVM is NOT available"
+            exit 1
+          fi
+
+      - name: Check QEMU
+        run: |
+          qemu-system-aarch64 --version || true
