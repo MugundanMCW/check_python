@@ -4,38 +4,29 @@ on:
   workflow_dispatch:
 
 jobs:
-  check:
+  kvm:
     runs-on: ubuntu-26.04-arm
 
     steps:
-      - name: CPU architecture
+      - name: Check architecture
         run: |
-          echo "Architecture:"
           uname -m
-
-          echo
-          echo "CPU:"
           lscpu
+
+      - name: Install cpu-checker
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cpu-checker
 
       - name: Check KVM
         run: |
-          echo "Checking /dev/kvm..."
+          echo "=== kvm-ok ==="
+          sudo kvm-ok
 
-          if [ -e /dev/kvm ]; then
-            echo "KVM device exists:"
-            ls -l /dev/kvm
+          echo
+          echo "=== /dev/kvm ==="
+          ls -l /dev/kvm
 
-            if [ -r /dev/kvm ] && [ -w /dev/kvm ]; then
-              echo "KVM device is accessible"
-            else
-              echo "KVM exists but is not accessible"
-              exit 1
-            fi
-          else
-            echo "KVM is NOT available"
-            exit 1
-          fi
-
-      - name: Check QEMU
-        run: |
-          qemu-system-aarch64 --version || true
+          echo
+          echo "=== KVM modules ==="
+          lsmod | grep kvm || true
