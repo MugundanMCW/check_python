@@ -79,7 +79,7 @@ jobs:
         shell: pwsh
         run: |
           docker run --rm `
-            mcr.microsoft.com/windows/nanoserver:ltsc2025-arm64 `
+            mcr.microsoft.com/windows/servercore:ltsc2025 `
             cmd /c "echo Architecture: %PROCESSOR_ARCHITECTURE% && ver"
 
       - name: Stop Docker
