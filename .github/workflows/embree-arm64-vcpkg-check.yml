@@ -1,0 +1,70 @@
+name: Check embree install on arm64-windows (vcpkg)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/embree-arm64-vcpkg-check.yml'
+
+jobs:
+  vcpkg-embree-arm64:
+    runs-on: windows-11-arm
+
+    steps:
+      - name: Checkout vcpkg fork at pinned commit
+        uses: actions/checkout@v4
+        with:
+          repository: MugundanMCW/vcpkg
+          ref: a77f3320e2dd7d6874bad4479204124091f9daed
+          path: vcpkg
+
+      - name: Bootstrap vcpkg
+        shell: pwsh
+        working-directory: vcpkg
+        run: .\bootstrap-vcpkg.bat -disableMetrics
+
+      - name: Install embree for arm64-windows
+        shell: pwsh
+        working-directory: vcpkg
+        run: .\vcpkg.exe install embree:arm64-windows --debug
+
+      - name: Verify install artifacts
+        shell: pwsh
+        working-directory: vcpkg
+        run: |
+          $libDir = "installed\arm64-windows\lib"
+          $binDir = "installed\arm64-windows\bin"
+
+          Write-Host "== lib =="
+          Get-ChildItem $libDir -ErrorAction SilentlyContinue
+
+          Write-Host "== bin =="
+          Get-ChildItem $binDir -ErrorAction SilentlyContinue
+
+          $lib = Get-ChildItem $libDir -Filter "embree4*" -ErrorAction SilentlyContinue
+          if (-not $lib) {
+            Write-Error "embree4 library not found under $libDir - install did not produce expected artifacts"
+            exit 1
+          }
+          Write-Host "embree4 artifacts found: $($lib.Name -join ', ')"
+
+      - name: Show vcpkg install logs on failure
+        if: failure()
+        shell: pwsh
+        working-directory: vcpkg
+        run: |
+          $logDir = "buildtrees\embree"
+          if (Test-Path $logDir) {
+            Get-ChildItem $logDir -Recurse -Filter "*.log" | ForEach-Object {
+              Write-Host "----- $($_.FullName) -----"
+              Get-Content $_.FullName
+            }
+          }
+
+      - name: Upload vcpkg buildtrees on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: embree-arm64-windows-buildtrees
+          path: vcpkg/buildtrees/embree
+          if-no-files-found: ignore
