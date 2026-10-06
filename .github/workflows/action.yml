@@ -1,43 +1,134 @@
-name: Windows ARM64
+name: Inspect Windows ARM64 Toolchain
 
 on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: windows-11-vs2026-arm
+  inspect-toolchain:
+    runs-on: windows-11-arm
 
     steps:
-      - name: Checkout LiteLLM
-        uses: actions/checkout@v7
-        with:
-          repository: BerriAI/litellm
-          fetch-depth: 1
-
-      - name: Set up Python 3.11 ARM64
-        uses: actions/setup-python@v7
-        with:
-          python-version: '3.11'
-          architecture: arm64
-
-      - name: Verify environment
+      - name: Print system information
+        shell: pwsh
         run: |
-          python --version
-          python -c "import platform; print(platform.machine())"
+          Write-Host "=== SYSTEM ==="
+          Write-Host "OS:"
+          Get-CimInstance Win32_OperatingSystem |
+            Select-Object Caption, Version, BuildNumber
 
-      - name: Install build dependencies
+          Write-Host ""
+          Write-Host "Architecture:"
+          $env:PROCESSOR_ARCHITECTURE
+
+      - name: Print LLVM installation directory
+        shell: pwsh
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install build
+          Write-Host "=== LLVM ==="
 
-      - name: Build wheel
+          $llvm = Get-Command clang.exe -ErrorAction SilentlyContinue
+
+          if ($llvm) {
+            Write-Host "clang.exe: $($llvm.Source)"
+            Write-Host "LLVM directory: $($llvm.Source | Split-Path)"
+          }
+          else {
+            Write-Host "clang.exe not found in PATH"
+
+            $llvmDirs = @(
+              "C:\Program Files\LLVM",
+              "C:\Program Files\LLVM\bin"
+            )
+
+            foreach ($dir in $llvmDirs) {
+              if (Test-Path $dir) {
+                Write-Host "Found LLVM path: $dir"
+              }
+            }
+          }
+
+          Write-Host ""
+          Write-Host "clang version:"
+          clang --version
+
+      - name: Print Visual Studio installation and VC toolset
+        shell: pwsh
         run: |
-          python -m build --wheel
+          Write-Host "=== VISUAL STUDIO ==="
 
-      - name: Upload wheel
-        uses: actions/upload-artifact@v6
-        with:
-          name: litellm-windows-arm64-wheel
-          path: dist/*.whl
-          if-no-files-found: error
-          retention-days: 7
+          $vsRoot = "C:\Program Files\Microsoft Visual Studio\18\Enterprise"
+
+          Write-Host "Visual Studio root:"
+          Write-Host $vsRoot
+
+          Write-Host ""
+          Write-Host "VC tools directory:"
+
+          $vcToolsRoot = Join-Path $vsRoot "VC\Tools\MSVC"
+
+          if (Test-Path $vcToolsRoot) {
+            Get-ChildItem $vcToolsRoot -Directory | ForEach-Object {
+              Write-Host $_.FullName
+            }
+          }
+          else {
+            Write-Host "VC toolset directory not found: $vcToolsRoot"
+          }
+
+          Write-Host ""
+          Write-Host "ARM64 compiler candidates:"
+
+          Get-ChildItem `
+            "$vcToolsRoot\*\bin\HostARM64\ARM64\cl.exe" `
+            -ErrorAction SilentlyContinue |
+            ForEach-Object {
+              Write-Host $_.FullName
+            }
+
+      - name: Print Chocolatey installation directory
+        shell: pwsh
+        run: |
+          Write-Host "=== CHOCOLATEY ==="
+
+          Write-Host "ChocolateyInstall:"
+          Write-Host $env:ChocolateyInstall
+
+          Write-Host ""
+          Write-Host "Chocolatey command:"
+          $choco = Get-Command choco.exe -ErrorAction SilentlyContinue
+
+          if ($choco) {
+            Write-Host $choco.Source
+          }
+          else {
+            Write-Host "choco.exe not found"
+          }
+
+          Write-Host ""
+          Write-Host "Chocolatey version:"
+          choco --version
+
+      - name: Print complete toolchain summary
+        shell: pwsh
+        run: |
+          Write-Host "========================================"
+          Write-Host " Windows ARM64 Toolchain Summary"
+          Write-Host "========================================"
+
+          Write-Host ""
+          Write-Host "LLVM:"
+          (Get-Command clang.exe).Source
+
+          Write-Host ""
+          Write-Host "Visual Studio:"
+          Write-Host "C:\Program Files\Microsoft Visual Studio\18\Enterprise"
+
+          Write-Host ""
+          Write-Host "MSVC toolsets:"
+          Get-ChildItem `
+            "C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC" `
+            -Directory |
+            Select-Object -ExpandProperty FullName
+
+          Write-Host ""
+          Write-Host "Chocolatey:"
+          Write-Host $env:ChocolateyInstall
