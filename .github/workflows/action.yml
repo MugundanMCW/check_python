@@ -49,6 +49,47 @@ jobs:
           Write-Host ""
           Write-Host "clang version:"
           clang --version
+      - name: Locate Flang
+        shell: pwsh
+        run: |
+          Write-Host "=== FLANG ==="
+
+          $flangNames = @(
+            "flang-new.exe",
+            "flang.exe"
+          )
+
+          foreach ($name in $flangNames) {
+            Write-Host ""
+            Write-Host "Searching for $name..."
+
+            $cmd = Get-Command $name -ErrorAction SilentlyContinue
+
+            if ($cmd) {
+              Write-Host "Found: $($cmd.Source)"
+              Write-Host "Directory: $($cmd.Source | Split-Path)"
+
+              Write-Host ""
+              Write-Host "Version:"
+              & $cmd.Source --version
+            }
+            else {
+              Write-Host "$name not found in PATH"
+            }
+          }
+
+          Write-Host ""
+          Write-Host "Searching Program Files..."
+
+          Get-ChildItem `
+            "C:\Program Files" `
+            -Include "flang-new.exe", "flang.exe" `
+            -File `
+            -Recurse `
+            -ErrorAction SilentlyContinue |
+            ForEach-Object {
+              Write-Host $_.FullName
+            }
 
       - name: Print Visual Studio installation and VC toolset
         shell: pwsh
