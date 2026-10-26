@@ -1,3 +1,59 @@
+## Build command for LLVM on Windows ARM64
+
+Based on `kotlin-native/tools/llvm_builder/package.py` and `README.md` in this repo, run from a Windows ARM64 machine with Python 3, CMake, Ninja, Git, and Visual Studio (with the ARM64 C++ build tools component installed) all present:
+
+### Prerequisites first
+```powershell
+cd kotlin-native\tools\llvm_builder
+
+# Must be run from a shell where these are on PATH, or pass --ninja/--cmake/--git explicitly:
+#   python3, cmake, ninja, git
+# Visual Studio must have the ARM64 native toolset installed
+# (Visual Studio Installer -> "Desktop development with C++" -> add "MSVC v143 - VS 2022 C++ ARM64 build tools")
+```
+
+### Basic full build (default: 2-stage bootstrap, all components)
+```powershell
+python3 package.py
+```
+This clones `https://github.com/Kotlin/llvm-project` (branch `kotlin/llvm-21-apple` by default), builds a stage-1 bootstrap LLVM from scratch using whatever `cl.exe`/`clang-cl.exe` the VS ARM64 dev environment provides, then uses that to build the final stage-2 distribution into `./llvm-distribution`. With my fix, the VsDevCmd invocation will now use `-arch=arm64` automatically on your ARM64 host instead of always forcing `amd64`.
+
+### Recommended for a first/validation attempt — minimal, end-user-only components, packaged
+```powershell
+python3 package.py `
+  --build-targets install-distribution `
+  --distribution-components clang libclang lld llvm-cov llvm-profdata llvm-ar clang-resource-headers `
+  --install-path llvm-windows-arm64 `
+  --pack
+```
+This matches the documented "distribution for end-users" set for Windows from the README, skips building unnecessary LLVM tooling, and produces a zip + `.sha256` at the end (`--pack` always zips on Windows per `host_default_compression()`).
+
+### If the full bootstrap is too slow/risky for a first test
+```powershell
+python3 package.py --num-stages 1 --install-path llvm-windows-arm64-test --dry-run
+```
+`--dry-run` just prints the exact `cmake`/`ninja` commands it would run without executing them — useful to sanity-check the generated CMake invocation (confirm it's picking `-arch=arm64`, the right compiler paths, etc.) before committing to a multi-hour build. Drop `--dry-run` once it looks right.
+
+### Key flags you'll likely need, from `package.py -h`
+| Flag | Purpose |
+|---|---|
+| `--vsdevcmd <path>` | Explicit path to `VsDevCmd.bat` if auto-detection via `vswhere` fails |
+| `--stage0 <path>` | Point at an existing LLVM toolchain to use as the bootstrap compiler instead of building one from scratch — **you won't have one for this host yet**, so the first run must omit this and let it self-bootstrap |
+| `--num-stages 1` | Skip the bootstrap stage entirely (uses your system/VS compiler directly for the single stage) — faster, less "reproducible," good for an initial feasibility test |
+| `--save-temporary-files` | Keep intermediate `llvm-stage-*` dirs around for debugging if something fails mid-build |
+| `--debug-cmake` | Adds `--debug-trycompile` to CMake, preserves `CMakeError.log` if CMake's own compiler-detection step fails |
+
+### After it builds
+Per `kotlin-native/BUILDING_LLVM.md`, point Kotlin/Native's own build at your fresh LLVM:
+```powershell
+# in the kotlin repo root, pass on the gradle command line:
+gradlew.bat ... -Pkotlin.native.llvm=C:\path\to\llvm-windows-arm64 -Pkotlin.native.llvm.next.mingw_arm64.version=<llvm-version>
+```
+(`<llvm-version>` is whatever's under `<dist>/lib/clang/<version>/include` in your output — the doc explains this lookup.) This still requires the `llvmHome.mingw_arm64`/host wiring I scaffolded earlier in `konan.properties`/`gradle.properties` to actually be filled in and exercised — that part remains unverified since no such build has been run.
+
+**Reminder:** this is the first-ever attempt at this host/arch combination in this codebase. Expect to hit and need to fix additional issues beyond the one `-arch=amd64` bug already corrected — treat the above as a starting point, not a guaranteed-working recipe.
+
+
 ## Source code locations
 
 **1. JetBrains-built LLVM fork**
