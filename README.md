@@ -1,65 +1,50 @@
-I analyzed the full repository (`gradlew`/`gradlew.bat`, `gradle.properties`, `gradle/wrapper/gradle-wrapper.properties`, `settings.gradle.kts`, `build.gradle.kts`, `ReadMe.md`, `docs/contributing.md`, `kotlin-native/README.md`, `.gitattributes`) to produce verified, working build steps for Windows.
+I traced this through the actual Kotlin source tree to pin down the precise, current blocker for "porting Kotlin to Windows ARM64" — meaning making the Kotlin/Native compiler itself run **natively on an ARM64 Windows host**, which is what your repeated builds keep tripping over.
 
-## Key facts discovered
+## The blocker, exactly as encoded in source
 
-- **Build system:** Gradle via wrapper, Gradle **9.8.1** is pinned in `gradle/wrapper/gradle-wrapper.properties` — no manual Gradle install needed, just use `gradlew.bat`.
-- **JDK:** The project uses **Gradle Java toolchains** and will auto-download the required JDK(s) from Eclipse Adoptium on first run (see `jvm-toolchain-provisioning` plugin applied in `settings.gradle.kts`). Most subprojects request **JDK 17** (`jvmToolchain(17)` used pervasively), though some need 8/11/21/25 for specific modules — these are auto-provisioned too. No JDK is currently installed on this machine (`JAVA_HOME` unset, no `java` on PATH) — Gradle will fetch one automatically unless you prefer to pre-install.
-- **Git long paths are mandatory on Windows.** I hit this directly: a plain `git reset --hard` failed repeatedly with `Filename too long` errors on deeply nested test-data paths until `git config core.longpaths true` was set — confirming the exact warning in `ReadMe.md` line 54-56. Windows' own NTFS long-path support should also be enabled.
-- **Kotlin/Native build is optional** and documented separately in `kotlin-native/README.md`; on Windows it additionally requires MSVC Build Tools (VS2019 14.29) and Windows SDK ≥10.0.18362.0. The default `gradle.properties` sets `kotlin.native.enabled=false`, so a normal JVM/compiler build does not need this.
-- **Important root Gradle tasks** (from `ReadMe.md` + `build.gradle.kts`): `dist` (assembles compiler to `dist/kotlinc/`), `install` (publish all artifacts to local Maven), `coreLibsTest`, `gradlePluginTest`, `compilerTest`, `clean`.
+**1. There is no `KonanTarget` for Windows ARM64 at all.**
+`native/utils/src/org/jetbrains/kotlin/konan/target/KonanTarget.kt` defines every supported target explicitly as singleton objects. The only Windows entry is:
+```kotlin
+object MINGW_X64 : KonanTarget("mingw_x64", Family.MINGW, Architecture.X64)
+```
+There is no `MINGW_ARM64`. Compare this to how Apple Silicon was added — `MACOS_ARM64`, `IOS_SIMULATOR_ARM64`, etc. all exist as first-class targets. Windows never got the ARM64 counterpart. This is a **target-definition gap**, not a config flag you can toggle.
 
-## Working build steps for Windows
+**2. `HostManager`'s host-resolution table has no Windows+aarch64 mapping.**
+`native/utils/src/org/jetbrains/kotlin/konan/target/HostManager.kt`:
+```kotlin
+private val hostMapping: Map<Pair<String, String>, KonanTarget> = mapOf(
+    Pair("osx", "aarch64") to MACOS_ARM64,
+    Pair("linux", "x86_64") to LINUX_X64,
+    Pair("windows", "x86_64") to MINGW_X64
+)
+```
+Running on Windows-aarch64 hardware makes `HostManager.host` throw `TargetSupportException`, and `hostIsSupported` = false. So even conceptually, this codebase treats "Windows ARM64" the same as any unrecognized/unsupported OS — like FreeBSD or Solaris.
 
-1. **Enable long paths (do this before cloning):**
-   ```powershell
-   git config --global core.longpaths true
-   ```
-   Also enable Windows NTFS long path support (run as Administrator, then reboot):
-   ```powershell
-   New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
-   ```
-   Clone to a short path near the drive root, e.g. `C:\kotlin`, not deep inside nested user folders — this repo has very deeply nested test-data paths (300+ chars) that exceed `MAX_PATH` even with long-path support in some tools.
+**3. `kotlin-native/konan/konan.properties` has zero toolchain/sysroot/LLVM entries for a `mingw_arm64` target.**
+Every target needs a `targetTriple.*`, `targetSysRoot.*`, `targetCpu.*`, `llvmHome.*`, `dependencies.*`, `linker.*`, etc. block. For `mingw_x64` these all exist and point at a `msys2-mingw-w64-x86_64-2` toolchain, LLVM/clang for Windows x86_64, and a `windows-kit-x64`/`msvc-x64` pair. None of this exists for an aarch64 target triple (`aarch64-pc-windows-gnu` or similar) — there's no sysroot, no cross/host toolchain dependency declared, nothing to download even if the target existed.
 
-2. **Clone the repository:**
-   ```powershell
-   git clone https://github.com/JetBrains/kotlin.git C:\kotlin
-   cd C:\kotlin
-   ```
+**4. No published LLVM distribution for `windows_arm64` host.**
+`gradle.properties` declares LLVM dev/essentials distributions per-host:
+```
+kotlin.native.llvm.default.mingw_x64.dev=remote:public:resources/llvm/21-x86_64-windows/...
+```
+Every entry is keyed by existing `KonanTarget` names (`linux_x64`, `macos_arm64`, `macos_x64`, `mingw_x64`) — again, no `mingw_arm64` key exists because the target itself doesn't exist, so even the LLVM dependency JetBrains builds in-house has never been produced for Windows ARM64.
 
-3. **(Optional) Pre-install a JDK** if you don't want Gradle to auto-download one — install Eclipse Temurin JDK 17 and set `JAVA_HOME`. Otherwise skip this; Gradle's toolchain provisioning (enabled in `settings.gradle.kts`) will fetch the correct JDKs automatically on first build.
+**5. No prebuilt `kotlin-native-prebuilt` artifact for `windows-aarch64`.**
+Confirmed via `kotlin-native/build-tools/src/main/kotlin/org/jetbrains/kotlin/nativeDistribution/releasedNativeDistribution.kt`'s `implicitDependencies` list, which only declares `macos-aarch64`, `linux-x86_64`, and `windows-x86_64` classifiers as things that must exist in dependency verification metadata — this is exactly the error you hit.
 
-4. **Build the compiler distribution:**
-   ```powershell
-   gradlew.bat dist
-   ```
-   This assembles the compiler into `dist\kotlinc\`. First run downloads `intellij-core`/`idea-full` and other large dependencies — if you hit timeouts on slow connections, add:
-   ```powershell
-   gradlew.bat -Dhttp.socketTimeout=60000 -Dhttp.connectionTimeout=60000 dist
-   ```
+## Summary: what would actually need to happen to "port" this
 
-5. **Install all public artifacts to the local Maven repo (if needed for downstream use):**
-   ```powershell
-   gradlew.bat install
-   ```
+To genuinely support Windows ARM64 as a Kotlin/Native host/target, JetBrains (or a contributor) would need to, in this exact source tree:
+1. Add a `MINGW_ARM64` (or similarly named) `KonanTarget` in `KonanTarget.kt`.
+2. Add `("windows", "aarch64") to MINGW_ARM64` to `HostManager.hostMapping`, plus `hostIsMingw`/related logic updates.
+3. Author a full `konan.properties` block for the new target: target triple, ARM64 Windows sysroot (likely via the Windows ARM64 SDK + an aarch64-capable MinGW/LLVM toolchain, since MSVC-for-ARM64 and mingw-w64 ARM64 support is comparatively new/less mature), linker flags, clang flags, CPU features, cacheable-targets entry, etc. — modeled on both the existing `mingw_x64` block and the `macos_arm64`/`linux_arm64` ARM blocks for the CPU-feature portions.
+4. Build and publish an LLVM distribution for `windows_arm64` (dev + essentials) at JetBrains' internal resource server, analogous to the existing `21-x86_64-windows` ones.
+5. Build and publish `kotlin-native-prebuilt-*-windows-aarch64.{zip,tar.gz}` bootstrap compiler artifacts, and add them to `implicitDependencies`/verification metadata.
+6. Update all the `HostManager.hostIsMingw`/`enabledByHost` tables (e.g. in `HostManager.kt`'s `enabledByHost` map, currently only `LINUX_X64`, `MINGW_X64`, `MACOS_ARM64` are host keys) to include the new target as a valid host with its own `commonTargets`/`appleTargets` entitlement.
+7. Validate/port the native runtime (`kotlin-native/runtime`), interop tooling (`libclangInterop`, `StubGenerator`), and the JNI bridge (`AbstractToolConfig.kt`'s `jniHostPlatformIncludeDir`, which also only knows `darwin`/`linux`/`win32`) for the new architecture.
 
-6. **Run tests (optional, long-running):**
-   ```powershell
-   gradlew.bat coreLibsTest        # stdlib/reflect/kotlin-test
-   gradlew.bat compilerTest        # full compiler test suite
-   gradlew.bat gradlePluginTest    # Gradle plugin tests
-   ```
+None of this exists in the repository today — not behind a feature flag, not partially implemented, not stubbed out for someone to finish. It is a ground-up target-addition effort spanning target definitions, build-tools properties, LLVM/toolchain distribution builds, and CI publishing infrastructure that JetBrains controls (the LLVM/prebuilt-compiler artifacts are hosted on JetBrains' own internal/`download.jetbrains.com` servers, so a third party can't simply publish the missing pieces either).
 
-7. **(Optional) Build Kotlin/Native** — only if you need the native backend:
-   - Install Microsoft C++ Build Tools (VS2019 14.29) and Windows SDK ≥10.0.18362.0.
-   - Create a `local.properties` file in the repo root containing `kotlin.native.enabled=true`.
-   - Then run:
-     ```powershell
-     gradlew.bat :kotlin-native:dist
-     ```
-     Add `:kotlin-native:distPlatformLibs` for platform libraries, or use `:kotlin-native:bundle` for the full cross-target build.
-
-8. **Working in IntelliJ IDEA:** Open the cloned folder directly as a project (File → Open) — no separate import step is required beyond that, per `ReadMe.md`.
-
-## Caveats specific to this environment
-- No JDK is currently installed on this machine, so the first `gradlew.bat dist` run will need network access to download JDKs and large IntelliJ/Gradle dependencies (can take a long time and significant disk space, likely 10+ GB when combined with Gradle caches).
-- I did not execute the actual multi-hour build in this session (not requested and resource-intensive); the steps above are drawn directly from this repository's own wrapper/config files and documentation, validated against the long-path issue reproduced live in this environment.
+## What *is* unaffected
+The JVM-targeting parts of this same repository (`kotlin-compiler`, stdlib, kotlin-reflect, Kotlin/JS, Kotlin/Wasm, the Gradle plugin) have no such target-table dependency and build/run fine on Windows ARM64 today — provided the Gradle **launcher** JVM is x64 (via Windows' built-in emulation) so that the unrelated `power-assert`/`parcelize` multiplatform modules don't try to resolve a nonexistent `windows-aarch64` K/N bootstrap artifact during configuration. That's a distinct, solvable problem (switch `JAVA_HOME` to an x64 JDK for the Gradle daemon) from the Kotlin/Native Windows-ARM64 porting gap described above, which is unsolved upstream.
